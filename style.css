@@ -13,7 +13,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  
+  width: 100vw;
 }
 .nav {
   display: flex;
@@ -29,13 +29,15 @@
   display: flex;
   justify-content: space-between;
   width: 70%;
-  padding-right: 20px;
+  padding-right:  20px;
+  transition: all 1s;
 }
 .nav-head a {
   text-decoration: none;
   color: #632412;
   font-size: 1.5rem;
   font-weight: bold;
+  
 }
 .nav img {
   margin-left: 20px;
@@ -61,4 +63,43 @@
 .about:hover .drop-about h1{
     display: inline;
 }
+.hamburger{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 20px;
+  z-index: 1;
+  display: none;
+}
 
+@media screen and (max-width: 1414px){
+  .front{
+    overflow: hidden;
+  }
+  .nav{
+    position: relative;
+    border-bottom: none;
+  }
+  .nav-head{
+    position: absolute;
+    right: -500px;
+    width: 20vw;
+    top: 1px;
+    background-color: #fcf4c9;
+    height: 70vh;
+    padding: 20px;
+    border-top-left-radius: 30px;
+  }
+  .front .nav .nav-head{
+    flex-direction: column;
+  }
+  .front{
+    background-size:contain;
+  }
+  .hamburger{
+    display: block;
+  }
+  .ham-clicked{
+    right: 1px;
+  }
+}
