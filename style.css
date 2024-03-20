@@ -29,35 +29,36 @@
   display: flex;
   justify-content: space-between;
   width: 70%;
-  padding-right: 20px;
+  padding-right:  20px;
   transition: all 1s;
 }
 .nav-head a {
   text-decoration: none;
   color: #632412;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
+  position: relative;
 }
 .nav img {
   margin-left: 20px;
 }
 
 /* Nav Drop Down */
-.drop-about {
-  height: 0px;
-  width: 350px;
-  position: absolute;
-  left: 28vw;
-  background-color: #fcf4c9;
-  transition: height 0.3s;
-  margin-top: 22px;
+.drop-about{
+    height: 0px;
+    width: 350px;
+    position: absolute;
+    left: 28vw;
+    background-color: #fcf4c9;
+    transition: height 0.3s;
+    margin-top: 22px;
 }
 .drop-about h1 {
   display: none;
 }
-.about:hover .drop-about {
-  height: 300px;
-  border: 2px solid #632412;
+.about:hover .drop-about{
+    height: 300px;
+    border: 2px solid #632412;
 }
 .about:hover .drop-about h1 {
   display: inline;
@@ -71,53 +72,8 @@
   display: none;
 }
 
-/* Welcome to EIT */
-.Welcome_EIT {
-  height: 700px;
-  display: flex;
-  /* background-color: red; */
-  margin-top: 670px;
-  background-color: #fcf4c9;
-}
-
-.Welcome_EITimg {
-  /* background-color: black; */
-  padding-top: 10px;
-  /* margin-left: 650px; */
-  display: flex;
-}
-#img1 img {
-  border-radius: 50px;
-  margin-left: 5px;
-  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.728);
-}
-#img2 img {
-  border-radius: 10px;
-  margin-left: 15px;
-  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.728);
-}
-#img3 img {
-  border-radius: 10px;
-  margin-left: 15px;
-  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.728);
-  /* margin-top: 270px; */
-}
-.Welcome_EIT h1 {
-  padding-left: 150px;
-  font-weight: bold;
-  font-size: 40px;
-  background: linear-gradient(
-    120deg,
-    #2169B4,
-    #C1D842
-  ); /* Define the gradient colors */
-  -webkit-background-clip: text; /* Clip the background to the text */
-  background-clip: text;
-  color: transparent;
-}
-
-@media screen and (max-width: 1414px) {
-  .front {
+@media screen and (max-width: 1414px){
+  .front{
     overflow: hidden;
   }
   .nav {
@@ -133,6 +89,13 @@
     height: 70vh;
     padding: 20px;
     border-top-left-radius: 30px;
+    overflow-x: scroll;
+  }
+  .nav-head div:nth-child(1){
+    margin-bottom: 20px;
+  }
+  .nav-head a{
+    margin-bottom: 20px;
   }
   .front .nav .nav-head {
     flex-direction: column;
@@ -146,4 +109,25 @@
   .ham-clicked {
     right: 1px;
   }
+  .drop-about{
+    height: 0px;
+    width: 350px;
+    position: relative;
+    left: -20px;
+    top: -20px;
+    background-color: #fcf4c9;
+    transition: height 0.3s;
+    margin-top: 22px;
+
+}
+.drop-about h1{
+    display: none;
+}
+.about:hover .drop-about{
+    height: 300px;
+    border: 2px solid #632412;
+}
+.about:hover .drop-about h1{
+    display: inline;
+}
 }
