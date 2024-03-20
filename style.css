@@ -28,15 +28,16 @@
   padding-left: 20px;
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 80%;
   padding-right:  20px;
   transition: all 1s;
 }
 .nav-head a {
   text-decoration: none;
   color: #632412;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
+  position: relative;
 }
 
 .nav img {
@@ -51,10 +52,34 @@
     left: 28vw;
     background-color: #fcf4c9;
     transition: height 0.3s;
-    margin-top: 22px;
+    margin-top: 25px;
 }
 .drop-about h1{
     display: none;
+}
+.pos-about{
+  position: absolute;
+  left: 16%;
+}
+.pos-admission{
+  position: absolute;
+  left:24%;
+}
+.pos-placement{
+  position: absolute;
+  left: 35%;
+}
+.pos-department{
+  position: absolute;
+  left: 47%;
+}
+.pos-event{
+  position: absolute;
+  left: 56%;
+}
+.pos-alumni{
+  position: absolute;
+  left: 70%;
 }
 .about:hover .drop-about{
     height: 300px;
@@ -72,7 +97,7 @@
   display: none;
 }
 
-@media screen and (max-width: 1414px){
+@media screen and (max-width: 920px){
   .front{
     overflow: hidden;
   }
@@ -89,6 +114,13 @@
     height: 70vh;
     padding: 20px;
     border-top-left-radius: 30px;
+    overflow-x: scroll;
+  }
+  .nav-head div:nth-child(1){
+    margin-bottom: 20px;
+  }
+  .nav-head a{
+    margin-bottom: 20px;
   }
   .front .nav .nav-head{
     flex-direction: column;
@@ -102,4 +134,25 @@
   .ham-clicked{
     right: 1px;
   }
+  .drop-about{
+    height: 0px;
+    width: 350px;
+    position: relative;
+    left: -20px;
+    top: -20px;
+    background-color: #fcf4c9;
+    transition: height 0.3s;
+    margin-top: 22px;
+
+}
+.drop-about h1{
+    display: none;
+}
+.about:hover .drop-about{
+    height: 300px;
+    border: 2px solid #632412;
+}
+.about:hover .drop-about h1{
+    display: inline;
+}
 }
