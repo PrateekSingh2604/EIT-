@@ -84,6 +84,11 @@
   height: 100vh;
   width: 50vw;
 }
+.welcomeeitimg img{
+  /* height: 756px;
+  width: 840px; */
+}
+
 .Welcome-content{
   /* background-color: red; */
   border: 2px solid blue;
