@@ -14,6 +14,7 @@
   background-repeat: no-repeat;
   position: relative;
   width: 100vw;
+  background-attachment: fixed;
 }
 .nav {
   display: flex;
@@ -71,8 +72,42 @@
   z-index: 1;
   display: none;
 }
+.Welcome_EIT{
+  /* border: 2px solid red; */
+  height: 100vh;
+  display: flex;
+  background-color: #fcf4c9;
+  margin-top: 50px;
+}
+.welcomeeitimg{
+  border: 2px solid green;
+  height: 100vh;
+  width: 50vw;
+}
+.Welcome-content{
+  /* background-color: red; */
+  border: 2px solid blue;
+  width: 50vw;
+  height: 100vh;
+}
 
-@media screen and (max-width: 1414px){
+.Welcome_EIT h1{
+    font-size: 40px;
+    background: linear-gradient(100deg, #2169B4, #C1D842);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; 
+    font-weight: bold;
+    padding-left: 150px;
+}
+.Welcome_EIT p{
+  font-size: 1.3rem;
+  margin-top: 10px;
+  /* background-color: #632412; */
+  /* margin-top: 100px; */
+}
+
+@media screen and (max-width: 1014px){
   .front{
     overflow: hidden;
   }
