@@ -6,11 +6,11 @@
   font-weight: 400;
   font-style: normal;
 }
-body{
+body {
   overflow-x: hidden;
 }
 .front {
-  height: 610px;
+  height: 100vh;
   background-image: url("./img/Campus\(EIT\).JPG");
   /* border: 2px solid red; */
   background-size: cover;
@@ -19,7 +19,7 @@ body{
   /* width: 100vw; */
   background-attachment: fixed;
 }
-.front .name{
+.front .name {
   color: #ffffff;
   /* border: 2px solid red; */
   position: absolute;
@@ -47,7 +47,7 @@ body{
   display: flex;
   justify-content: space-between;
   width: 70%;
-  padding-right:  20px;
+  padding-right: 20px;
   transition: all 1s;
   z-index: 1;
 }
@@ -65,24 +65,24 @@ body{
 }
 
 /* Nav Drop Down */
-.drop-about{
-    height: 0px;
-    width: 350px;
-    position: absolute;
-    left: 28vw;
-    background-color: #fcf4c9;
-    transition: height 0.3s;
-    margin-top: 22px;
-    z-index: 1;
+.drop-about {
+  height: 0px;
+  width: 350px;
+  position: absolute;
+  left: 28vw;
+  background-color: #fcf4c9;
+  transition: height 0.3s;
+  margin-top: 22px;
+  z-index: 1;
 }
 .drop-about h1 {
   display: none;
   z-index: 1;
 }
-.about:hover .drop-about{
-    height: 300px;
-    border: 2px solid #632412;
-    z-index: 1;
+.about:hover .drop-about {
+  height: 300px;
+  border: 2px solid #632412;
+  z-index: 1;
 }
 .about:hover .drop-about h1 {
   display: inline;
@@ -97,14 +97,13 @@ body{
   display: none;
   z-index: 1;
 }
-.Welcome_EIT{
+.Welcome_EIT {
   height: 100vh;
   display: flex;
   background-color: #fcf4c9;
   margin-top: 50px;
   justify-content: center;
 }
-
 .welcomeeitimg{
   /* border: 2px solid green; */
   height: 100vh;
@@ -112,57 +111,54 @@ body{
   background-image: url("/img/ME.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 
-.Welcome-content{
+.Welcome-content {
   /* border: 2px solid blue; */
   width: 50vw;
   height: 100vh;
-  
 }
-.Welcome-content p{
-    padding: 50px;
-    text-align: justify;
+.Welcome-content p {
+  padding: 50px;
+  text-align: justify;
 }
 
-.Welcome_EIT h1{
-    font-size: 40px;
-    height: 100vh;
-    /* background: linear-gradient(100deg, #2169B4, #C1D842); */
-    color: rgb(255, 255, 255);
-    /* -webkit-background-clip: text; */
-    /* background-clip: text; */
-    /* color: transparent;  */
-    font-weight: bold;
-    background-color: #632412bb;
-    letter-spacing: 5px;
-    text-align: center;
+.Welcome_EIT h1 {
+  font-size: 4rem;
+  height: 100vh;
+  /* background: linear-gradient(100deg, #2169B4, #C1D842); */
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  background-color: #6324129d;
+  letter-spacing: 5px;
+  text-align: center;
+  
 }
-.Welcome_EIT p{
+.Welcome-content p {
   font-size: 1.2rem;
   margin-top: 10px;
+  word-spacing: 2px;
   /* background-color: #632412; */
   /* margin-top: 100px; */
 }
 
-@media screen and (max-width: 1014px){
-  .Welcome_EIT h1{
+@media screen and (max-width: 1014px) {
+  .Welcome_EIT h1 {
     height: 50vh;
   }
-  .Welcome-content{
+  .Welcome-content {
     width: 100vw;
     height: 50vh;
   }
-  .welcomeeitimg{
+  .welcomeeitimg {
     width: 100vw;
     height: 50vh;
     margin: auto;
   }
-  .Welcome_EIT{
+  .Welcome_EIT {
     flex-wrap: wrap;
   }
-  .front{
+  .front {
     overflow: hidden;
   }
   .nav {
@@ -180,10 +176,10 @@ body{
     border-top-left-radius: 30px;
     overflow-x: scroll;
   }
-  .nav-head div:nth-child(1){
+  .nav-head div:nth-child(1) {
     margin-bottom: 20px;
   }
-  .nav-head a{
+  .nav-head a {
     margin-bottom: 20px;
   }
   .front .nav .nav-head {
@@ -192,7 +188,7 @@ body{
   .front {
     background-size: contain;
   }
-  .front .name{
+  .front .name {
     height: 200px;
     font-size: 20px;
   }
@@ -202,7 +198,7 @@ body{
   .ham-clicked {
     right: 1px;
   }
-  .drop-about{
+  .drop-about {
     height: 0px;
     width: 350px;
     position: relative;
@@ -211,16 +207,15 @@ body{
     background-color: #fcf4c9;
     transition: height 0.3s;
     margin-top: 22px;
-
-}
-.drop-about h1{
+  }
+  .drop-about h1 {
     display: none;
-}
-.about:hover .drop-about{
+  }
+  .about:hover .drop-about {
     height: 300px;
     border: 2px solid #632412;
-}
-.about:hover .drop-about h1{
+  }
+  .about:hover .drop-about h1 {
     display: inline;
-}
+  }
 }
