@@ -59,32 +59,163 @@ body {
   position: relative;
   z-index: 1;
 }
+/* .nav-head a:hover{
+  background-color: #63241247;
+}  */
+
 .nav img {
   margin-left: 20px;
   z-index: 1;
 }
 
 /* Nav Drop Down */
+/* About */
 .drop-about {
   height: 0px;
   width: 350px;
   position: absolute;
   left: 28vw;
-  background-color: #fcf4c9;
+  background-color: #fcf4c971;
   transition: height 0.3s;
-  margin-top: 22px;
+  margin-top: 25px;
   z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
+ 
 }
 .drop-about h1 {
-  display: none;
+  display:none;
   z-index: 1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-top: 30px;
 }
 .about:hover .drop-about {
-  height: 300px;
-  border: 2px solid #632412;
-  z-index: 1;
+  height: 100px;
+  border:none;
+  z-index: 1; 
 }
 .about:hover .drop-about h1 {
+  display: inline;
+  z-index: 1;
+}
+/* Admission */
+.drop-admission {
+  height: 0px;
+  width: 350px;
+  position: absolute;
+  left: 35vw;
+  background-color: #fcf4c971;
+  transition: height 0.3s;
+  margin-top: 25px;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
+ 
+}
+.drop-admission h1 {
+  display:none;
+  z-index: 1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-top: 30px;
+}
+.admission:hover .drop-admission {
+  height: 150px;
+  border:none;
+  z-index: 1; 
+}
+.admission:hover .drop-admission h1 {
+  display: inline;
+  z-index: 1;
+}
+/* placement */
+.drop-placement{
+  height: 0px;
+  width: 350px;
+  position: absolute;
+  left: 44vw;
+  background-color: #fcf4c971;
+  transition: height 0.3s;
+  margin-top: 25px;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
+ 
+}
+.drop-placement h1 {
+  display:none;
+  z-index: 1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-top: 30px;
+}
+.placement:hover .drop-placement{
+  height: 180px;
+  border:none;
+  z-index: 1; 
+}
+.placement:hover .drop-placement h1 {
+  display: inline;
+  z-index: 1;
+}
+/* Department */
+.drop-dept{
+  height: 0px;
+  width: 450px;
+  position: absolute;
+  left: 50vw;
+  background-color: #fcf4c971;
+  transition: height 0.3s;
+  margin-top: 25px;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
+ 
+}
+.drop-dept h1 {
+  display:none;
+  z-index: 1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  margin-top: 30px;
+}
+.dept:hover .drop-dept{
+  height:450px;
+  border:none;
+  z-index: 1; 
+}
+.dept:hover .drop-dept h1 {
+  display: inline;
+  z-index: 1;
+}
+/* Event */
+.drop-event{
+  height: 0px;
+  width: 350px;
+  position: absolute;
+  left: 62vw;
+  background-color: #fcf4c971;
+  transition: height 0.3s;
+  margin-top: 25px;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
+ 
+}
+.drop-event h1 {
+  display:none;
+  z-index: 1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-top: 30px;
+}
+.event:hover .drop-event{
+  height: 100px;
+  border:none;
+  z-index: 1; 
+}
+.event:hover .drop-event h1 {
   display: inline;
   z-index: 1;
 }
@@ -205,7 +336,7 @@ body {
     left: -20px;
     top: -20px;
     background-color: #fcf4c9;
-    transition: height 0.3s;
+    transition: height 1s;
     margin-top: 22px;
   }
   .drop-about h1 {
