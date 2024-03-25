@@ -48,7 +48,8 @@ body {
 }
 
 .nav-head {
-  padding-left: 20px;
+  padding-bottom: 20px;
+  height: 0px;
   display: flex;
   justify-content: space-between;
   width: 70%;
@@ -64,7 +65,7 @@ body {
   position: relative;
   z-index: 1;
 }
-/* .nav-head a:hover{
+/* .nav-head:hover{
   background-color: #63241247;
 }  */
 
@@ -74,7 +75,7 @@ body {
 }
 
 /* Nav Drop Down */
-
+/* About */
 .drop-about {
   height: 0px;
   width: 350px;
@@ -84,6 +85,7 @@ body {
   margin-top: 25px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
+  left: 28vw;
 }
 .drop-about a {
   display: none;
@@ -94,17 +96,12 @@ body {
   line-height: 2.5rem;
   margin-top: 30px;
 }
-
-/* About */
-.pos-about {
-  left: 28vw;
-}
-.about:hover .pos-about {
+.about:hover .drop-about {
   height: 100px;
   border: none;
   z-index: 1;
 }
-.about:hover .pos-about a {
+.about:hover .drop-about a {
   display: inline;
   z-index: 1;
 }
@@ -113,63 +110,129 @@ body {
 } */
 
 /* Admission */
-.pos-admission {
-  left: 35vw;
-}
-
-.admission:hover .pos-admission {
-  height: 150px;
-  border: none;
-  z-index: 1;
-}
-.admission:hover .pos-admission a {
-  display: inline;
-  z-index: 1;
-}
-/* placement */
-.pos-placement {
-  left: 44vw;
-}
-.placement:hover .pos-placement {
-  height: 180px;
-  border: none;
-  z-index: 1;
-}
-.placement:hover .pos-placement a {
-  display: inline;
-  z-index: 1;
-}
-/* Department */
-.pos-department {
-  left: 50vw;
+.drop-admission {
+  height: 0px;
+  width: 350px;
+  position: absolute;
   background-color: #fcf4c971;
   transition: height 0.3s;
   margin-top: 25px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
- 
+  left: 35vw;
 }
-.drop-dept h1 {
-  display:none;
+.drop-admission a {
+  display: none;
+  z-index: 1;
+  color: #2c3003;
+  font-size: 1.3rem;
+  /* font-weight: bold; */
+  line-height: 2.5rem;
+  margin-top: 30px;
+}
+.admission:hover .drop-admission {
+  height: 150px;
+  border: none;
   z-index: 1;
 }
-.dept:hover .pos-department a {
+.admission:hover .drop-admission a {
   display: inline;
   z-index: 1;
 }
+
+/* placement */
+.drop-placement {
+  height: 0px;
+  width: 350px;
+  position: absolute;
+  background-color: #fcf4c971;
+  transition: height 0.3s;
+  margin-top: 25px;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
+  left: 44vw;
+}
+.drop-placement a {
+  display: none;
+  z-index: 1;
+  color: #2c3003;
+  font-size: 1.3rem;
+  /* font-weight: bold; */
+  line-height: 2.5rem;
+  margin-top: 30px;
+}
+.placement:hover .drop-placement {
+  height: 180px;
+  border: none;
+  z-index: 1;
+}
+.placement:hover .drop-placement a {
+  display: inline;
+  z-index: 1;
+}
+
+/* Department */
+.drop-dept {
+  height: 0px;
+  width: 350px;
+  position: absolute;
+  background-color: #fcf4c971;
+  transition: height 0.3s;
+  margin-top: 25px;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
+  left: 55vw;
+}
+.drop-dept a {
+  display: none;
+  z-index: 1;
+  color: #2c3003;
+  font-size: 1.3rem;
+  /* font-weight: bold; */
+  line-height: 2.5rem;
+  margin-top: 30px;
+}
+.dept:hover .drop-dept {
+  height: 420px;
+  border: none;
+  z-index: 1;
+}
+.dept:hover .drop-dept a {
+  display: inline;
+  z-index: 1;
+}
+
 /* Event */
-.pos-event {
+.drop-event {
+  height: 0px;
+  width: 350px;
+  position: absolute;
+  background-color: #fcf4c971;
+  transition: height 0.3s;
+  margin-top: 25px;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
   left: 62vw;
 }
-.event:hover .pos-event {
+.drop-event a {
+  display: none;
+  z-index: 1;
+  color: #2c3003;
+  font-size: 1.3rem;
+  /* font-weight: bold; */
+  line-height: 2.5rem;
+  margin-top: 30px;
+}
+.event:hover .drop-event {
   height: 100px;
   border: none;
   z-index: 1;
 }
-.event:hover .pos-event a {
+.event:hover .drop-event a {
   display: inline;
   z-index: 1;
 }
+
 .hamburger {
   width: 30px;
   height: 30px;
@@ -179,6 +242,7 @@ body {
   display: none;
   z-index: 1;
 }
+
 /* Welcome */
 .Welcome_EIT {
   height: 100vh;
@@ -206,7 +270,7 @@ body {
   text-align: justify;
 }
 
-.Welcome_EIT h1 {
+.welcomeeitimg h1 {
   font-size: 4rem;
   height: 100vh;
   /* background: linear-gradient(100deg, #2169B4, #C1D842); */
@@ -223,25 +287,40 @@ body {
   /* background-color: #632412; */
   /* margin-top: 100px; */
 }
-.btn button {
-  height: 80px;
-  width: 250px;
-  background-color: pink;
-}
-/* Recruiters */
-.recuiters {
-  background-color:#fcf4c9;
-  height: 100vh;
-  width: auto;
-  display: flex;
-}
-.recruiter-details img {
-  height: 80vh;
-  margin-left: 140vh;
-  margin-top: 3vh;
-  
-}
 
+
+/* Recruiters */
+.recruiter{
+  display: flex;
+  background-color:#fcf4c9;
+}
+.recruiter1 {
+  /* border: 4px solid red; */
+  height: 100vh;
+  width: 50%; 
+  display: inline-block;
+  justify-content: space-evenly;
+}
+.recruiter2{
+  /* border: 4px solid rgb(0, 140, 255); */
+  height: 100vh;
+  width: 50%; 
+  display: inline-block;
+  justify-content: space-evenly;
+}
+.recruiter2 img{
+  height: 80vh;
+  width: 80%;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+.recruite-img .img-container img{
+  height: 60vh;
+  width: 25vw;
+  /* margin-top: 35px;
+  margin-left: 180px; */
+  transform: translate(50%, 15%);
+}
 @media screen and (max-width: 1014px) {
   .Welcome_EIT h1 {
     height: 50vh;
@@ -267,12 +346,14 @@ body {
   }
   .nav-head {
     position: absolute;
+    /* line-height: 1px; */
     right: -500px;
     width: 20vw;
     top: 1px;
     background-color: #fcf4c9;
-    height: 70vh;
-    padding: 20px;
+    height: 60vh;
+    margin-top: 1px;
+    padding: 70px;
     border-top-left-radius: 30px;
     overflow-x: scroll;
   }
@@ -298,7 +379,7 @@ body {
   .ham-clicked {
     right: 1px;
   }
-  .pos-about {
+  .drop-about {
     height: 0px;
     width: 350px;
     position: relative;
@@ -308,14 +389,14 @@ body {
     transition: height 1s;
     margin-top: 22px;
   }
-  .pos-about h1 {
+  .drop-about h1 {
     display: none;
   }
-  .about:hover .pos-about {
+  .about:hover .drop-about {
     height: 300px;
     border: 2px solid #632412;
   }
-  .about:hover .pos-about h1 {
+  .about:hover .drop-about h1 {
     display: inline;
   }
 }
