@@ -6,6 +6,9 @@
   font-weight: 400;
   font-style: normal;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   overflow-x: hidden;
 }
@@ -32,6 +35,7 @@ body {
   place-items: center;
   height: 500px;
 }
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -42,6 +46,7 @@ body {
   /* border: 2px solid black; */
   z-index: 1;
 }
+
 .nav-head {
   padding-left: 20px;
   display: flex;
@@ -53,7 +58,7 @@ body {
 }
 .nav-head a {
   text-decoration: none;
-  color: #632412;
+  color: #381207;
   font-size: 1.3rem;
   font-weight: bold;
   position: relative;
@@ -69,153 +74,94 @@ body {
 }
 
 /* Nav Drop Down */
-/* About */
+
 .drop-about {
   height: 0px;
   width: 350px;
   position: absolute;
-  left: 28vw;
   background-color: #fcf4c971;
   transition: height 0.3s;
   margin-top: 25px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
- 
 }
-.drop-about h1 {
-  display:none;
+.drop-about a {
+  display: none;
   z-index: 1;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.5rem;
+  color: #2c3003;
+  font-size: 1.3rem;
+  /* font-weight: bold; */
   line-height: 2.5rem;
   margin-top: 30px;
 }
-.about:hover .drop-about {
-  height: 100px;
-  border:none;
-  z-index: 1; 
+
+/* About */
+.pos-about {
+  left: 28vw;
 }
-.about:hover .drop-about h1 {
+.about:hover .pos-about {
+  height: 100px;
+  border: none;
+  z-index: 1;
+}
+.about:hover .pos-about a {
   display: inline;
   z-index: 1;
 }
+/* .about-icon{
+  height: 30px;
+} */
+
 /* Admission */
-.drop-admission {
-  height: 0px;
-  width: 350px;
-  position: absolute;
+.pos-admission {
   left: 35vw;
-  background-color: #fcf4c971;
-  transition: height 0.3s;
-  margin-top: 25px;
-  z-index: 1;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
- 
 }
-.drop-admission h1 {
-  display:none;
-  z-index: 1;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.5rem;
-  line-height: 2.5rem;
-  margin-top: 30px;
-}
-.admission:hover .drop-admission {
+
+.admission:hover .pos-admission {
   height: 150px;
-  border:none;
-  z-index: 1; 
+  border: none;
+  z-index: 1;
 }
-.admission:hover .drop-admission h1 {
+.admission:hover .pos-admission a {
   display: inline;
   z-index: 1;
 }
 /* placement */
-.drop-placement{
-  height: 0px;
-  width: 350px;
-  position: absolute;
+.pos-placement {
   left: 44vw;
-  background-color: #fcf4c971;
-  transition: height 0.3s;
-  margin-top: 25px;
-  z-index: 1;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
- 
 }
-.drop-placement h1 {
-  display:none;
-  z-index: 1;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.5rem;
-  line-height: 2.5rem;
-  margin-top: 30px;
-}
-.placement:hover .drop-placement{
+.placement:hover .pos-placement {
   height: 180px;
-  border:none;
-  z-index: 1; 
+  border: none;
+  z-index: 1;
 }
-.placement:hover .drop-placement h1 {
+.placement:hover .pos-placement a {
   display: inline;
   z-index: 1;
 }
 /* Department */
-.drop-dept{
-  height: 0px;
-  width: 450px;
-  position: absolute;
+.pos-department {
   left: 50vw;
-  background-color: #fcf4c971;
-  transition: height 0.3s;
-  margin-top: 25px;
+}
+.dept:hover .pos-department {
+  height: 500px;
+  border: none;
   z-index: 1;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
- 
 }
-.drop-dept h1 {
-  display:none;
-  z-index: 1;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.5rem;
-  line-height: 3rem;
-  margin-top: 30px;
-}
-.dept:hover .drop-dept{
-  height:450px;
-  border:none;
-  z-index: 1; 
-}
-.dept:hover .drop-dept h1 {
+.dept:hover .pos-department a {
   display: inline;
   z-index: 1;
 }
 /* Event */
-.drop-event{
-  height: 0px;
-  width: 350px;
-  position: absolute;
+.pos-event {
   left: 62vw;
-  background-color: #fcf4c971;
-  transition: height 0.3s;
-  margin-top: 25px;
-  z-index: 1;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
- 
 }
-.drop-event h1 {
-  display:none;
-  z-index: 1;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.5rem;
-  line-height: 2.5rem;
-  margin-top: 30px;
-}
-.event:hover .drop-event{
+.event:hover .pos-event {
   height: 100px;
-  border:none;
-  z-index: 1; 
+  border: none;
+  z-index: 1;
 }
-.event:hover .drop-event h1 {
+.event:hover .pos-event a {
   display: inline;
   z-index: 1;
 }
@@ -228,6 +174,7 @@ body {
   display: none;
   z-index: 1;
 }
+/* Welcome */
 .Welcome_EIT {
   height: 100vh;
   display: flex;
@@ -236,7 +183,6 @@ body {
   justify-content: center;
 }
 .welcomeeitimg {
-  /* border: 2px solid green; */
   height: 100vh;
   width: 50vw;
   background-image: url("/img/ME.jpg");
@@ -263,7 +209,6 @@ body {
   background-color: #6324129d;
   letter-spacing: 5px;
   text-align: center;
-  
 }
 .Welcome-content p {
   font-size: 1.2rem;
@@ -271,6 +216,24 @@ body {
   word-spacing: 2px;
   /* background-color: #632412; */
   /* margin-top: 100px; */
+}
+.btn button {
+  height: 80px;
+  width: 250px;
+  background-color: pink;
+}
+/* Recruiters */
+.recuiters {
+  background-color:#fcf4c9;
+  height: 100vh;
+  width: auto;
+  display: flex;
+}
+.recruiter-details img {
+  height: 80vh;
+  margin-left: 140vh;
+  margin-top: 3vh;
+  
 }
 
 @media screen and (max-width: 1014px) {
@@ -329,7 +292,7 @@ body {
   .ham-clicked {
     right: 1px;
   }
-  .drop-about {
+  .pos-about {
     height: 0px;
     width: 350px;
     position: relative;
@@ -339,14 +302,14 @@ body {
     transition: height 1s;
     margin-top: 22px;
   }
-  .drop-about h1 {
+  .pos-about h1 {
     display: none;
   }
-  .about:hover .drop-about {
+  .about:hover .pos-about {
     height: 300px;
     border: 2px solid #632412;
   }
-  .about:hover .drop-about h1 {
+  .about:hover .pos-about h1 {
     display: inline;
   }
 }
