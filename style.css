@@ -30,7 +30,7 @@ body {
   /* padding-bottom: 1000px; */
   font-size: 2.5rem;
   left: 0px;
-  width: 100vw;
+  width: 95.8vw;
   background-size: contain;
   display: grid;
   place-items: center;
@@ -38,7 +38,7 @@ body {
   text-shadow: 2px 2px 3px black;
 }
 .name1{
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   /* border: 2px solid red; */
   
 }
@@ -65,7 +65,7 @@ body {
   justify-content: center; */
   margin: auto;
   margin-top: 20px;
-  transition: all 0.4s;
+  transition: all 0.2s;
   display: block;
   text-align: center;
 }
@@ -306,7 +306,7 @@ body {
 }
 .drop-dept {
   height: 0px;
-  width: 350px;
+  width: 500px;
   position: absolute;
   background-color: #fcf4c971;
   transition: height 0.3s;
@@ -326,7 +326,7 @@ body {
   margin-top: 30px;
 }
 .dept:hover .drop-dept {
-  height: 420px;
+  height: 300px;
   border: none;
   z-index: 1;
 }
