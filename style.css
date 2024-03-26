@@ -24,9 +24,10 @@ body {
 }
 .front .name {
   color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.335);
+  background-color: rgba(0, 0, 0, 0.389);
   position: absolute;
   padding-left: 50px;
+  /* padding-bottom: 1000px; */
   font-size: 2.5rem;
   left: 0px;
   width: 100vw;
@@ -34,6 +35,56 @@ body {
   display: grid;
   place-items: center;
   height: 100vh;
+  text-shadow: 2px 2px 3px black;
+}
+.name1{
+  margin-bottom: 150px;
+  /* border: 2px solid red; */
+  
+}
+.name1 h1{
+  /* margin-bottom: 90px; */
+  /* border: 2px solid red; */
+}
+.name1 h2{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  /* border: 2px solid red; */
+}
+#bttn{
+  height: 50px;
+  width: 150px;
+  font-size: 1.3rem;
+  /* font-weight: bold; */
+  color: white;
+  background-color: #1E6FB9;
+  border-radius: 40px;
+  border: none;
+  /* align-items: center;
+  justify-content: center; */
+  margin: auto;
+  margin-top: 20px;
+  transition: all 0.4s;
+  display: block;
+  text-align: center;
+}
+#bttn:hover{
+  background-color:#0a263f;
+}
+.handles{
+  position: fixed;
+  left: 10px;
+  bottom: 20px;
+
+  /* background-color: #0a263f; */
+}
+.handles svg{
+  /* border: 2px solid red; */
+  width: 50px;
+  height: 40px;
+  /* z-index: 3; */
+  
 }
 
 .nav {
@@ -76,6 +127,28 @@ body {
 
 /* Nav Drop Down */
 /* About */
+.about{
+  height: 50px;
+  width: 80px;
+}
+.about a{
+  display: flex;
+  
+}
+.drop-icon{
+  fill:#381207;
+  transition: all 0.5s;
+}
+.about a svg{
+  color: white;
+  padding: 0px;
+  height: 20px;
+  margin-top:7px;
+  margin-left: 4px;
+}
+.about:hover .drop-icon{
+  transform: rotate(180deg);
+}
 .drop-about {
   height: 0px;
   width: 350px;
@@ -86,6 +159,7 @@ body {
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
   left: 28vw;
+  padding-left: 10px;
 }
 .drop-about a {
   display: none;
@@ -110,6 +184,25 @@ body {
 } */
 
 /* Admission */
+.admission{
+  height: 50px;
+  width: 120px;
+}
+.admission a{
+  display: flex;
+  
+}
+
+.admission a svg{
+  color: white;
+  padding: 0px;
+  height: 20px;
+  margin-top:7px;
+  margin-left: 4px;
+}
+.admission:hover .drop-icon{
+  transform: rotate(180deg);
+}
 .drop-admission {
   height: 0px;
   width: 350px;
@@ -120,6 +213,7 @@ body {
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
   left: 35vw;
+  padding-left: 10px;
 }
 .drop-admission a {
   display: none;
@@ -141,6 +235,24 @@ body {
 }
 
 /* placement */
+.placement{
+  height: 50px;
+  width: 140px;
+}
+.placement a{
+  display: flex;
+  
+}
+.placement a svg{
+  color: white;
+  padding: 0px;
+  height: 20px;
+  margin-top:7px;
+  margin-left: 4px;
+}
+.placement:hover .drop-icon{
+  transform: rotate(180deg);
+}
 .drop-placement {
   height: 0px;
   width: 350px;
@@ -151,6 +263,7 @@ body {
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
   left: 44vw;
+  padding-left: 10px;
 }
 .drop-placement a {
   display: none;
@@ -172,6 +285,25 @@ body {
 }
 
 /* Department */
+.dept{
+  height: 50px;
+  width: 140px;
+}
+.dept a{
+  display: flex;
+  
+}
+
+.dept a svg{
+  color: white;
+  padding: 0px;
+  height: 20px;
+  margin-top:7px;
+  margin-left: 4px;
+}
+.dept:hover .drop-icon{
+  transform: rotate(180deg);
+}
 .drop-dept {
   height: 0px;
   width: 350px;
@@ -182,6 +314,7 @@ body {
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
   left: 55vw;
+  padding-left: 10px;
 }
 .drop-dept a {
   display: none;
@@ -203,6 +336,25 @@ body {
 }
 
 /* Event */
+.event{
+  height: 50px;
+  width: 80px;
+}
+.event a{
+  display: flex;
+  
+}
+
+.event a svg{
+  color: white;
+  padding: 0px;
+  height: 20px;
+  margin-top:7px;
+  margin-left: 4px;
+}
+.event:hover .drop-icon{
+  transform: rotate(180deg);
+}
 .drop-event {
   height: 0px;
   width: 350px;
@@ -213,6 +365,7 @@ body {
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
   left: 62vw;
+  padding-left: 10px;
 }
 .drop-event a {
   display: none;
@@ -293,6 +446,7 @@ body {
 .recruiter{
   display: flex;
   background-color:#fcf4c9;
+  border: 2px solid red;
 }
 .recruiter1 {
   /* border: 4px solid red; */
@@ -301,6 +455,14 @@ body {
   display: inline-block;
   justify-content: space-evenly;
 }
+.recruiter1 h1{
+  font-size: 2rem;
+  color:black;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
 .recruiter2{
   /* border: 4px solid rgb(0, 140, 255); */
   height: 100vh;
@@ -313,6 +475,10 @@ body {
   width: 80%;
   margin-top: 10px;
   margin-left: 80px;
+}
+.recruite-img{
+  border: 2px solid red;
+  height: 70vh;
 }
 .recruite-img .img-container img{
   height: 60vh;
