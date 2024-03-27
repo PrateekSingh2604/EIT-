@@ -42,13 +42,53 @@ body {
   /* border: 2px solid red; */
   
 }
+.popup{
+  position: fixed;
+  z-index: 1;
+  height: 60vh;
+  width: 40vw;
+  left: 30%;
+  top: 20%;
+  background-color: #381207;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-shadow: 2px 2px 4px black;
+  display: none;
+}
+.popup::before{
+  content: " ";
+  position: absolute;
+  left: 0px;
+  top: 0%;
+  height: 66.5vh;
+  width: 43vw;
+  z-index: -1;
+  filter: blur(5px);
+}
+.popup form{
+  display: flex;
+  flex-direction: column;
+}
+.popup form p{
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+.popup form h1, .popup form input, .popup form select{
+  margin: 10px;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
 .name1 h1{
   /* margin-bottom: 90px; */
-  /* border: 2px solid red; */
+  /* border: 2px solid red;
+  font-size: 3rem; */
 }
 .name1 h2{
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   /* border: 2px solid red; */
 }
@@ -111,7 +151,7 @@ body {
 .nav-head a {
   text-decoration: none;
   color: #381207;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: bold;
   position: relative;
   z-index: 1;
