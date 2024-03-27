@@ -487,6 +487,68 @@ body {
   margin-left: 180px; */
   transform: translate(50%, 15%);
 }
+/* card */
+.main-courses{
+  display: flex;
+  flex-wrap: wrap;        
+}
+.course{
+  height: 400px;
+  width: 400px;
+  /* margin: 50px; */
+  margin-left: 120px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.btechimg{
+  background-image: url("./img/Rashmi.jpg");
+  background-size: cover;
+  height: 360px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 2px 2px 12px 6px rgba(0, 0, 0, 0.417);
+  border-top-left-radius: 10px ;
+  border-top-right-radius: 10px ;
+}
+.btech-info{
+  background-color: rgba(0, 0, 0, 0.561);
+  position: relative;
+  height: 200px;
+  bottom: -360px;
+  transition: all .5s;
+  border-radius: 20px;
+  box-shadow: -2px -2px 5px white;
+}
+.btechimg:hover .btech-info{
+  bottom: -240px;
+}
+.course button{
+  text-decoration: none;
+  position: relative;
+  height: 50px;
+  width: 200px;
+  display: block;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  font-size: 1.3rem;
+  background-color:#381207;
+  border: none;
+  margin: auto;
+  margin-top: 20px;
+  transition: all .5s;
+  text-align: center;
+  border-radius: 20px;
+  /* border: 5px solid red ; */
+}
+.course button:hover{
+  border: 5px solid #7D634C;
+  box-shadow: -2px 2px 3px 4px rgba(0, 0, 0, 0.805);
+}
+
+
 @media screen and (max-width: 1014px) {
   .Welcome_EIT h1 {
     height: 50vh;
