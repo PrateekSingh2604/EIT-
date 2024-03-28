@@ -12,6 +12,24 @@
 </head>
 
 <body>
+    <div class="popup">
+        <form action="/" method="post">
+            <h1>Enquire Now</h1>
+            <p class="hidePopup">&#10005;</p>
+            <input type="text" placeholder="Enter Name*">
+            <input type="number" placeholder="Enter mobile number*">
+            <select name="course" id="course">
+                <option value="0">Select Course:</option>
+                <option value="1">B.tech</option>
+                <option value="2">BBA</option>
+                <option value="3">BCA</option>
+                <option value="4">M.teckhoption>
+                <option value="5">MBA</option>
+                <option value="6">MCA</option>
+            </select>
+            <input class="submit" type="submit">
+        </form>
+    </div>
     <div class="front">
         <div class="name">
             <div class="name1">
@@ -165,14 +183,14 @@
                         <a href="#">Cultural Events</a>
                     </div>
                 </div>
-                <a href="#">Blogs</a>
+                <div><a href="#">Blogs</a></div>
                 <div class="alumni">
                     <a href="#">Alumni</a>
                     <div class="drop-alumni pos-alumni">
                         <a href="#"></a>
                     </div>
                 </div>
-                <a href="#">Contact us</a>
+                <div><a href="#">Contact us</a></div>
             </div>
             <svg class="hamburger" onclick="navbar()" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
@@ -294,6 +312,12 @@
     </div>
 
     <script>
+        setTimeout(function(){
+            document.querySelector(".popup").style.display = "block";
+        }, 3000)
+        document.querySelector(".hidePopup").addEventListener("click", function(){
+            document.querySelector(".popup").style.display = "none";
+        })
         function navbar() {
 
             document.getElementById("nav-show").classList.toggle("ham-clicked")

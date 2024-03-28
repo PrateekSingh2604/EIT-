@@ -37,18 +37,52 @@ body {
   height: 100vh;
   text-shadow: 2px 2px 3px black;
 }
-.name1{
-  margin-bottom: 100px;
-  /* border: 2px solid red; */
-  
+
+.popup{
+  position: fixed;
+  z-index: 1;
+  height: 60vh;
+  width: 40vw;
+  left: 30%;
+  top: 20%;
+  background-color: #381207;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-shadow: 2px 2px 4px black;
+  display: none;
+}
+.popup::before{
+  content: " ";
+  position: absolute;
+  left: 0px;
+  top: 0%;
+  height: 66.5vh;
+  width: 43vw;
+  z-index: -1;
+  filter: blur(5px);
+}
+.popup form{
+  display: flex;
+  flex-direction: column;
+}
+.popup form p{
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+.popup form h1, .popup form input, .popup form select{
+  margin: 10px;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 10px;
 }
 .name1 h1{
-  /* margin-bottom: 90px; */
-  /* border: 2px solid red; */
+  font-size: 3rem;
 }
 .name1 h2{
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   /* border: 2px solid red; */
 }
@@ -76,6 +110,7 @@ body {
   position: fixed;
   left: 10px;
   bottom: 20px;
+  z-index: 1;
 
   /* background-color: #0a263f; */
 }
@@ -103,7 +138,7 @@ body {
   height: 0px;
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 75%;
   padding-right: 20px;
   transition: all 1s;
   z-index: 1;
@@ -111,14 +146,13 @@ body {
 .nav-head a {
   text-decoration: none;
   color: #381207;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: bold;
-  position: relative;
+  /* position: relative; */
   z-index: 1;
+  padding-left: 20px;
+  /* border: 2px solid green; */
 }
-/* .nav-head:hover{
-  background-color: #63241247;
-}  */
 
 .nav img {
   margin-left: 20px;
