@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <!---
     <div class="popup">
         <form action="/" method="post">
             <h1>Enquire Now</h1>
@@ -30,6 +31,7 @@
             <input class="submit" type="submit">
         </form>
     </div>
+    -->
     <div class="front">
         <div class="name">
             <div class="name1">
@@ -275,47 +277,82 @@
     <div class="main-courses">
         <div class="course">
             <div class="btechimg">
-                <div class="btech-info"></div>
+                <div class="btech-info">
+                    <h1>BTECH</h1>
+                    <div id="btech-info">
+                        <a href="#">Computer Science</a><br />
+                        <a href="#">Civil Engineering</a><br />
+                        <a href="#">Mechanical Engineering</a><br />
+                        <a href="#">Electronics & Communication</a>
+                    </div>
+                </div>
             </div>
             <button>Know more</button>
         </div>
         <div class="course">
-            <div class="btechimg">
-                <div class="btech-info"></div>
+            <div class="bcaimg">
+                <div class="btech-info">
+                    <h1>BCA</h1>
+                    <div id="bca-info">
+                        <a href="#">General</a><br />
+                        <a href="#">Data Science</a><br />
+                    </div>
+                </div>
             </div>
             <button>Know more</button>
         </div>
         <div class="course">
-            <div class="btechimg">
-                <div class="btech-info"></div>
+            <div class="bbaimg">
+                <div class="btech-info">
+                    <h1>BBA</h1>
+                    <div id="bba-info">
+                        <a href="#">General</a><br />
+                        <a href="#">Digital Marketing</a><br />
+                    </div>
+                    <p></p>
+                </div>
             </div>
             <button>Know more</button>
         </div>
         <div class="course">
-            <div class="btechimg">
-                <div class="btech-info"></div>
+            <div class="mtechimg">
+                <div class="btech-info">
+                    <h1>MTECH</h1>
+                    <div id="mtech-info">
+                        <a href="#">Computer Science</a><br />
+                        <a href="#">Mechanical Engineering</a><br />
+                    </div>
+                </div>
             </div>
             <button>Know more</button>
         </div>
         <div class="course">
-            <div class="btechimg">
-                <div class="btech-info"></div>
+            <div class="mcaimg">
+                <div class="btech-info">
+                    <h1>MCA</h1>
+                    <!-- <div id="mca-info">
+                        <a href="#">General</a><br />
+                        <a href="#">Data Science</a><br />
+                    </div> -->
+                </div>
             </div>
             <button>Know more</button>
         </div>
         <div class="course">
-            <div class="btechimg">
-                <div class="btech-info"></div>
+            <div class="mbaimg">
+                <div class="btech-info">
+                    <h1>MBA</h1>
+                </div>
             </div>
             <button>Know more</button>
         </div>
     </div>
 
     <script>
-        setTimeout(function(){
+        setTimeout(function () {
             document.querySelector(".popup").style.display = "block";
-        }, 3000)
-        document.querySelector(".hidePopup").addEventListener("click", function(){
+        }, 2000)
+        document.querySelector(".hidePopup").addEventListener("click", function () {
             document.querySelector(".popup").style.display = "none";
         })
         function navbar() {
