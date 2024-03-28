@@ -547,7 +547,53 @@ body {
   border: 5px solid #7D634C;
   box-shadow: -2px 2px 3px 4px rgba(0, 0, 0, 0.805);
 }
-
+.course-info{
+  position: relative;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3rem;
+  height: 80px;
+  width: 30vw;
+  margin-left: 35%;
+  margin-top: 20px;
+  border: 5px solid rgb(2, 52, 2);
+  overflow: hidden;
+}
+.course-info h1{
+  font-weight: bold;
+  text-align: center;
+  font-size: 3rem;
+  /* text-shadow: #381207; */
+  height: 76px;
+  width: 29.6vw;
+  background-color: #381207;
+  color: white;
+  position: relative;
+  left: 2px;
+  top: 2px;
+}
+.rotate{
+  width: 650px;
+  height: 40px;
+  background-color: red;
+  position: absolute;
+  top: 20px;
+  left: -60px;
+  z-index: -1;
+  animation: rotate 2s linear infinite;
+}
+@keyframes rotate {
+  to{
+    transform: rotate(0deg);
+  }
+  from{
+    transform: rotate(180deg);
+  }
+}
+/* .course-info:hover .rotate{
+  animation: rotate 2s infinite;
+  animation-timing-function: linear;
+} */
 
 @media screen and (max-width: 1014px) {
   .Welcome_EIT h1 {
