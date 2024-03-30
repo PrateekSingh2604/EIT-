@@ -577,10 +577,6 @@ body {
 .recruiters h1{
   font-size: 3rem;
 }
-.recruiters-img{
-  height: 50vh;
-  background-color: #1e6fb9;
-}
 /* card */
 .main-courses {
   display: flex;
@@ -927,7 +923,10 @@ body {
   border-radius: 50%;
   height: 200px;
 }
+
 /* Student feedback */
+
+
 
 
 @media screen and (max-width: 1014px) {
