@@ -544,50 +544,42 @@ body {
   font-weight: bold;
   text-align: center;
 }
-/* Recruiters */
-.recruiter {
+/* campus-placement */
+.campus-placement {
   display: flex;
   background-color: #fcf4c9;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
-.recruiter1 {
-  /* border: 4px solid red; */
-  height: 100vh;
-  width: 50%;
-  display: inline-block;
-  justify-content: space-evenly;
-}
-.recruiter1 h1 {
-  font-size: 2rem;
-  color: black;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.recruiter2 {
+.campus-placement1  {
   /* border: 4px solid rgb(0, 140, 255); */
-  height: 100vh;
+  height: 90vh;
   width: 50%;
   display: inline-block;
   justify-content: space-evenly;
 }
-.recruiter2 img {
+.campus-placement1 img {
   height: 80vh;
   width: 80%;
   margin-top: 10px;
   margin-left: 80px;
 }
-.recruite-img {
-  border: 2px solid red;
-  height: 70vh;
+.recruiter{
+  height: 100vh;
+  border: none;
 }
-.recruite-img .img-container img {
-  height: 60vh;
-  width: 25vw;
-  /* margin-top: 35px;
-  margin-left: 180px; */
-  transform: translate(50%, 15%);
+.recruiters{
+  height: 70px;
+  background-color: #0a263f;
+  text-align: center;
+  color: white;
+  padding-bottom: 10px; 
+}
+.recruiters h1{
+  font-size: 3rem;
+}
+.recruiters-img{
+  height: 50vh;
+  background-color: #1e6fb9;
 }
 /* card */
 .main-courses {
@@ -935,6 +927,7 @@ body {
   border-radius: 50%;
   height: 200px;
 }
+/* Student feedback */
 
 
 @media screen and (max-width: 1014px) {
