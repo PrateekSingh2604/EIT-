@@ -439,7 +439,7 @@ body {
   /* border: 2px solid green; */
   height: 100vh;
   width: 50vw;
-  background-image: url("/img/ME.jpg");
+  background-image: url("/img/wlcm-to-eit.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -472,6 +472,78 @@ body {
   /* margin-top: 100px; */
 }
 
+.eit-box {
+  /* border: 2px solid red; */
+}
+.eit-box h1 {
+  text-align: center;
+  border: 4px solid rgb(111, 56, 11);
+}
+.boxes {
+  /* background-color: red; */
+  display: flex;
+  margin-top: 20px;
+  height: 200px;
+}
+.eitboxes {
+  /* border: 2px solid green; */
+  background-color: #f0fd99;
+  width: 200px;
+  margin: 10px;
+}
+#box1 #box2 #box3 #box4 {
+  margin-top: 10px;
+}
+#box1 h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+#box1 h3 {
+  margin-top: 10px;
+  /* margin-left: 25px; */
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+}
+#box2 h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+#box2 h3 {
+  margin-top: 10px;
+  /* margin-left: 25px; */
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+#box3 h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+#box3 h3 {
+  margin-top: 10px;
+  /* margin-left: 25px; */
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+#box4 h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+#box4 h3 {
+  margin-top: 10px;
+  /* margin-left: 25px; */
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+}
 /* Recruiters */
 .recruiter {
   display: flex;
@@ -742,7 +814,6 @@ body {
   border: 2px solid #632412;
 }
 
-
 .btechimg:hover .btech-info {
   bottom: 0px;
 }
@@ -806,28 +877,65 @@ body {
   /* left: 2px;
   top: 2px; */
 }
-/* .rotate{
-  width: 650px;
-  height: 40px;
-  background-color: red;
-  position: absolute;
-  top: 20px;
-  left: -60px;
-  z-index: -1;
-  animation: rotate 2s linear infinite;
+
+/* Campuslife */
+.campus-life {
+  background-color: #381207;
+  height: 100vh;
+  /* border: 3px solid #c6650b; */
 }
-@keyframes rotate {
-  to{
-    transform: rotate(0deg);
-  }
-  from{
-    transform: rotate(180deg);
-  }
+#campus-info{
+  font-family: "Oswald", sans-serif;
+  background-color: #6c2906;
+  height: 180px;
+}
+/* #campus-info h1 {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
 } */
-/* .course-info:hover .rotate{
-  animation: rotate 2s infinite;
-  animation-timing-function: linear;
-} */
+#campus-info h2 {
+  color: white;
+  margin-left: 10px;
+}
+#campus-info p {
+  color: white;
+  font-size: 5rem;
+  font-family: "Oswald", sans-serif;
+  margin-left: 10px;
+}
+.feedback h1{
+  color: white;
+  border-bottom: 3px solid red;
+  width: 400px;
+  text-align: center;
+  margin: auto;
+}
+
+.testimonials{
+  border: 2px solid green;
+  height: 50vh;
+  margin: 10px;
+  text-align: center; 
+}
+.testimonials h5{
+  color: white;
+  /* border: 2px solid red; */
+  height: 100px;
+  width: 700px;
+  font-size: 1.3rem;
+  padding-top: 10px;
+  margin:  auto;
+  /* text-align: center; */
+}
+.testimonials p{
+  color: white;
+}
+.testimonials img{
+  border-radius: 50%;
+  height: 200px;
+}
+
 
 @media screen and (max-width: 1014px) {
   .Welcome_EIT h1 {

@@ -6,7 +6,7 @@
     <title>card</title>
 </head>
 <style>
-    .main-courses{
+    /* .main-courses{
         display: flex;
         flex-wrap: wrap;        
     }
@@ -36,10 +36,33 @@
     }
     .btechimg:hover .btech-info{
         bottom: -180px;
-    }
+    } */
+    .slideshow-container {
+  position: relative;
+}
+
+.slide {
+  display: none;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
 </style>
 <body>
-    <div class="main-courses">
+    <!-- <div class="main-courses">
         <div class="course">
             <div class="btechimg">
                 <div class="btech-info"></div>
@@ -76,6 +99,43 @@
             </div>
             <p>Know more</p>
         </div>
-    </div>
+    </div> -->
+    <div class="slideshow-container">
+        <div class="slide">
+          <!-- Content for slide 1 -->
+        </div>
+        <div class="slide">
+          <!-- Content for slide 2 -->
+        </div>
+        <!-- Add more slides as needed -->
+      </div>
+      
+      <button class="prev" onclick="plusSlides(-1)">Previous</button>
+      <button class="next" onclick="plusSlides(1)">Next</button>
+      
 </body>
 </html>
+<script>
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slide");
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex - 1].style.display = "block";
+}
+
+</script>
