@@ -25,17 +25,13 @@ body {
 .front .name {
   color: #ffffff;
   /* background-color: rgba(0, 0, 0, 0.389); */
-  position: absolute;
-  padding-left: 50px;
-  /* padding-bottom: 1000px; */
-  font-size: 2.5rem;
-  left: 0px;
-  width: 95.8vw;
+  position: absolute; 
+  width: 99vw;
   background-size: contain;
   display: grid;
   place-items: center;
   height: 100vh;
-  text-shadow: 5px 5px 8px black;
+  text-shadow: 7px 7px 10px black;
 }
 
 .popup {
@@ -80,7 +76,7 @@ body {
   border-radius: 10px;
 }
 .name1 h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 .name1 h2 {
   color: white;
@@ -90,7 +86,7 @@ body {
 }
 #bttn {
   height: 50px;
-  width: 150px;
+  width: 130px;
   font-size: 1.3rem;
   /* font-weight: bold; */
   color: white;
@@ -110,15 +106,15 @@ body {
 }
 .handles {
   position: fixed;
-  left: 10px;
-  bottom: 20px;
+  left: 15px;
+  bottom: 7px;
   z-index: 1;
 
   /* background-color: #0a263f; */
 }
 .handles svg {
   /* border: 2px solid red; */
-  width: 50px;
+  width: 30px;
   height: 40px;
   /* z-index: 3; */
 }
@@ -127,7 +123,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
+  padding: 8px;
   border-bottom: 2px solid #632412;
   /* background-color: #b048293c; */
   /* border: 2px solid black; */
@@ -139,7 +135,7 @@ body {
   height: 0px;
   display: flex;
   justify-content: space-between;
-  width: 75%;
+  width: 80%;
   padding-right: 20px;
   transition: all 1s;
   z-index: 1;
@@ -147,12 +143,12 @@ body {
 .nav-head a {
   text-decoration: none;
   color: #381207;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: bold;
   /* position: relative; */
   z-index: 1;
-  padding-left: 20px;
-  width: 200px;
+  /* padding-left: 2px; */
+  width: 150px;
   /* border: 2px solid green; */
 }
 
@@ -177,36 +173,36 @@ body {
 .about a svg {
   color: white;
   padding: 0px;
-  height: 20px;
-  margin-top: 7px;
-  margin-left: 4px;
+  height: 17px;
+  margin-top: 9px;
+  margin-left: 2px;
 }
 .about:hover .drop-icon {
   transform: rotate(180deg);
 }
 .drop-about {
   height: 0px;
-  width: 350px;
+  width: 280px;
   position: absolute;
   background-color: #fcf4c971;
   transition: height 0.3s;
-  margin-top: 25px;
+  margin-top: 12px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
-  left: 28vw;
+  left: 19vw;
   padding-left: 10px;
 }
 .drop-about a {
   display: none;
   z-index: 1;
   color: #2c3003;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   /* font-weight: bold; */
-  line-height: 2.5rem;
+  line-height: 2rem;
   margin-top: 30px;
 }
 .about:hover .drop-about {
-  height: 100px;
+  height: 90px;
   border: none;
   z-index: 1;
 }
@@ -230,9 +226,9 @@ body {
 .admission a svg {
   color: white;
   padding: 0px;
-  height: 20px;
-  margin-top: 7px;
-  margin-left: 4px;
+  height: 17px;
+  margin-top: 9px;
+  margin-left: 2px;
 }
 .admission:hover .drop-icon {
   transform: rotate(180deg);
@@ -243,23 +239,23 @@ body {
   position: absolute;
   background-color: #fcf4c971;
   transition: height 0.3s;
-  margin-top: 25px;
+  margin-top: 12px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
-  left: 35vw;
+  left: 26vw;
   padding-left: 10px;
 }
 .drop-admission a {
   display: none;
   z-index: 1;
   color: #2c3003;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   /* font-weight: bold; */
-  line-height: 2.5rem;
+  line-height: 2rem;
   margin-top: 30px;
 }
 .admission:hover .drop-admission {
-  height: 150px;
+  height: 110px;
   border: none;
   z-index: 1;
 }
@@ -279,9 +275,9 @@ body {
 .placement a svg {
   color: white;
   padding: 0px;
-  height: 20px;
-  margin-top: 7px;
-  margin-left: 4px;
+  height: 17px;
+  margin-top: 9px;
+  margin-left: 2px;
 }
 .placement:hover .drop-icon {
   transform: rotate(180deg);
@@ -292,23 +288,23 @@ body {
   position: absolute;
   background-color: #fcf4c971;
   transition: height 0.3s;
-  margin-top: 25px;
+  margin-top: 12px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
-  left: 44vw;
+  left: 37vw;
   padding-left: 10px;
 }
 .drop-placement a {
   display: none;
   z-index: 1;
   color: #2c3003;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   /* font-weight: bold; */
-  line-height: 2.5rem;
+  line-height: 2rem;
   margin-top: 30px;
 }
 .placement:hover .drop-placement {
-  height: 180px;
+  height: 140px;
   border: none;
   z-index: 1;
 }
@@ -329,9 +325,9 @@ body {
 .dept a svg {
   color: white;
   padding: 0px;
-  height: 20px;
-  margin-top: 7px;
-  margin-left: 4px;
+  height: 17px;
+  margin-top: 9px;
+  margin-left: 2px;
 }
 .dept:hover .drop-icon {
   transform: rotate(180deg);
@@ -342,17 +338,17 @@ body {
   position: absolute;
   background-color: #fcf4c971;
   transition: height 0.3s;
-  margin-top: 25px;
+  margin-top: 12px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
-  left: 55vw;
+  left: 45vw;
   padding-left: 10px;
 }
 .drop-dept a {
   display: none;
   z-index: 1;
   color: #2c3003;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   /* font-weight: bold; */
   line-height: 2.5rem;
   margin-top: 30px;
@@ -379,20 +375,20 @@ body {
 .event a svg {
   color: white;
   padding: 0px;
-  height: 20px;
-  margin-top: 7px;
-  margin-left: 4px;
+  height: 17px;
+  margin-top: 9px;
+  margin-left: 2px;
 }
 .event:hover .drop-icon {
   transform: rotate(180deg);
 }
 .drop-event {
   height: 0px;
-  width: 350px;
+  width: 300px;
   position: absolute;
   background-color: #fcf4c971;
   transition: height 0.3s;
-  margin-top: 25px;
+  margin-top: 12px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
   left: 62vw;
@@ -402,9 +398,9 @@ body {
   display: none;
   z-index: 1;
   color: #2c3003;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   /* font-weight: bold; */
-  line-height: 2.5rem;
+  line-height: 2rem;
   margin-top: 30px;
 }
 .event:hover .drop-event {
@@ -455,7 +451,7 @@ body {
 }
 
 .welcomeeitimg h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   height: 100vh;
   /* background: linear-gradient(100deg, #2169B4, #C1D842); */
   color: rgb(255, 255, 255);
@@ -465,11 +461,8 @@ body {
   text-align: center;
 }
 .Welcome-content p {
-  font-size: 1.2rem;
-  margin-top: 10px;
+  font-size: 1rem;
   word-spacing: 2px;
-  /* background-color: #632412; */
-  /* margin-top: 100px; */
 }
 
 .eit-box {
@@ -477,81 +470,88 @@ body {
 }
 .eit-box h1 {
   text-align: center;
-  border: 4px solid rgb(111, 56, 11);
+  border: 3px solid rgb(111, 56, 11);
+  width: 40vw;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -10%);
 }
 .boxes {
   /* background-color: red; */
   display: flex;
-  margin-top: 20px;
-  height: 200px;
+  /* margin-top: 10px; */
+  height: 180px;
 }
 .eitboxes {
   /* border: 2px solid green; */
   background-color: #f0fd99;
-  width: 200px;
+  width: 180px;
   margin: 10px;
 }
 #box1 #box2 #box3 #box4 {
   margin-top: 10px;
 }
 #box1 h2 {
-  font-size: 3rem;
+  font-size: 2.3rem;
   font-weight: bold;
   text-align: center;
 }
 #box1 h3 {
   margin-top: 10px;
   /* margin-left: 25px; */
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: bold;
   text-align: center;
 }
 #box2 h2 {
-  font-size: 3rem;
+  font-size: 2.3rem;
   font-weight: bold;
   text-align: center;
 }
 #box2 h3 {
   margin-top: 10px;
   /* margin-left: 25px; */
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: bold;
   text-align: center;
 }
 
 #box3 h2 {
-  font-size: 3rem;
+  font-size: 2.3rem;
   font-weight: bold;
   text-align: center;
 }
 #box3 h3 {
   margin-top: 10px;
   /* margin-left: 25px; */
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: bold;
   text-align: center;
 }
 
 #box4 h2 {
-  font-size: 3rem;
+  font-size: 2.3rem;
   font-weight: bold;
   text-align: center;
 }
 #box4 h3 {
   margin-top: 10px;
   /* margin-left: 25px; */
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: bold;
   text-align: center;
 }
 /* campus-placement */
 .campus-placement {
+/*   
+  background-image: url(/Placement/bricks.jpg); */
   display: flex;
   background-color: #fcf4c9;
   /* border: 2px solid red; */
 }
 .campus-placement1  {
   /* border: 4px solid rgb(0, 140, 255); */
+
   height: 90vh;
   width: 50%;
   display: inline-block;
@@ -569,13 +569,13 @@ body {
 }
 .recruiters{
   height: 70px;
-  background-color: #0a263f;
+  background: radial-gradient(#EE6C4D , #61210F);
   text-align: center;
   color: white;
   padding-bottom: 10px; 
 }
 .recruiters h1{
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 /* card */
 .main-courses {

@@ -14,7 +14,7 @@
   background: linear-gradient(to left top, #632412, #b04829);
 }
 .wrapper {
-  max-width: 1300px;
+  /* max-width: 1500px; */
   width: 100%;
   position: relative;
 }
