@@ -583,19 +583,16 @@ body {
   flex-wrap: wrap;
 }
 .course {
-  height: 400px;
-  width: 400px;
-  /* margin: 50px; */
-  margin-left: 120px;
-  margin-bottom: 50px;
-  margin-top: 30px;
+  height: 300px;
+  width: 300px;
+  margin: 50px;
   justify-content: center;
   align-items: center;
 }
 .btechimg {
   background-image: url("/Programs/BTECH.jpg");
   background-size: cover;
-  height: 360px;
+  height: 270px;
   position: relative;
   overflow: hidden;
   box-shadow: inset 2px 2px 12px 6px rgba(0, 0, 0, 0.417);
@@ -605,7 +602,7 @@ body {
 .bcaimg {
   background-image: url("/Programs/BCA.jpg");
   background-size: cover;
-  height: 360px;
+  height: 270px;
   position: relative;
   overflow: hidden;
   box-shadow: inset 2px 2px 12px 6px rgba(0, 0, 0, 0.417);
@@ -615,7 +612,7 @@ body {
 .bbaimg {
   background-image: url("/Programs/BBA.jpg");
   background-size: cover;
-  height: 360px;
+  height: 270px;
   position: relative;
   overflow: hidden;
   box-shadow: inset 2px 2px 12px 6px rgba(0, 0, 0, 0.417);
@@ -625,7 +622,7 @@ body {
 .mtechimg {
   background-image: url("/Programs/MTECH.jpg");
   background-size: cover;
-  height: 360px;
+  height: 270px;
   position: relative;
   overflow: hidden;
   box-shadow: inset 2px 2px 12px 6px rgba(0, 0, 0, 0.417);
@@ -635,7 +632,7 @@ body {
 .mcaimg {
   background-image: url("/Programs/MCA.webp");
   background-size: cover;
-  height: 360px;
+  height: 270px;
   position: relative;
   overflow: hidden;
   box-shadow: inset 2px 2px 12px 6px rgba(0, 0, 0, 0.417);
@@ -645,7 +642,7 @@ body {
 .mbaimg {
   background-image: url("/Programs/MBA.webp");
   background-size: cover;
-  height: 360px;
+  height: 270px;
   position: relative;
   overflow: hidden;
   box-shadow: inset 2px 2px 12px 6px rgba(0, 0, 0, 0.417);
@@ -655,8 +652,8 @@ body {
 .btech-info {
   background-color: rgba(0, 0, 0, 0.561);
   position: relative;
-  height: 500px;
-  bottom: -300px;
+  height: 400px;
+  bottom: -220px;
   transition: all 0.5s;
   border-radius: 10px;
   box-shadow: -2px -2px 5px white;
@@ -669,21 +666,22 @@ body {
 .btech-info a {
   color: white;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 0.9rem;
   text-align: center;
-  padding-top: 8px;
-  /* line-height: 55px; */
   border: 2px solid #fcf4c9;
-  height: 5vh;
+  height: 35px;
+  padding-top: 4px;
   display: block;
   border-radius: 10px;
-  width: 21vw;
+  width: 80%;
+  margin-top: 10px;
 }
 /* Courses */
 #btech-info {
-  margin-top: 35px;
-  /* line-height: 6px; */
-  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  align-items: center;
 }
 #btech-info a:hover {
   background-color: #632412;
@@ -692,20 +690,18 @@ body {
 .bca-info a {
   color: white;
   text-decoration: none;
-  font-size: 1.3rem;
   text-align: center;
-  padding-top: 8px;
-  /* line-height: 55px; */
   border: 2px solid #fcf4c9;
-  height: 5vh;
+  height: 35px;
   display: block;
   border-radius: 10px;
-  width: 21vw;
+  width: 80%;
 }
 #bca-info {
-  margin-top: 35px;
-  /* line-height: 6px; */
-  margin-left: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  
 }
 #bca-info a:hover {
   background-color: #632412;
@@ -714,10 +710,7 @@ body {
 .bba-info a {
   color: white;
   text-decoration: none;
-  font-size: 1.3rem;
   text-align: center;
-  padding-top: 8px;
-  /* line-height: 55px; */
   border: 2px solid #fcf4c9;
   height: 5vh;
   display: block;
@@ -725,9 +718,9 @@ body {
   width: 21vw;
 }
 #bba-info {
-  margin-top: 35px;
-  /* line-height: 6px; */
-  margin-left: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 #bba-info a:hover {
   background-color: #632412;
@@ -747,9 +740,9 @@ body {
   width: 21vw;
 }
 #mtech-info {
-  margin-top: 35px;
-  /* line-height: 6px; */
-  margin-left: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 #mtech-info a:hover {
   background-color: #632412;
@@ -846,8 +839,7 @@ body {
 .course-info {
   /* position: relative; */
   height: 80px;
-  width: 30vw;
-  margin-left: 35%;
+  width: 100vw;
   margin-top: 20px;
   /* border: 5px solid rgb(2, 52, 2); */
   /* overflow: hidden; */
@@ -894,7 +886,6 @@ body {
 }
 .feedback h1{
   color: white;
-  border-bottom: 3px solid red;
   width: 400px;
   text-align: center;
   margin: auto;
