@@ -263,6 +263,11 @@ body {
   display: inline;
   z-index: 1;
 }
+.drop-admission a:hover{
+  width: 100%;
+  background-color:#381207;
+  color: white;
+}
 
 /* placement */
 .placement {
@@ -362,6 +367,11 @@ body {
   display: inline;
   z-index: 1;
 }
+/* .drop-dept a:hover{
+  width: 100%;
+  background-color:#381207;
+  color: white;
+} */
 
 /* Event */
 .event {
