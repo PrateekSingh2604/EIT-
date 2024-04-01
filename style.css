@@ -590,6 +590,7 @@ body {
 /* card */
 .main-courses {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .course {
