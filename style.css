@@ -25,7 +25,7 @@ body {
 .front .name {
   color: #ffffff;
   /* background-color: rgba(0, 0, 0, 0.389); */
-  position: absolute; 
+  position: absolute;
   width: 99vw;
   background-size: contain;
   display: grid;
@@ -263,9 +263,9 @@ body {
   display: inline;
   z-index: 1;
 }
-.drop-admission a:hover{
+.drop-admission a:hover {
   width: 100%;
-  background-color:#381207;
+  background-color: #381207;
   color: white;
 }
 
@@ -414,7 +414,7 @@ body {
   margin-top: 30px;
 }
 .event:hover .drop-event {
-  height: 100px;
+  height: 250px;
   border: none;
   z-index: 1;
 }
@@ -462,11 +462,10 @@ body {
 
 .welcomeeitimg h1 {
   font-size: 3.5rem;
-  height: 100vh;
+  height: 20%;
   /* background: linear-gradient(100deg, #2169B4, #C1D842); */
   color: rgb(255, 255, 255);
   font-weight: bold;
-  background-color: #6324129d;
   letter-spacing: 5px;
   text-align: center;
 }
@@ -474,7 +473,29 @@ body {
   font-size: 1rem;
   word-spacing: 2px;
 }
-
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  margin-top: 30px;
+}
+.btn button {
+  background-color: #381207;
+  color: white;
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  border: none;
+}
+.btn button:hover {
+  background: radial-gradient(#632412, #381207);
+  cursor: pointer;
+}
+.btn button:active {
+  background: #381207;
+}
 .eit-box {
   /* border: 2px solid red; */
 }
@@ -553,13 +574,13 @@ body {
 }
 /* campus-placement */
 .campus-placement {
-/*   
+  /*   
   background-image: url(/Placement/bricks.jpg); */
   display: flex;
   background-color: #fcf4c9;
   /* border: 2px solid red; */
 }
-.campus-placement1  {
+.campus-placement1 {
   /* border: 4px solid rgb(0, 140, 255); */
 
   height: 90vh;
@@ -573,18 +594,18 @@ body {
   margin-top: 10px;
   margin-left: 80px;
 }
-.recruiter{
+.recruiter {
   height: 100vh;
   border: none;
 }
-.recruiters{
+.recruiters {
   height: 70px;
-  background: radial-gradient(#EE6C4D , #61210F);
+  background: radial-gradient(#ee6c4d, #61210f);
   text-align: center;
   color: white;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
 }
-.recruiters h1{
+.recruiters h1 {
   font-size: 2.5rem;
 }
 /* card */
@@ -712,7 +733,6 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  
 }
 #bca-info a:hover {
   background-color: #632412;
@@ -875,7 +895,7 @@ body {
   height: 100vh;
   /* border: 3px solid #c6650b; */
 }
-#campus-info{
+#campus-info {
   font-family: "Oswald", sans-serif;
   background-color: #6c2906;
   height: 180px;
@@ -895,41 +915,94 @@ body {
   font-family: "Oswald", sans-serif;
   margin-left: 10px;
 }
-.feedback h1{
+.feedback h1 {
   color: white;
   width: 400px;
   text-align: center;
   margin: auto;
 }
 
-.testimonials{
+.testimonials {
   border: 2px solid green;
   height: 50vh;
   margin: 10px;
-  text-align: center; 
+  text-align: center;
 }
-.testimonials h5{
+.testimonials h5 {
   color: white;
   /* border: 2px solid red; */
   height: 100px;
   width: 700px;
   font-size: 1.3rem;
   padding-top: 10px;
-  margin:  auto;
+  margin: auto;
   /* text-align: center; */
 }
-.testimonials p{
+.testimonials p {
   color: white;
 }
-.testimonials img{
+.testimonials img {
   border-radius: 50%;
   height: 200px;
 }
-
+.carousel .studentcard {
+  background-color: red;
+  height: 200px;
+}
 /* Student feedback */
-
-
-
+/* memories */
+.memories {
+  height: 100vh;
+  /* border: 2px solid red; */
+  background-color: #381207;
+  /* position: relative;
+  overflow: hidden; */
+}
+/* .memories img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+} */
+.top-memory {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  height: 60%;
+}
+.left-memory {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.left-memory img {
+  padding: 5px;
+}
+.right-memory img {
+  padding: 5px;
+}
+.center-memory {
+  height: 100%;
+  width: 60%;
+}
+.right-memory {
+  height: 100%;
+  width: 20%;
+}
+.bottom-memory {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  
+  /* background-color: plum; */
+}
+.bottom-memory img {
+  padding: 5px;
+}
+/* .memories:hover img {
+  transform: scale(1.1);
+} */
 
 @media screen and (max-width: 1014px) {
   .Welcome_EIT h1 {
