@@ -1,5 +1,6 @@
-const wrapper = document.querySelector(".wrapper");
-const carousel = document.querySelector(".carousel");
+function initializeCarousel(wrapperSelector, carouselSelector, leftArrowSelector, rightArrowSelector) {
+const wrapper = document.querySelector(wrapperSelector);
+const carousel = document.querySelector(carouselSelector);
 const firstCardWidth = carousel.querySelector(".card").offsetWidth;
 const arrowBtns = document.querySelectorAll(".wrapper i");
 const carouselChildrens = [...carousel.children];
@@ -27,7 +28,7 @@ carousel.classList.remove("no-transition");
 // Add event listeners for the arrow buttons to scroll the carousel left and right
 arrowBtns.forEach(btn => {
     btn.addEventListener("click", () => {
-        carousel.scrollLeft += btn.id == "left" ? -firstCardWidth : firstCardWidth;
+        carousel.scrollLeft += btn.id == leftArrowSelector ? -firstCardWidth : firstCardWidth;
     });
 });
 
@@ -82,3 +83,7 @@ document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("scroll", infiniteScroll);
 wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
 wrapper.addEventListener("mouseleave", autoPlay);
+}
+
+initializeCarousel(".wrapper1", ".carousel1", "#left1", "#right1");
+initializeCarousel(".wrapper2", ".carousel2", "#left2", "#right2");

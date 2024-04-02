@@ -893,12 +893,14 @@ body {
 .campus-life {
   background-color: #381207;
   height: 100vh;
+  width: 100%;
   /* border: 3px solid #c6650b; */
 }
 #campus-info {
   font-family: "Oswald", sans-serif;
   background-color: #6c2906;
-  height: 180px;
+  height: 160px;
+  width: 100%;
 }
 /* #campus-info h1 {
   color: white;
@@ -917,21 +919,21 @@ body {
 }
 .feedback h1 {
   color: white;
+  height: 80px;
   width: 400px;
   text-align: center;
   margin: auto;
 }
 
 .testimonials {
-  border: 2px solid green;
-  height: 50vh;
+  height: 250vh;
+  width: 100%;
   margin: 10px;
   text-align: center;
 }
 .testimonials h5 {
   color: white;
-  /* border: 2px solid red; */
-  height: 100px;
+  height: 150px;
   width: 700px;
   font-size: 1.3rem;
   padding-top: 10px;
@@ -942,19 +944,20 @@ body {
   color: white;
 }
 .testimonials img {
-  border-radius: 50%;
-  height: 200px;
+  height: 250px;
 }
 .carousel .studentcard {
-  background-color: red;
   height: 200px;
 }
 /* Student feedback */
 /* memories */
 .memories {
-  height: 100vh;
+  height: 120vh;
+  padding-top: 50px;
   /* border: 2px solid red; */
   background-color: #381207;
+  
+  width: 100%;
   /* position: relative;
   overflow: hidden; */
 }
