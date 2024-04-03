@@ -15,16 +15,13 @@ body {
 .front {
   height: 100vh;
   background-image: url("./img/Campus\(EIT\).JPG");
-  /* border: 2px solid red; */
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  /* width: 100vw; */
   background-attachment: fixed;
 }
 .front .name {
   color: #ffffff;
-  /* background-color: rgba(0, 0, 0, 0.389); */
   position: absolute;
   width: 99vw;
   background-size: contain;
@@ -82,19 +79,15 @@ body {
   color: white;
   font-size: 30px;
   text-align: center;
-  /* border: 2px solid red;h */
 }
 #bttn {
   height: 50px;
   width: 130px;
   font-size: 1.3rem;
-  /* font-weight: bold; */
   color: white;
   background-color: #1e6fb9;
   border-radius: 40px;
   border: none;
-  /* align-items: center;
-  justify-content: center; */
   margin: auto;
   margin-top: 20px;
   transition: all 0.2s;
@@ -109,24 +102,31 @@ body {
   left: 15px;
   bottom: 7px;
   z-index: 1;
-
-  /* background-color: #0a263f; */
 }
 .handles svg {
-  /* border: 2px solid red; */
   width: 30px;
   height: 40px;
-  /* z-index: 3; */
+}
+.nav-top{
+  height: 40px;
+  background-color: rgba(65, 9, 9, 0.404);
+  width: 100%;
+  display: flex;
+  justify-content:end;
+}
+.nav-top a{
+  text-decoration: none;
+  color: white;
+  padding-top: 5px;
+  padding-right: 30px;
 }
 
 .nav {
   display: flex;
+  align-items: end;
   justify-content: space-between;
-  align-items: center;
   padding: 8px;
   border-bottom: 2px solid #632412;
-  /* background-color: #b048293c; */
-  /* border: 2px solid black; */
   z-index: 1;
 }
 
@@ -143,13 +143,10 @@ body {
 .nav-head a {
   text-decoration: none;
   color: #381207;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
-  /* position: relative; */
   z-index: 1;
-  /* padding-left: 2px; */
   width: 150px;
-  /* border: 2px solid green; */
 }
 
 .nav img {
@@ -173,8 +170,8 @@ body {
 .about a svg {
   color: white;
   padding: 0px;
-  height: 17px;
-  margin-top: 9px;
+  height: 14px;
+  margin-top: 8px;
   margin-left: 2px;
 }
 .about:hover .drop-icon {
@@ -186,11 +183,11 @@ body {
   position: absolute;
   background-color: #fcf4c971;
   transition: height 0.3s;
-  margin-top: 12px;
+  margin-top: 6px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
   left: 19vw;
-  padding-left: 10px;
+  padding-left: 6px;
 }
 .drop-about a {
   display: none;
@@ -213,8 +210,61 @@ body {
 /* .about-icon{
   height: 30px;
 } */
+/* Research and Innovation Cell */
+.research{
+  height: 50px;
+  width: 120px;
+}
+.research a {
+  display: flex;
+}
 
-/* Admission */
+.research a svg {
+  color: white;
+  padding: 0px;
+  height: 14px;
+  margin-top: 8px;
+  margin-left: 2px;
+}
+.research:hover .drop-icon {
+  transform: rotate(180deg);
+}
+.drop-research {
+  height: 0px;
+  width: 350px;
+  position: absolute;
+  background-color: #fcf4c971;
+  transition: height 0.3s;
+  margin-top: 6px;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
+  left: 42vw;
+  padding-left: 10px;
+}
+.drop-research a {
+  display: none;
+  z-index: 1;
+  color: #2c3003;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-top: 30px;
+}
+.research:hover .drop-research {
+  height: 300px;
+  border: none;
+  z-index: 1;
+}
+.research:hover .drop-research a {
+  display: inline;
+  z-index: 1;
+}
+.drop-research a:hover {
+  width: 100%;
+  background-color: #381207;
+  color: white;
+}
+
+/* admission*/
 .admission {
   height: 50px;
   width: 120px;
@@ -226,8 +276,8 @@ body {
 .admission a svg {
   color: white;
   padding: 0px;
-  height: 17px;
-  margin-top: 9px;
+  height: 14px;
+  margin-top: 8px;
   margin-left: 2px;
 }
 .admission:hover .drop-icon {
@@ -239,10 +289,10 @@ body {
   position: absolute;
   background-color: #fcf4c971;
   transition: height 0.3s;
-  margin-top: 12px;
+  margin-top: 6px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
-  left: 26vw;
+  left: 35vw;
   padding-left: 10px;
 }
 .drop-admission a {
@@ -250,7 +300,6 @@ body {
   z-index: 1;
   color: #2c3003;
   font-size: 1.2rem;
-  /* font-weight: bold; */
   line-height: 2rem;
   margin-top: 30px;
 }
@@ -280,8 +329,8 @@ body {
 .placement a svg {
   color: white;
   padding: 0px;
-  height: 17px;
-  margin-top: 9px;
+  height: 14px;
+  margin-top: 8px;
   margin-left: 2px;
 }
 .placement:hover .drop-icon {
@@ -293,10 +342,10 @@ body {
   position: absolute;
   background-color: #fcf4c971;
   transition: height 0.3s;
-  margin-top: 12px;
+  margin-top: 6px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
-  left: 37vw;
+  left: 55vw;
   padding-left: 10px;
 }
 .drop-placement a {
@@ -304,7 +353,6 @@ body {
   z-index: 1;
   color: #2c3003;
   font-size: 1.2rem;
-  /* font-weight: bold; */
   line-height: 2rem;
   margin-top: 30px;
 }
@@ -330,8 +378,8 @@ body {
 .dept a svg {
   color: white;
   padding: 0px;
-  height: 17px;
-  margin-top: 9px;
+  height: 14px;
+  margin-top: 8px;
   margin-left: 2px;
 }
 .dept:hover .drop-icon {
@@ -343,10 +391,10 @@ body {
   position: absolute;
   background-color: #fcf4c971;
   transition: height 0.3s;
-  margin-top: 12px;
+  margin-top: 6px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
-  left: 45vw;
+  left: 20vw;
   padding-left: 10px;
 }
 .drop-dept a {
@@ -354,7 +402,6 @@ body {
   z-index: 1;
   color: #2c3003;
   font-size: 1.2rem;
-  /* font-weight: bold; */
   line-height: 2.5rem;
   margin-top: 30px;
 }
@@ -385,8 +432,8 @@ body {
 .event a svg {
   color: white;
   padding: 0px;
-  height: 17px;
-  margin-top: 9px;
+  height: 14px;
+  margin-top: 8px;
   margin-left: 2px;
 }
 .event:hover .drop-icon {
@@ -398,7 +445,7 @@ body {
   position: absolute;
   background-color: #fcf4c971;
   transition: height 0.3s;
-  margin-top: 12px;
+  margin-top: 6px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
   left: 62vw;
@@ -926,7 +973,7 @@ body {
 }
 
 .testimonials {
-  height: 250vh;
+  height: 100vh;
   width: 100%;
   margin: 10px;
   text-align: center;
@@ -948,64 +995,62 @@ body {
 }
 .carousel .studentcard {
   height: 200px;
+  
+  background-color: green;
 }
 /* Student feedback */
 /* memories */
 .memories {
-  height: 120vh;
-  padding-top: 50px;
-  /* border: 2px solid red; */
+  height: 100vh;
+  width: 100%;
   background-color: #381207;
-  
-  width: 100%;
-  /* position: relative;
-  overflow: hidden; */
+  padding: 10px;
 }
-/* .memories img {
+.top-memory{
+  height: 58%;
   width: 100%;
-  height: auto;
-  transition: transform 0.3s ease;
-} */
-.top-memory {
   display: flex;
-  flex-direction: row;
-  padding: 5px;
-  height: 60%;
+  padding: 10px;
+  /* margin: 0; */
 }
-.left-memory {
-  width: 20%;
-  height: 100%;
+.top-memory img{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+
 }
-.left-memory img {
-  padding: 5px;
-}
-.right-memory img {
-  padding: 5px;
-}
-.center-memory {
+.left-memory{
   height: 100%;
-  width: 60%;
+  width: 19%;
+  margin-left: 10px;
 }
-.right-memory {
+.center-memory{
   height: 100%;
-  width: 20%;
+  width: 59%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
-.bottom-memory {
-  height: 40%;
+.right-memory{
+  height: 100%;
+  width: 19%;
+  /* margin-left: 10px; */
+}
+.bottom-memory{
+  height: 45%;
   width: 100%;
+  padding: 10px;
   display: flex;
-  
-  /* background-color: plum; */
+  flex-direction: row;
 }
-.bottom-memory img {
+.bottom-memory img{
   padding: 5px;
 }
-/* .memories:hover img {
-  transform: scale(1.1);
-} */
+
+/* clubs */
+.clubs{
+  height: 100vh;
+  width: 100%;
+  background-color: red;
+}
 
 @media screen and (max-width: 1014px) {
   .Welcome_EIT h1 {

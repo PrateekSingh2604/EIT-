@@ -1,57 +1,39 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
+*{
   padding: 0;
-}
-header {
-  background-color: rgb(69, 14, 14);
-  color: white;
-  padding: 40px ;
-  text-align: center;
-  height: 45vh;
-}
-.header h1{
-    /* margin-top: 100px; */
-}
-nav {
-  background-color: #f8f9fa;
-  padding: 10px 0;
-}
-nav ul {
-  list-style-type: none;
   margin: 0;
-  padding: 0;
-  text-align: center;
 }
-nav ul li {
-  display: inline;
-  margin-right: 20px;
+body{
+  background-color: rgb(63, 14, 14);
 }
-nav ul li a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
+
+.cs-front{
+  height: 80vh;
+  background: url("/img/Computer_Science/csmain-img.jpg");
+  background-size: cover;
 }
-nav ul li a:hover {
-  color: #007bff;
+.drop a svg {
+  /* color: white; */
+  padding: 0px;
+  height: 14px;
+  margin-top: 5px;
+  margin-left: 4px;
 }
-/* .container {
-  max-width: 960px;
-  margin: 20px auto;
-  padding: 0 20px;
+.nav{
+  background-color: #381207;
 }
-h2 {
-  color: #007bff;
+.nav-head a, .drop-icon {
+  color: #fcf4c9;
+  fill: #fcf4c9;
+  font-weight: 100;
 }
-p {
-  line-height: 1.6;
+.drop-icon{
+  
 }
-footer {
-  background-color: #007bff;
+
+.cs-mission{
   color: white;
+  width: 80%;
   text-align: center;
-  padding: 20px 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-} */
+  margin: auto;
+  margin-top: 20px;
+}
