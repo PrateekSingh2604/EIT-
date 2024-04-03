@@ -125,3 +125,21 @@
     grid-auto-columns: 100%;
   }
 }
+
+
+
+/* front page image change */
+/* button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.prev {
+  left: 20px;
+}
+.next {
+  right: 20px;
+} */

@@ -14,13 +14,15 @@ body {
 }
 .front {
   height: 100vh;
-  background-image: url("./img/Campus\(EIT\).JPG");
+  /* background-image: url("./img/Campus\(EIT\).JPG"); */
   /* border: 2px solid red; */
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   /* width: 100vw; */
   background-attachment: fixed;
+  background-position: center;
+  transition: background-image 1s ease;
 }
 .front .name {
   color: #ffffff;
@@ -75,6 +77,12 @@ body {
   padding-left: 10px;
   border-radius: 10px;
 }
+.name1{
+  height: 50%;
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+}
 .name1 h1 {
   font-size: 3.5rem;
 }
@@ -82,24 +90,21 @@ body {
   color: white;
   font-size: 30px;
   text-align: center;
-  /* border: 2px solid red;h */
 }
 #bttn {
   height: 50px;
-  width: 130px;
   font-size: 1.3rem;
-  /* font-weight: bold; */
   color: white;
   background-color: #1e6fb9;
   border-radius: 40px;
   border: none;
-  /* align-items: center;
-  justify-content: center; */
   margin: auto;
   margin-top: 20px;
   transition: all 0.2s;
   display: block;
   text-align: center;
+  padding: 10px;
+  padding-bottom: 10px;
 }
 #bttn:hover {
   background-color: #0a263f;
@@ -583,6 +588,7 @@ body {
   transform: translateY(100px);
   background-color: #fcf4c9;
   transition: all 1s linear;
+  margin-bottom: 120px;
 }
 .campus-placement1 {
   /* border: 4px solid rgb(0, 140, 255); */
@@ -604,11 +610,11 @@ body {
   display: inline !important;
 }
 .recruiters {
-  height: 70px;
   background: radial-gradient(#ee6c4d, #61210f);
   text-align: center;
   color: white;
   padding-bottom: 10px;
+  
 }
 .recruiters h1 {
   font-size: 2.5rem;

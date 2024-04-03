@@ -22,4 +22,36 @@ function appear(element){
 
 // window.addEventListener("scroll", () => appear(placement));
 window.addEventListener("scroll", () => appear(welcome));
-window.addEventListener("scroll", () => appear(recruiter));
+// window.addEventListener("scroll", () => appear(recruiter));
+
+//home page image change
+const images = [
+    "img/eitCampus.JPG",
+    "img/campus/canteen.JPG",
+    "img/campus/sports.jpg",
+    "img/Holi.jpeg"
+    // Add more image URLs as needed
+  ];
+
+  let currentIndex = 0;
+  const backgroundElement = document.querySelector(".front");
+
+  function updateBackground() {
+    backgroundElement.style.backgroundImage = `url(${images[currentIndex]})`;
+  }
+
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % images.length;
+    updateBackground();
+  }
+
+  function prevSlide() {
+    currentIndex = (currentIndex - 1) % images.length;
+    updateBackground();
+  }
+  function autoSlide() {
+    setInterval(nextSlide, 3000); // Change slide every 5 seconds
+  }
+
+  updateBackground();
+  autoSlide();
