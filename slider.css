@@ -19,15 +19,18 @@
   height: 60vh;
   display: flex;
   padding: 0 35px;
+  justify-content: center;
   align-items: center;
 }
 #studentcard{
-  height: 390px;
-  width: 390px;
+  height: 350px;
+  width: 350px;
+  /* border: 2px solid blue; */
   padding: 0%;
+  
 }
 .wrapper1, .wrapper2 {
-  /* max-width: 1500px; */
+  max-width: 1400px;
   width: 100%;
   position: relative;
 }
@@ -116,12 +119,12 @@
   font-size: 1.31rem;
 }
 @media screen and (max-width: 900px) {
-  .wrapper1 .carousel1 {
+  .wrapper1 .carousel1, .wrapper2 .carousel2 {
     grid-auto-columns: calc((100% / 2) - 9px);
   }
 }
 @media screen and (max-width: 600px) {
-  .wrapper1 .carousel1 {
+  .wrapper1 .carousel1, .wrapper2 .carousel2 {
     grid-auto-columns: 100%;
   }
 }
