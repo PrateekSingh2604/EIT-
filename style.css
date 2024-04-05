@@ -11,16 +11,14 @@ html {
 body {
   overflow-x: hidden;
   background-color: #fcf4c9;
+  margin: 0px;
 }
 .front {
   height: 100vh;
-  /* background-image: url("./img/Campus\(EIT\).JPG"); */
-  /* border: 2px solid red; */
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   background-attachment: fixed;
-  background-position: center;
   transition: background-image 1s ease;
 }
 .front .name {
@@ -488,6 +486,71 @@ body {
 }
 
 /* Welcome */
+.wlcmpage{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background-color:#fcf4c9;
+  
+}
+.wlcmpage1{
+  height: 100vh;
+  width: 40%;
+}
+.wlcmimg{
+  height: 80%;
+  width: 85%;
+  background:url("/img/wlcm-to-eit.jpg");
+  background-size: cover;
+  position: relative;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wlcmbtn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-top: 30px; 
+}
+.wlcmbtn button {
+  background-color: #381207;
+  color: white;
+  width: 190px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  margin: 0 10px;
+}
+.wlcmbtn button:hover {
+  background: radial-gradient(#632412, #381207);
+  cursor: pointer;
+}
+.wlcmbtn button:active {
+  background: #381207;
+}
+.wlcmimg h1{
+  padding-top: 80px;
+  color: wheat;
+  text-align: center;
+  font-size: 2.5rem;
+  text-shadow: 2px 5px 2px rgba(0, 0, 0, 0.534);
+}
+.wlcmpage2{
+  height: 100vh;
+  width: 60%;
+}
+.wlcmpage2 p{
+  color: rgb(0, 0, 0); 
+  padding: 50px;
+  text-align: center; 
+}
+
+
+
+/* 
 .Welcome_EIT {
   height: 100vh;
   display: none;
@@ -500,31 +563,30 @@ body {
 .show{
   transform: translateY(0px);
   opacity: 1;
-}
-.welcomeeitimg {
-  /* border: 2px solid green; */
-  height: 100vh;
-  width: 50vw;
-  background-image: url("/img/wlcm-to-eit.jpg");
+} */
+/* .welcomeeitimg {
+  height: 70vh;
+  width: 30vw;
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: url("/img/wlcm-to-eit.jpg");
 }
 
-.Welcome-content {
+.Welcome-content {*/
   /* border: 2px solid blue; */
-  width: 50vw;
+  /* width: 50vw;
   height: 100vh;
 }
 .Welcome-content p {
   padding: 50px;
-  text-align: justify;
+  text-align: center;
 }
 
 .welcomeeitimg h1 {
   font-size: 3.5rem;
-  height: 20%;
+  height: 20%; */
   /* background: linear-gradient(100deg, #2169B4, #C1D842); */
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255);
   font-weight: bold;
   letter-spacing: 5px;
   text-align: center;
@@ -555,7 +617,7 @@ body {
 }
 .btn button:active {
   background: #381207;
-}
+} */
 .eit-box {
   /* border: 2px solid red; */
 }

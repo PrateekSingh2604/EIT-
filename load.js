@@ -29,7 +29,9 @@ const images = [
     "img/eitCampus.JPG",
     "img/campus/canteen.JPG",
     "img/campus/sports.jpg",
-    "img/Holi.jpeg"
+    "img/front-img/Faculty.jpg",
+    "img/front-img/Farewell2023.jpg",
+    "img/front-img/Seniors.jpg"
     // Add more image URLs as needed
   ];
 
@@ -45,10 +47,10 @@ const images = [
     updateBackground();
   }
 
-  function prevSlide() {
-    currentIndex = (currentIndex - 1) % images.length;
-    updateBackground();
-  }
+  // function prevSlide() {
+  //   currentIndex = (currentIndex - 1) % images.length;
+  //   updateBackground();
+  // }
   function autoSlide() {
     setInterval(nextSlide, 3000); // Change slide every 5 seconds
   }
