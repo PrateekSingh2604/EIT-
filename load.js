@@ -1,6 +1,9 @@
-const welcome = document.querySelector(".Welcome_EIT");
+const welcome = document.querySelector(".wlcmpage");
 const placement = document.querySelector(".campus-placement")
 const recruiter = document.querySelector(".recruiter");
+const course_head = document.querySelector(".course-info")
+const courses = document.querySelector(".main-courses") 
+const campus_life = document.querySelector(".campus-life")
 
 function appear(element){
     const triggerBottom = window.innerHeight;
@@ -11,8 +14,7 @@ function appear(element){
     if(welcomeTop < triggerBottom){
         element.classList.add("show");
         element.style.display = "flex";
-        console.log(welcomeTop)
-        console.log(triggerBottom)
+        campus_life.style.display = "block"
     }
     else{
         element.classList.remove("show");
@@ -20,9 +22,12 @@ function appear(element){
 }
 
 
-// window.addEventListener("scroll", () => appear(placement));
+window.addEventListener("scroll", () => appear(placement));
 window.addEventListener("scroll", () => appear(welcome));
-// window.addEventListener("scroll", () => appear(recruiter));
+window.addEventListener("scroll", () => appear(recruiter));
+window.addEventListener("scroll", () => appear(course_head));
+window.addEventListener("scroll", () => appear(courses));
+window.addEventListener("scroll", () => appear(campus_life));
 
 //home page image change
 const images = [

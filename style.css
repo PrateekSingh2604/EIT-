@@ -148,6 +148,9 @@ body {
   top: 40px;
   background-color: #f0fd99;
 }
+.nav-cs{
+  top: 0px;
+}
 
 .nav-head {
   padding-bottom: 20px;
@@ -498,8 +501,11 @@ body {
 .wlcmpage{
   height: 100vh;
   width: 100%;
-  display: flex;
   background-color:#fcf4c9;
+  transform: translateY(100px);
+  display: none;
+  opacity: 0;
+  transition: all 0.5s linear;
   
 }
 .wlcmpage1{
@@ -568,11 +574,11 @@ body {
   margin-top: 50px;
   justify-content: center;
   transition: all 0.5s linear;
-}
-.show{
-  transform: translateY(0px);
-  opacity: 1;
 } */
+.show{
+  transform: translateY(0px) !important;
+  opacity: 1 !important;
+}
 /* .welcomeeitimg {
   height: 70vh;
   width: 30vw;
@@ -705,9 +711,11 @@ body {
 }
 /* campus-placement */
 .campus-placement {
-  transform: translateY(100px);
   background-color: #fcf4c9;
-  transition: all 1s linear;
+  display: none;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.5s linear;
   margin-bottom: 120px;
 }
 .campus-placement1 {
@@ -727,6 +735,9 @@ body {
 .recruiter {
   height: 100vh;
   border: none;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.5s linear;
   display: inline !important;
 }
 .recruiters {
@@ -741,9 +752,12 @@ body {
 }
 /* card */
 .main-courses {
-  display: flex;
+  display: none;
   justify-content: center;
   flex-wrap: wrap;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.5s linear;
 }
 .course {
   height: 300px;
@@ -989,22 +1003,22 @@ body {
   border: none;
   margin: auto;
   margin-top: 20px;
-  /* transition: all .5s; */
   text-align: center;
   border-radius: 20px;
-  /* border: 5px solid red ; */
 }
 .course button:hover {
   border: 5px solid #7d3f08;
-  /* box-shadow: -2px 2px 3px 4px rgba(0, 0, 0, 0.805); */
 }
 .course-info {
-  /* position: relative; */
   height: 80px;
-  width: 100vw;
+  width: 50vw;
+  justify-content: center;
   margin-top: 20px;
-  /* border: 5px solid rgb(2, 52, 2); */
-  /* overflow: hidden; */
+  margin: auto;
+  display: none;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.5s linear;
 }
 .course-info h1 {
   font-weight: bold;
@@ -1022,9 +1036,13 @@ body {
 
 /* Campuslife */
 .campus-life {
-  background-color: #381207;
+  background-color: #381207 ;
   height: 100vh;
   width: 100%;
+  display: none;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.5s linear;
   /* border: 3px solid #c6650b; */
 }
 #campus-info {
