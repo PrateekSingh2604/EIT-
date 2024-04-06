@@ -31,6 +31,42 @@ body {
   height: 100vh;
   text-shadow: 7px 7px 10px black;
 }
+.name1{
+  height: 50%;
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+  margin-top: 25%;
+}
+.name1 h1 {
+  font-size: 3.5rem;
+}
+.name1 h2 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+#bttn {
+  height: 50px;
+  font-size: 1.3rem;
+  color: white;
+  background-color: #1e6fb9;
+  border-radius: 40px;
+  border: none;
+  margin: auto;
+  margin-top: 20px;
+  transition: all 0.2s;
+  display: block;
+  text-align: center;
+  padding-inline: 15px;
+  padding-bottom: 4px;
+}
+#bttn:hover {
+  background-color: #0a263f;
+}
+#bttn:active{
+  transform: scale(0.9);
+}
 
 .popup {
   position: fixed;
@@ -73,41 +109,7 @@ body {
   padding-left: 10px;
   border-radius: 10px;
 }
-.name1{
-  height: 50%;
-  display: flex;
-  flex-direction: column ;
-  align-items: center;
-}
-.name1 h1 {
-  font-size: 3.5rem;
-}
-.name1 h2 {
-  color: white;
-  font-size: 30px;
-  text-align: center;
-}
-#bttn {
-  height: 50px;
-  font-size: 1.3rem;
-  color: white;
-  background-color: #1e6fb9;
-  border-radius: 40px;
-  border: none;
-  margin: auto;
-  margin-top: 20px;
-  transition: all 0.2s;
-  display: block;
-  text-align: center;
-  padding-inline: 15px;
-  padding-bottom: 4px;
-}
-#bttn:hover {
-  background-color: #0a263f;
-}
-#bttn:active{
-  transform: scale(0.9);
-}
+
 .handles {
   position: fixed;
   left: 15px;
@@ -1037,13 +1039,13 @@ body {
 /* Campuslife */
 .campus-life {
   background-color: #381207 ;
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   display: none;
   transform: translateY(100px);
   opacity: 0;
   transition: all 0.5s linear;
-  /* border: 3px solid #c6650b; */
+  margin: 0px;
 }
 #campus-info {
   font-family: "Oswald", sans-serif;
@@ -1051,11 +1053,6 @@ body {
   height: 160px;
   width: 100%;
 }
-/* #campus-info h1 {
-  color: white;
-  font-size: 2rem;
-  text-align: center;
-} */
 #campus-info h2 {
   color: white;
   margin-left: 10px;
@@ -1075,9 +1072,8 @@ body {
 }
 
 .testimonials {
-  height: 800px;
+  height: 80vh;
   width: 100%;
-  margin: 10px;
   text-align: center;
 }
 .testimonials h5 {
@@ -1097,62 +1093,28 @@ body {
 }
 .carousel .studentcard {
   height: 200px;
-  
-  background-color: green;
 }
+/* .gallery{
+  background-color: red;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.gallery-info{
+  width: 45%;
+  border: 2px solid yellow;
+} */
 /* Student feedback */
-/* memories */
-.memories {
-  height: 100vh;
-  width: 100%;
-  background-color: #381207;
-  padding: 10px;
-}
-.top-memory{
-  height: 58%;
-  width: 100%;
-  display: flex;
-  padding: 10px;
-  /* margin: 0; */
-}
-.top-memory img{
-  display: flex;
-  flex-direction: column;
-
-}
-.left-memory{
-  height: 100%;
-  width: 19%;
-  margin-left: 10px;
-}
-.center-memory{
-  height: 100%;
-  width: 59%;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.right-memory{
-  height: 100%;
-  width: 19%;
-  /* margin-left: 10px; */
-}
-.bottom-memory{
-  height: 45%;
-  width: 100%;
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-}
-.bottom-memory img{
-  padding: 5px;
-}
-
 /* clubs */
-.clubs{
+/* .clubs{
   height: 100vh;
   width: 100%;
   background-color: red;
-}
+} */
 
 @media screen and (max-width: 1014px) {
   .Welcome_EIT h1 {
