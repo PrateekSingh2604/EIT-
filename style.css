@@ -1117,19 +1117,19 @@ body {
 } */
 
 @media screen and (max-width: 1014px) {
-  .Welcome_EIT h1 {
+  .wlcmpage h1 {
     height: 50vh;
   }
-  .Welcome-content {
+  .wlcmpage2 {
     width: 100vw;
     height: 50vh;
   }
-  .welcomeeitimg {
+  .wlcmimg {
     width: 100vw;
-    height: 50vh;
+    height: 100vh;
     margin: auto;
   }
-  .Welcome_EIT {
+  .wlcmpage {
     flex-wrap: wrap;
   }
   .front {
@@ -1145,7 +1145,6 @@ body {
     right: -500px;
     width: 20vw;
     top: 1px;
-
     height: 60vh;
     margin-top: 1px;
     padding: 70px;
