@@ -68,6 +68,11 @@
   border-radius: 8px;
   scroll-behavior: smooth;
   scrollbar-width: none;
+  
+}
+.carousel2{
+  gap: 50px !important;
+
 }
 .carousel1::-webkit-scrollbar,.carousel2::-webkit-scrollbar {
   display: none;
