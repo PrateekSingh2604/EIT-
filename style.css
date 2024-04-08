@@ -1094,27 +1094,81 @@ body {
 .carousel .studentcard {
   height: 200px;
 }
-/* .gallery{
-  background-color: red;
+.gallery{
+  margin: auto;
   height: 10vh;
-  width: 100%;
+  width: 45%; 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-
 }
-.gallery-info{
-  width: 45%;
-  border: 2px solid yellow;
-} */
-/* Student feedback */
+.gallery h1{
+  font-size: 1.8rem ;
+  color: white;
+}
+
+.gallery button{
+  font-size: 1.8rem; 
+  font-weight: bold;
+  height: 7vh;
+  width: 20%; 
+  border-radius: 10px;
+  background:radial-gradient(#D6BCB1,#AB8574,#3D2216);
+  border: none;
+}
+
 /* clubs */
-/* .clubs{
-  height: 100vh;
+.eit-clubs{
+  height: 80vh;
   width: 100%;
-  background-color: red;
-} */
+  display: flex;
+  margin:10px;
+}
+
+.club-img{
+  height: 100%;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.club-img img{
+  height: 80vh;
+  width: 70%;
+  /* margin-left: 40px; */
+  border-radius: 40%;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.616), 0 6px 20px 0 rgba(0, 0, 0, 0.781);
+  
+}
+.club-details{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+#club-name{
+  height: 15vh;
+}
+#club-name h1{
+  font-family: "Oswald", sans-serif;
+  font-size: bold;
+  font-size: 3rem;
+  color: #381207;
+  display: flex;
+  justify-content: center;
+}
+#club-info{
+  width: 90%;
+}
+#club-info p{
+  text-align: justify;
+}
+.club-details button{
+  width: 20%;
+  height: 8vh;
+  margin: auto;
+}
 
 @media screen and (max-width: 1014px) {
   .wlcmpage h1 {
