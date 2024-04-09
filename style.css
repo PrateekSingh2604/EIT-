@@ -1159,7 +1159,7 @@ body {
   justify-content: center;
 }
 #club-info{
-  width: 90%;
+width: 90%;
 }
 #club-info p{
   text-align: justify;
@@ -1168,8 +1168,151 @@ body {
   width: 20%;
   height: 8vh;
   margin: auto;
+  background-color: rgb(44, 4, 4);
+  font-size: 1.2rem;
+  color: white;
+  border-radius: 20px;
+  transition: all 0.5s;
+
+}
+.club-details button:active{
+  transform: scale(0.9);
+}
+.club-details button:hover{
+  background-color: #5a1907;
+
 }
 
+/* Celebrities */
+.celebrities{
+  height: 95vh;
+  margin: auto;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+}
+.celeb-slides{
+  height: 75vh;
+  width: 100%;
+  margin-top: 10vh;
+  background:url(/img/Celebrities/Maninder.jpg);
+  background-size: cover;
+}
+.celeb-head{
+  border: 2px solid red;
+}
+.celeb-head h1{
+  text-align: center;
+  margin: 0px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem; 
+  background: linear-gradient(to right, #2b0303, #3f2205, #99570c, #00ff00, #0000ff, #4b0082, #8b00ff);
+  -webkit-background-clip: text; /* Clip the text to the gradient */
+  -webkit-text-fill-color: transparent; /* Set the text color to transparent */
+}
+
+/* Map */
+.pre-footer{
+  height: 90vh;
+
+}
+.map{
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: #53371E;
+}
+.map h1{
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer{
+  height: 80vh;
+  background:url(/img/footer/footer.jpg);
+  background-size: cover;
+  margin: 0px;
+
+}
+.main-column{
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  flex-direction: row;
+  padding: 10px;
+  margin: 0px;
+}
+
+.footer-details a{
+  color: white;
+  text-align: left;
+  text-decoration: none;
+}
+.footer-details a:hover{
+  color: yellow;
+}
+.footer-details h2{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  height: 8vh;
+  width: 50%;
+  border-bottom: 2px solid rgb(115, 255, 0);
+  text-shadow: 2px 2px 2px black;
+}
+.column1{
+  width: 20%;
+  /* padding-left:15px ; */
+  
+}
+.column1 img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+li{
+  list-style-type:square;
+  color: white;
+}
+li:hover{
+  color: yellow;}
+.column2{
+  width: 30%;
+  padding-left: 15px;
+  padding-top: 10px;
+  line-height: 1.8rem;
+
+}
+.column2 a:hover{
+  color: yellow;
+}
+.column3{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.media{
+  height: 40%;
+}
+.downloads{
+  height: 30%;
+}
+.column4{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.contactus{
+  height: 40%;
+}
 @media screen and (max-width: 1014px) {
   .wlcmpage h1 {
     height: 50vh;
