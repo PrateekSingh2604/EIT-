@@ -910,7 +910,6 @@ body {
   font-size: 1.3rem;
   text-align: center;
   padding-top: 8px;
-  /* line-height: 55px; */
   border: 2px solid #fcf4c9;
   height: 5vh;
   display: block;
@@ -934,7 +933,6 @@ body {
   font-size: 1.3rem;
   text-align: center;
   padding-top: 8px;
-  /* line-height: 55px; */
   border: 2px solid #fcf4c9;
   height: 5vh;
   display: block;
@@ -943,7 +941,6 @@ body {
 }
 #mca-info {
   margin-top: 35px;
-  /* line-height: 6px; */
   margin-left: 20px;
 }
 #mca-info a:hover {
@@ -956,7 +953,6 @@ body {
   font-size: 1.3rem;
   text-align: center;
   padding-top: 8px;
-  /* line-height: 55px; */
   border: 2px solid #fcf4c9;
   height: 5vh;
   display: block;
@@ -965,7 +961,6 @@ body {
 }
 #mba-info {
   margin-top: 35px;
-  /* line-height: 6px; */
   margin-left: 20px;
 }
 #mba-info a:hover {
@@ -1026,14 +1021,7 @@ body {
   font-weight: bold;
   text-align: center;
   font-size: 3rem;
-  /* text-shadow: white; */
-  /* height: 76px;
-  width: 29.6vw; */
-  /* background-color: #381207; */
   color: rgb(45, 5, 5);
-  /* position: relative; */
-  /* left: 2px;
-  top: 2px; */
 }
 
 /* Campuslife */
@@ -1083,7 +1071,6 @@ body {
   font-size: 1.3rem;
   padding-top: 10px;
   margin: auto;
-  /* text-align: center; */
 }
 .testimonials p {
   color: white;
@@ -1137,7 +1124,6 @@ body {
 .club-img img{
   height: 80vh;
   width: 70%;
-  /* margin-left: 40px; */
   border-radius: 40%;
   box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.616), 0 6px 20px 0 rgba(0, 0, 0, 0.781);
   
@@ -1185,31 +1171,29 @@ width: 90%;
 
 /* Celebrities */
 .celebrities{
-  height: 95vh;
+  height: 100vh;
   margin: auto;
-  border: 2px solid red;
   display: flex;
   flex-direction: column;
 }
 .celeb-slides{
-  height: 75vh;
+  height: 90vh;
   width: 100%;
-  margin-top: 10vh;
   background:url(/img/Celebrities/Maninder.jpg);
   background-size: cover;
 }
 .celeb-head{
-  border: 2px solid red;
 }
 .celeb-head h1{
   text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507);
   margin: 0px;
   font-weight: bold;
   font-family: "Oswald", sans-serif;
-  font-size: 3rem; 
-  background: linear-gradient(to right, #2b0303, #3f2205, #99570c, #00ff00, #0000ff, #4b0082, #8b00ff);
-  -webkit-background-clip: text; /* Clip the text to the gradient */
-  -webkit-text-fill-color: transparent; /* Set the text color to transparent */
+  font-size: 2.8rem; 
+  background: linear-gradient(to right, #2b0303, #3f2205, #7a4609, #00ff00, #0000ff, #0e12ff, #04a3ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Map */
