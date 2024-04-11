@@ -14,7 +14,7 @@ function appear(element) {
   if (classes < triggerBottom) {
     element.classList.add("show");
     element.style.display = "flex";
-    campus_life.style.display = "block"
+    campus_life.style.display = "block";
   }
   else {
     element.classList.remove("show");

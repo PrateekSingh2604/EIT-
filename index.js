@@ -1,9 +1,12 @@
-function initializeCarousel(wrapperSelector, carouselSelector, leftArrowSelector, rightArrowSelector) {
+function initializeCarousel(wrapperSelector, carouselSelector, leftArrowSelector, wrapperClass) {
     const wrapper = document.querySelector(wrapperSelector);
     const carousel = document.querySelector(carouselSelector);
     const firstCardWidth = carousel.querySelector(".card").offsetWidth;
-    const arrowBtns = document.querySelectorAll(".wrapper i");
+    const arrowBtns = document.querySelectorAll(wrapperClass);
+    const campus_life = document.querySelector(".campus-life")
     const carouselChildrens = [...carousel.children];
+
+    campus_life.style.display = "block";
 
     let isDragging = false, isAutoPlay = true, startX, startScrollLeft, timeoutId;
 
@@ -85,5 +88,29 @@ function initializeCarousel(wrapperSelector, carouselSelector, leftArrowSelector
     wrapper.addEventListener("mouseleave", autoPlay);
 }
 
-initializeCarousel(".wrapper1", ".carousel1", "#left1", "#right1");
-initializeCarousel(".wrapper2", ".carousel2", "#left2", "#right2");
+
+document.addEventListener('DOMContentLoaded', function () {
+    initializeCarousel(".wrapper1", ".carousel1", "left1", ".wrapper1 i");
+    initializeCarousel(".wrapper2", ".carousel2", "left2", ".wrapper2 i");
+});
+
+
+
+
+// navbar on scroll
+let lastScrollTop = 0;
+window.addEventListener('scroll', function() {
+    const header = document.querySelector('.nav-top');
+    const navbar = document.querySelector(".nav")
+    let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (currentScroll > lastScrollTop) {
+            header.style.top = "-40px";
+            navbar.style.top = "0px";
+        } else {
+            header.style.top = "0px";
+            navbar.style.top = "40px";
+        }
+
+        lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; 
+  }, false);

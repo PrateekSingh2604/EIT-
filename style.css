@@ -128,6 +128,7 @@ body {
   position: fixed;
   z-index: 1;
   width: 100%;
+  transition: all .3s ease;
 }
 .nav-top a{
   text-decoration: none;
@@ -149,6 +150,7 @@ body {
   width: 100vw; 
   top: 40px;
   background-color: #f0fd99;
+  transition: top .3s ease;
 }
 .nav-cs{
   top: 0px;
