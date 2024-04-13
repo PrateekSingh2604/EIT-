@@ -36,4 +36,9 @@ body{
   text-align: center;
   margin: auto;
   margin-top: 20px;
+  height: 15vh;
+  border: 2px solid yellow;
+}
+.cs-mission h2{
+  padding-top:15px ;
 }
