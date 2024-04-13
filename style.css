@@ -9,7 +9,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   background-color: #fcf4c9;
   margin: 0px;
 }
@@ -1267,7 +1267,7 @@ li{
   list-style-type:square;
   color: white;
 }
-li:hover{
+h2 li:hover{
   color: yellow;}
 .column2{
   width: 30%;
