@@ -658,7 +658,6 @@ body {
   margin: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 #box1 #box2 #box3 #box4 {
   margin-top: 10px;

@@ -35,7 +35,7 @@ const alumni = document.querySelector(".eit-box .boxes .box2")
 const cplacement = document.querySelector(".eit-box .boxes .box3")
 const recruiters = document.querySelector(".eit-box .boxes .box4")
 
-function number(element, max, text) {
+function number(element, max, text, value, plus) {
   const triggerBottom = window.innerHeight / 4*5;
 
   const classes = element.getBoundingClientRect().top;
@@ -46,8 +46,8 @@ function number(element, max, text) {
     console.log(classes)
     let count = 0;
     const interval = setInterval(() => {
-      count += 1;
-      element.innerHTML = `<h2>${count}</h2> <h3>${text}</h3>`;
+      count += value;
+      element.innerHTML = `<h2>${count}${plus}</h2> <h3>${text}</h3>`;
       if(count == max){
         window.removeEventListener('scroll', alumni_number);
         window.removeEventListener('scroll', excellence_number);
@@ -55,22 +55,22 @@ function number(element, max, text) {
         window.removeEventListener('scroll', campus_recruiters);
         clearInterval(interval);
       }
-    }, 5)
+    }, 15)
     
   }
 
 }
 function excellence_number() {
-  number(excellence, 17, "YEARS OF EXCELLENCE IN EDUCATION");
+  number(excellence, 17, "YEARS OF EXCELLENCE IN EDUCATION", 1, "");
 }
 function alumni_number() {
-  number(alumni, 2800, "ALUMNI");
+  number(alumni, 2800, "ALUMNI", 50, "+");
 }
 function campus_placement() {
-  number(cplacement, 1750, "IN-CAMPUS PLACEMENT");
+  number(cplacement, 1750, "IN-CAMPUS PLACEMENT", 50, "+");
 }
 function campus_recruiters() {
-  number(recruiters, 165, "CAMPUS RECRUITERS");
+  number(recruiters, 165, "CAMPUS RECRUITERS", 5, "+");
 }
 
 window.addEventListener("scroll", campus_recruiters);
