@@ -116,3 +116,48 @@ ol li{
     height: max-content; /* adjust based on content */
     overflow: auto;
 }
+
+
+/* faq */
+.faqs{
+    height:max-content;
+    background-color: #381207;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+.faqs h1{
+    color: rgb(177, 177, 177);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 3rem;
+    width: 50%;
+    margin: auto;
+}
+.faqs .accordion-item .accordion-button{
+    background: none;
+    text-align: left;
+    width: 70%;
+    font-size: 1.2rem;
+    display: block;
+    margin: auto;
+}
+.faqs .accordion-item .accordion-button:hover{
+    color: #b04829;
+}
+.faqs .accordion-item .accordion-button:active{
+    color: white;
+}
+.faqs .accordion-item .accordion-content{
+    width: 68%;
+    background: transparent;
+    color: white;
+    margin: auto;
+}
+.faqs .accordion-item .accordion-content p{
+   font-size: 1.1rem;
+}
+.faqs .accordion-item .accordion-content ol li{
+    color: white;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
