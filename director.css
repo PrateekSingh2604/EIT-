@@ -161,9 +161,9 @@
 }
 .last{
   height: 30vh;
-  width: 92vh;
+  width: 91vh;
   border: 2px solid rgba(0, 0, 0, 0.744);
-  /* transform: translate(20px,57px); */
+  transform: translate(0px,6px);
 }
 
 .drop-your-name button{

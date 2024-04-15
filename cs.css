@@ -2,32 +2,43 @@
   padding: 0;
   margin: 0;
 }
-body{
-  background-color: rgb(63, 14, 14);
+.head{
+  padding-top: 6px;
 }
-
 .cs-front{
   height: 80vh;
-  background: url("/img/Computer_Science/csmain-img.jpg");
+  /* background-color: red; */
+  background: url("/img/Department/computer-science/csmain-img.jpg");
   background-size: cover;
 }
 .drop a svg {
-  /* color: white; */
-  padding: 0px;
-  height: 14px;
-  margin-top: 5px;
+  margin-top: 3px;
   margin-left: 4px;
 }
-.nav{
-  background-color: #381207;
-}
+
 .nav-head a, .drop-icon {
-  color: #fcf4c9;
-  fill: #fcf4c9;
-  font-weight: 100;
+  font-size: 1.1rem;
 }
-.drop-icon{
-  
+.text-content h1{
+  text-align: center;
+  border-bottom: 2px solid rgb(87, 39, 5);
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.text-content h5{
+  font-weight: bold;
+}
+.text-content p{
+  line-height: 2rem;
+  margin-top: 5px;
+}
+.text-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translate(10%,-15%);
+  line-height: 1.5rem;
 }
 
 .cs-mission{
@@ -41,4 +52,9 @@ body{
 }
 .cs-mission h2{
   padding-top:15px ;
+}
+
+.faqs{
+  height:70vh;
+  background-color: #381207;
 }

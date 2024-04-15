@@ -1,0 +1,48 @@
+
+.img{
+    background: url("/img/Department/electonics-and-communication/electronics-img.JPG");
+    background-size: cover;
+}
+.nav{
+    width: 99vw;
+}
+
+
+.hod {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.image-container {
+    flex: 1 1 50%; /* flex-grow, flex-shrink, flex-basis */
+    max-width: 30%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-content {
+    flex: 1 1 50%;
+    max-width: 50%;
+    padding: 20px;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .image-container, .text-content {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .text-content {
+        padding: 10px;
+    }
+}
+
