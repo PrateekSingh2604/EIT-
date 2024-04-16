@@ -23,9 +23,7 @@ body {
 }
 .front .name {
   color: #ffffff;
-  position: absolute;
   width: 99vw;
-  background-size: contain;
   display: grid;
   place-items: center;
   height: 100vh;
@@ -117,8 +115,18 @@ body {
   z-index: 1;
 }
 .handles svg {
-  width: 30px;
+  width: 45px;
   height: 40px;
+}
+.download-brochure .fa-solid{
+  height: 250px;
+  font-size: 2rem;
+  color: #085531;
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+.download-brochure .fa-solid:hover{
+  color: #1e6fb9;
+  transition: all 0.5s;
 }
 .nav-top{
   height: 40px;
@@ -135,7 +143,6 @@ body {
   color: white;
   padding-top: 7px;
   padding-right: 30px;
-  /* overflow: hidden; */
 }
 .nav-top a:hover{
   color: greenyellow;
