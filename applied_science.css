@@ -1,0 +1,8 @@
+.applied-img{
+    background: url("img/front-img/chemistry.jpg");
+    background-size: cover;
+    height: 80vh;
+}
+#bold{
+    font-weight: bold;
+}
