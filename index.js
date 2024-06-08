@@ -114,3 +114,8 @@ window.addEventListener('scroll', function() {
 
         lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; 
   }, false);
+
+  function navbar() {
+
+    document.getElementById("nav-show").classList.toggle("ham-clicked")
+    }
