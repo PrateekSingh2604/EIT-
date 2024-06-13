@@ -17,7 +17,7 @@
   color: white ;
   margin: auto;
   text-align:end;
-  margin-top: 26%;
+  padding-top: 30%;
   margin-right: 10px;
 }
 
@@ -26,6 +26,7 @@
   margin-top: 50px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 #director-img{
   height: 77vh;
@@ -47,31 +48,29 @@
   width: 60%;
   text-align: center;
   margin-top: 70px;
-  /* line-height: 1.5rem; */
-  /* border: 2px solid red; */
 }
 .about-director h2{
   border-bottom: 2px solid rgb(87, 39, 5);
   font-weight: bold;
   font-size: 1.5rem;
   width: 35%;
-  margin-left: 32%;
+  margin: auto;
+}
+.about-director h3{
+  margin: auto;
 }
 .about-director h3,p{
   font-weight: 500;
   margin-top: 5px;
 }
 .about-director h4{
-  width: 100vh;
-  height: 50vh;
+  width: 50vw;
+  height: max-content;
   font-size: 1.1rem;
   line-height: 2rem;
   margin: auto;
   margin-top: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+  text-align: justify;
 }
 .about-director svg{
   display: inline;
@@ -84,9 +83,8 @@
   display: flex;
   justify-items: center;
   align-items: center;
-  flex-direction: row;
+  /* flex-direction: row; */
   margin: auto;
-  /* border: 2px solid red; */
 }
 .quick-info{
   width: 50%;
@@ -129,7 +127,7 @@
   /* transform: translate(28px, 135px); */
 }
 .drop-your-name{
-  width: 50%;
+  width: 40%;
   display: flex;
   flex-direction: column;
 }
@@ -148,22 +146,22 @@
 }
 #name{
   height: 5vh;
-  width: 90vh;
+  width: 80vw;
   border: 2px solid rgba(0, 0, 0, 0.744);
 }
 #m-name{
   height: 5vh;
-  width: 90vh;
+  width:  80vw;
   border: 2px solid rgba(0, 0, 0, 0.744);
 }
 #city{
   height: 5vh;
-  width: 90vh;
+  width:  80vw;
   border: 2px solid rgba(0, 0, 0, 0.744);
 }
 .last{
   height: 30vh;
-  width: 91vh;
+  width:  82vw;
   border: 2px solid rgba(0, 0, 0, 0.744);
   transform: translate(0px,6px);
 }
@@ -194,3 +192,44 @@
 }
 
 
+@media screen and (max-width: 1014px){
+  .desk-img h1{
+    font-size: 2rem;
+  }
+  .director-msg{
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    height: max-content;
+  }
+  .director-msg #director-img img{
+    width: 90%;
+    height: 90%;
+  }
+  .director-msg #director-img{
+    margin: auto;
+    height: 50vh;
+    width: 90%;
+  }
+  .about-director{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px;
+  }
+  .about-director h4{
+    width: 80vw;
+  }
+  .a-msg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .drop-your-name{
+    width: max-content;
+  }
+  .quick-info{
+    width: 80%;
+  }
+}
