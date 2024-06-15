@@ -7,4 +7,10 @@
     font-weight: bold;
 }
 .text-content{
-    padding-top: 50px;}
+    padding-top: 50px;
+}
+@media screen and (max-width: 1014px){
+    .front{
+        height: max-content;
+    }
+}
