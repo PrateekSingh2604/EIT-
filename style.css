@@ -1700,3 +1700,32 @@ h2 li:hover {
     display: none;
   }
 }
+
+.contactForm{
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  margin: auto;
+}
+.contactForm input{
+  margin-top: 10px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.contactForm textarea{
+  margin-top: 10px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.contactForm .submit{
+  height: 40px;
+  width: 20vw;
+  margin: auto;
+  margin-top: 10px;
+  background-color: #53371E;
+  color: white;
+}
