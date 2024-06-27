@@ -22,7 +22,7 @@
   justify-content: center;
   align-items: center;
   height: 7vh;
-  width: 180vh;
+  width: 80%;
   border: 2px solid rgb(31, 5, 5);
   box-shadow: 2px 2px 3px black;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.652);
@@ -88,6 +88,7 @@
   background: #b04829;
 }
 .why-eit {
+  width: 100%;
   height: max-content;
   background-color: #6c2906;
 }
@@ -122,4 +123,37 @@
 .why-main li:hover{
     color: rgb(132, 255, 0);
     cursor: pointer;
+}
+
+@media screen and (max-width: 1014px){
+  .border-box h2{
+    font-size: 1.2rem;
+    height: max-content;
+  }
+  .eit-front {
+    height: max-content;
+  }
+  .glance-about{
+    height: max-content;
+  }
+  .glance-box p{
+    height: max-content;
+    margin-bottom: 40px;
+  }
+  .eit-size{
+    height: max-content;
+  display: grid;
+  grid-template-columns: 100%;
+  }
+  .eit-size .box{
+    height: 150px;
+    font-size: 10px;
+  }
+  .eit-size .box h3{
+    font-size: 1.2rem;
+    width: 60vw;
+  }
+  .nav{
+    width: 96vw !important;
+  }
 }

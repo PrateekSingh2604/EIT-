@@ -58,3 +58,32 @@
 }
 
 
+@media screen and (max-width: 1014px){
+  .front{
+    height: max-content;
+    font-size: 0.7rem;
+  }
+  .image-container img{
+    width: 70%;
+    margin: auto;
+  }
+  .text-content{
+    height: max-content;
+    margin: auto;
+    margin-top: 50px;
+    transform: translate(0%, 0%);
+  }
+  .accordion-button{
+    font-size: 0.9rem;
+  }
+  .faqs .accordion-item .accordion-button{
+    height: max-content;
+  }
+  .cs-faq h1{
+    width: 90%;
+    font-size: 1.8rem;
+  }
+  .nav{
+    width: 95%;
+  }
+}

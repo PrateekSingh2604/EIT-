@@ -35,8 +35,11 @@
     text-align: justify;
     font-size: 1.2rem;
 }
+.bca-faq h1{
+    width: 150vh !important;
+}
 
-@media (max-width: 768px) {
+@media (max-width: 1014px) {
     .image-container, .text-content {
         flex: 1 1 100%;
         max-width: 100%;
@@ -45,8 +48,9 @@
     .text-content {
         padding: 10px;
     }
+    .bca-faq h1{
+        width: 90% !important;
+        font-size: 1.8rem;
+    }
 }
 
-.bca-faq h1{
-    width: 150vh !important;
-}

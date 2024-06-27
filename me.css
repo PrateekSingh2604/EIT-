@@ -161,3 +161,9 @@ ol li{
     font-weight: 100;
     font-size: 1.1rem;
 }
+@media screen and (max-width: 1014px) {
+    .faqs h1{
+        width: 90%;
+        font-size: 1.8rem;
+    }
+}

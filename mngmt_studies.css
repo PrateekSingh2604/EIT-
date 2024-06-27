@@ -1,9 +1,9 @@
-
-.img{
+.img {
     background: url("/img/Department/management/bba-img.jpg");
     background-size: cover;
 }
-.nav{
+
+.nav {
     width: 99vw;
 }
 
@@ -16,7 +16,8 @@
 }
 
 .image-container {
-    flex: 1 1 50%; /* flex-grow, flex-shrink, flex-basis */
+    flex: 1 1 50%;
+    /* flex-grow, flex-shrink, flex-basis */
     max-width: 30%;
 }
 
@@ -34,8 +35,10 @@
     font-size: 1.2rem;
 }
 
-@media (max-width: 768px) {
-    .image-container, .text-content {
+@media (max-width: 1014px) {
+
+    .image-container,
+    .text-content {
         flex: 1 1 100%;
         max-width: 100%;
     }
@@ -43,6 +46,12 @@
     .text-content {
         padding: 10px;
     }
+
+    .image-container img {
+        width: 70%;
+        margin: auto;
+    }
+    .nav{
+        width: 95%;
+    }
 }
-
-
