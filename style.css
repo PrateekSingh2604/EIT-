@@ -1327,7 +1327,10 @@ body {
   transition: all 0.5s;
 
 }
-
+.club-details button a{
+  text-decoration: none;
+  color: white;
+}
 .club-details button:active {
   transform: scale(0.9);
 }
