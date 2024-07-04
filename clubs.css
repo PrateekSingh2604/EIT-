@@ -3,6 +3,10 @@
     padding: 0;
     /* box-sizing: border-box; */
 }
+.sankalp{
+    height: 20px;
+    background-color: red;
+}
 .timeline{
     background-color: rgba(47, 0, 255, 0);
     position:absolute;
@@ -32,9 +36,11 @@
 }
 .left-contain{
     left: 0;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .right-contain{
     left: 50%;
-    margin-right: 50px;
+}
+.container img{
+    /* height: 50px; */
 }
