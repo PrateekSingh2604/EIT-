@@ -2,11 +2,9 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    /* box-sizing: border-box; */
 }
 #sankalp{
     height: 20px;
-    /* background-color: red; */
 }
 .sankalp{
     margin-top: 100px;
@@ -37,12 +35,8 @@
 }
 .samatva-club{
     /* border: 2px solid blue; */
-    height: 40vh;
+    height: 50vh;
     width: 90%;
-    background-image: url(/img/clubs/Samatva.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     /* border-radius: 10%; */
     margin-left: 13px;
     margin-top: 10px;
@@ -51,7 +45,9 @@
 }
 .samatva-club h1{
     text-align: center;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 2rem;
+
 }
 #ElectronicsRobotics-club{
     height: 55vh;
