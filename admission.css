@@ -1,18 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
-}
-.main-box{
     width: 100%;
-    height: 1000px;
-    border: 2px solid red;
+  }
+
+  .img{
+    background: url("/img/Admission/Reception.png");
+    background-size: cover;
 }
-.main-box1{
-    /* margin: auto; */
-    /* margin-left: 15px;
-    margin-right: 5px;
-    margin-top: 95px; */
-    height: 20vh;
-    background-color: yellow;
+.admiss{
+    height: 16vh;
 }
