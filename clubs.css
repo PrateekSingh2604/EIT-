@@ -8,13 +8,22 @@
   font-style: normal;
 }
 #sankalp {
-  height: 20px;
+  height: 5px;
 }
 .sankalp {
+  height: 300px;
   margin-top: 100px;
-  width: 100%;
+  width: 80%;
   display: flex;
+  flex-direction:row;
   justify-content: center;
+  /* border: 2px solid green; */
+}
+.imgdetails{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 .sankalp h1 {
     font-size: 3rem;
@@ -26,18 +35,23 @@
   width: 100%;
   margin: 5px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+}
+.club-box1 {
+  height: 60vh;
   margin: auto;
-  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: orange; */
 }
-.club-boxes div{
-  margin: 10px;
-}
-#clubs {
-  height: max-content;
+#samatva-club {
+  height: 55vh;
   background-color: yellow;
+
   box-shadow: inset 2px 2px 12px 6px rgba(0, 0, 0, 0.417);
-  width: 300px;
+  width: 23%;
 }
 .row1 {
   /* border: 2px solid blue; */
@@ -48,7 +62,6 @@
   margin-top: 10px;
   display: flex;
   flex-direction: column;
-
   text-align: center;
 }
 .row1 img {
@@ -64,14 +77,38 @@
 .row1 p {
   margin-top: 10px;
 }
-
+#ElectronicsRobotics-club {
+  height: 55vh;
+  background-color: yellow;
+  box-shadow: inset 2px 2px 12px 6px rgba(0, 0, 0, 0.417);
+  width: 23%;
+}
 .ElectronicsRobotics-club h1{
     /* margin-top: -10px; */
     font-weight: bold ;
     font-size: 1.6rem;
 }
+#bigdata-club {
+  height: 55vh;
+  background-color: yellow;
+  box-shadow: inset 2px 2px 12px 6px rgba(0, 0, 0, 0.417);
+  width: 23%;
+}
+#kshitij-club {
+  height: 55vh;
+  background-color: yellow;
+  box-shadow: inset 2px 2px 12px 6px rgba(0, 0, 0, 0.417);
+  width: 23%;
+}
 
-
+.club-box2 {
+  height: 60vh;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
 .row2 {
   /* border: 2px solid blue; */
   height: 300px;
@@ -81,7 +118,6 @@
   margin-top: 10px;
   display: flex;
   flex-direction: column;
-
   text-align: center;
 }
 .row2 img {
@@ -97,12 +133,42 @@
 .row2 p {
   margin-top: 10px;
 }
+#RasoVaisa-club {
+  height: 55vh;
+  background-color: yellow;
+  box-shadow: inset 2px 2px 12px 6px rgba(0, 0, 0, 0.417);
+  width: 23%;
+}
+#science-club {
+  height: 55vh;
+  background-color: yellow;
+  box-shadow: inset 2px 2px 12px 6px rgba(0, 0, 0, 0.417);
+  width: 23%;
+}
+#sports-club {
+  height: 55vh;
+  background-color: yellow;         
+  box-shadow: inset 2px 2px 12px 6px rgba(0, 0, 0, 0.417);
+  width: 23%;
+}
+#gdsc-club {
+  height: 55vh;
+  background-color: yellow;
+  box-shadow: inset 2px 2px 12px 6px rgba(0, 0, 0, 0.417);
+  width: 23%;
+}
 
-
-
+.club-box3 {
+  height: 60vh;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
 .row3 {
   /* border: 2px solid blue; */
-  height: 300px;
+  height: 50vh;
   width: 90%;
   /* border-radius: 10%; */
   margin-left: 13px;
@@ -124,6 +190,30 @@
 }
 .row3 p {
   margin-top: 10px;
+}
+#Photography-club {
+  height: 55vh;
+  background-color: yellow;
+  box-shadow: inset 2px 2px 12px 6px rgba(0, 0, 0, 0.417);
+  width: 23%;
+}
+#OpenSource-club {
+  height: 55vh;
+  background-color: yellow;
+  box-shadow: inset 2px 2px 12px 6px rgba(0, 0, 0, 0.417);
+  width: 23%;
+}
+#CarpeDiem-club {
+  height: 55vh;
+  background-color: yellow;
+  box-shadow: inset 2px 2px 12px 6px rgba(0, 0, 0, 0.417);
+  width: 23%;
+}
+#SocialMedia-club {
+  height: 55vh;
+  background-color: yellow;
+  box-shadow: inset 2px 2px 12px 6px rgba(0, 0, 0, 0.417);
+  width: 23%;
 }
 
 @media screen and (max-width: 1014px) {
