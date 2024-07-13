@@ -11,3 +11,68 @@
 .admiss{
     height: 16vh;
 }
+.admission-main{
+  width: 100%;
+  height: 500px;
+  display:flex;
+  flex-direction: column;
+}
+.admission-image{
+  height: 400px;
+  width: 100%;
+  background-image: url(/img/Admission/admission-page.png);
+  background-size: cover;
+}
+.admission-detail{
+  height: 60px;
+  width: 80vw;
+  margin: auto;
+}
+.admission-detail p{
+  margin: 5px;
+  text-align: center;
+  border: 2px solid black;
+  font-size: 1.2rem;
+  
+}
+
+.admission-timeline{
+  margin: auto;
+  height: 550px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.admission-timeline h1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.timeline{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 220px;
+}
+.attempt{
+  height: 100%;
+  width: 30%;
+  background-color: rgba(255, 255, 0, 0.375);
+}
+#no{
+  margin: auto;
+  margin-top: 10px;
+  height: 30px;
+  border: 4px solid #410909;
+  width: 30px;
+  border-radius: 10%;
+}
+#no h2{
+  font-weight: bold;
+  color: #410909;
+}
+.attempt h3, p{
+  margin-top: 10px;
+}
