@@ -55,6 +55,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   height: 220px;
+  margin-bottom: 10px;
 }
 .attempt{
   height: 100%;
@@ -75,4 +76,12 @@
 }
 .attempt h3, p{
   margin-top: 10px;
+}
+.drop-your-name1{
+  margin-top: 15px;
+}
+.pre-foot{
+  margin: auto;
+  width: 100%;
+  border: 2px solid rebeccapurple;
 }

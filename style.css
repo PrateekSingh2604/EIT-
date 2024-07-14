@@ -1371,31 +1371,29 @@ body {
 }
 
 /* Map */
-.pre-footer {
-  height: 90vh;
-
-}
-
-.map {
-  height: 90vh;
+.pre-footer{
+  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  background-color: #53371E;
 }
-
-.map iframe {
-  width: 100vw;
+.eit-map{
+  height: 10vh;
+  background-color: #352607;
+  text-align: center;
 }
+.eit-map h1{
+  color: wheat;
 
-.map h1 {
-  color: white;
-  margin-bottom: 20px;
 }
-
+.map-location{
+  height: 90vh;
+  width: 100%;
+}
+.map-location iframe{
+  width: 100%;
+  height: 100%;
+}
 /* Footer */
 footer {
   height: max-content;
