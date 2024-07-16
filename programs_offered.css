@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.program-top{
+    background-color: red;
+    height: 16vh;
+}
+.main-program{
+    height: 75vh;
+    background-color: black;
+    background-image: url(/img/desk.jpg);
+    background-size: cover;
+}
+.main-program h1{
+    color: white;
+    text-align: center;
+    padding-top: 30vh;
+    font-size: 4rem;
+    text-shadow: 3px 3px 2px black;
+}
+.programs-slogan{
+    margin: auto;
+    margin-top: 10px;
+    height: 5vh;
+    width: 70vw;
+    border: 2px solid black; 
+    text-align: center;
+}
+.UG-programme{
+    margin: auto;
+    height: 50vh;
+    width: 80vw;
+    margin-top: 10px;
+    /* border: 2px solid red; */
+}
+.PG-programme{
+    margin: auto;
+    height: 60vh;
+    width: 80vw;
+    border-top: 2px solid rgba(0, 0, 0, 0.33);
+} 
+.of-headings{
+    height: 5vh;
+    /* margin-top: 10px; */
+}
+.UG-heading h1{
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.6rem;
+    text-align: center; 
+}
+.PG-heading h1{
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.6rem;
+    text-align: center; 
+}
