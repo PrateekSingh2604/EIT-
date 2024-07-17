@@ -604,6 +604,7 @@ body {
   background-color: #fcf4c9;
   transform: translateY(100px);
   display: none;
+  margin-bottom: 10px;
   opacity: 0;
   transition: all 0.5s linear;
 
@@ -1175,7 +1176,7 @@ body {
 /* Campuslife */
 .campus-life {
   background-color: #381207;
-  height: 120vh;
+  height: 125vh;
   width: 100%;
   display: none;
   transform: translateY(100px);
@@ -1267,15 +1268,21 @@ body {
 /* clubs */
 .eit-clubs {
   height: max-content;
+  margin: auto;
+  height: 100vh;
   width: 100%;
   display: flex;
-  margin: 10px;
-  flex-wrap: wrap;
+  flex-direction: row;
+  /* margin: 10px; */
   justify-content: center;
+  background-image: url(/img/clubs/club-back.png);
+  background-size: cover;
 }
 
 .club-img {
-  height: 100%;
+  /* background-color: red; */
+  margin: auto;
+  height: 80vh;
   width: 45%;
   display: flex;
   justify-content: center;
@@ -1284,8 +1291,8 @@ body {
 
 .club-img img {
   height: 80vh;
-  width: 70%;
-  border-radius: 40%;
+  width: 90%;
+  /* border-radius: 40%; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.616), 0 6px 20px 0 rgba(0, 0, 0, 0.781);
 
 }
@@ -1307,14 +1314,21 @@ body {
   color: #381207;
   display: flex;
   justify-content: center;
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
 }
 
 #club-info {
-  width: 90%;
+  height: 65vh;
+  width: 100%;
+  border-radius: 10%;
+  background-color: rgba(0, 0, 0, 0.403);
 }
 
 #club-info p {
-  text-align: justify;
+  margin-top: 40px;
+  width: 95%;
+  text-align: center;
+  color: white;
 }
 
 .club-details button {
@@ -1371,31 +1385,29 @@ body {
 }
 
 /* Map */
-.pre-footer {
-  height: 90vh;
-
-}
-
-.map {
-  height: 90vh;
+.pre-footer{
+  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  background-color: #53371E;
 }
-
-.map iframe {
-  width: 100vw;
+.eit-map{
+  height: 10vh;
+  background-color: #352607;
+  text-align: center;
 }
+.eit-map h1{
+  color: wheat;
 
-.map h1 {
-  color: white;
-  margin-bottom: 20px;
 }
-
+.map-location{
+  height: 90vh;
+  width: 100%;
+}
+.map-location iframe{
+  width: 100%;
+  height: 100%;
+}
 /* Footer */
 footer {
   height: max-content;
