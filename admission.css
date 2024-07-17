@@ -17,16 +17,14 @@
   display:flex;
   flex-direction: column;
 }
-.admission-image{
-  height: 400px;
-  width: 100%;
+.front{
   background-image: url(/img/Admission/admission-page.png);
-  background-size: cover;
 }
 .admission-detail{
-  height: 60px;
+  height: max-content;
   width: 80vw;
   margin: auto;
+  margin-top: 50px;
 }
 .admission-detail p{
   margin: 5px;
@@ -38,7 +36,7 @@
 
 .admission-timeline{
   margin: auto;
-  height: 550px;
+  height: max-content;
   width: 70%;
   display: flex;
   flex-direction: column;
@@ -53,14 +51,16 @@
 .timeline{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
-  height: 220px;
+  height: max-content;
   margin-bottom: 10px;
 }
 .attempt{
-  height: 100%;
-  width: 30%;
+  height: 200px;
+  width: 250px;
   background-color: rgba(255, 255, 0, 0.375);
+  margin: 10px;
 }
 #no{
   margin: auto;
@@ -84,4 +84,9 @@
   margin: auto;
   width: 100%;
   border: 2px solid rebeccapurple;
+}
+@media screen and (max-width: 1014px) {
+  .front{
+    height: 300px !important;
+  }
 }

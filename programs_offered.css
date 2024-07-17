@@ -6,9 +6,8 @@
     background-color: red;
     height: 16vh;
 }
-.main-program{
+.front{
     height: 75vh;
-    background-color: black;
     background-image: url(/img/desk.jpg);
     background-size: cover;
 }
@@ -22,21 +21,20 @@
 .programs-slogan{
     margin: auto;
     margin-top: 10px;
-    height: 5vh;
+    height: max-content;
     width: 70vw;
     border: 2px solid black; 
     text-align: center;
 }
 .UG-programme{
     margin: auto;
-    height: 50vh;
+    height: max-content;
     width: 80vw;
     margin-top: 10px;
-    /* border: 2px solid red; */
 }
 .PG-programme{
     margin: auto;
-    height: 60vh;
+    height: max-content;
     width: 80vw;
     border-top: 2px solid rgba(0, 0, 0, 0.33);
 } 
@@ -48,11 +46,28 @@
     font-weight: 400;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2.6rem;
-    text-align: center; 
+    text-align: center;
 }
 .PG-heading h1{
     font-weight: 400;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2.6rem;
     text-align: center; 
+}
+
+@media screen and (max-width: 1014px){
+    .UG-heading h1{
+        font-size: 2rem;
+    }
+    .PG-heading h1{
+        font-size: 2rem;
+    }
+    .accordion-item button{
+        height: 80px;
+    }
+    .front{
+        height: 300px !important;
+        display: flex;
+        align-items: center;
+    }
 }
