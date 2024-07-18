@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.overview-top{
+    height: 5vh;
+}
+.front{
+    height: 90vh;
+    background-image: url(/img/desk.jpg);
+    background-size: cover;
+}
+.overview-details{
+    margin: auto;
+    width: 80%;
+    line-height: 25px;
+}
+.overview-details li,b{
+    list-style-type: decimal;
+    color: black;
+    font-weight: bold;
+}
+.overview-buttons{
+    margin: auto;
+    height: 29vh;
+    width: 80%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.brow1{
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.brow1 button{
+    width: 30%;
+    border: none;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.424);
+    background-color:#5a1907;
+}
+.brow1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+.brow1 button:active {
+    transform: scale(0.9);
+}
