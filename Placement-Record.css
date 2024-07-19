@@ -4,9 +4,10 @@
 }
 .Eit-proud{
     text-align: center;
-    height: 100vh;
+    height: 90vh;
     width: 80%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    box-shadow: 1px 1px 2px 3px rgba(0, 0, 0, 0.411);
     margin: auto;
     margin-top: 40px;
 }
@@ -16,11 +17,26 @@
     justify-content: center;
     margin-top: 50px;
     height: 60vh;
-    border: 2px solid black;
 }
 .carousel3 #stdts-list, .carousel4 #stdts-list {
-    height: 200px;
+    height: 250px;
   }
-
-#stdts-list img{
+.PR-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+.PR-head svg{
+    margin-top: 5px;
+    background-color:#fcf4c9;
+    fill: #caac00;
+    height: 50px;
+}
+.PR-head h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #253039, #feb47b,#253039);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
