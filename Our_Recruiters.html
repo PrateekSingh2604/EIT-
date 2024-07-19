@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="director.css">
     <link rel="stylesheet" href="Our_Recruiters.css">
     <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="overview.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 </head>
 
@@ -210,39 +211,176 @@
             </div>
         </div>
     </div>
-    <div class="eit-recruiters"></div>
+    <div class="overview-top">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="5vh">
+            <path
+                d="M289.6 97.5l31.6 31.7-76.3 76.5V97.5zm-162.4 31.7l76.3 76.5V97.5h-44.7zm41.5-41.6h44.7v127.9l10.8 10.8 10.8-10.8V87.6h44.7L224.2 32zm26.2 168.1l-10.8-10.8H55.5v-44.8L0 255.7l55.5 55.6v-44.8h128.6l10.8-10.8zm79.3-20.7h107.9v-44.8l-31.6-31.7zm173.3 20.7L392 200.1v44.8H264.3l-10.8 10.8 10.8 10.8H392v44.8l55.5-55.6zM65.4 176.2l32.5-31.7 90.3 90.5h15.3v-15.3l-90.3-90.5 31.6-31.7H65.4zm316.7-78.7h-78.5l31.6 31.7-90.3 90.5V235h15.3l90.3-90.5 31.6 31.7zM203.5 413.9V305.8l-76.3 76.5 31.6 31.7h44.7zM65.4 235h108.8l-76.3-76.5-32.5 31.7zm316.7 100.2l-31.6 31.7-90.3-90.5h-15.3v15.3l90.3 90.5-31.6 31.7h78.5zm0-58.8H274.2l76.3 76.5 31.6-31.7zm-60.9 105.8l-76.3-76.5v108.1h44.7zM97.9 352.9l76.3-76.5H65.4v44.8zm181.8 70.9H235V295.9l-10.8-10.8-10.8 10.8v127.9h-44.7l55.5 55.6zm-166.5-41.6l90.3-90.5v-15.3h-15.3l-90.3 90.5-32.5-31.7v78.7h79.4z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="5vh">
+            <path
+                d="M289.6 97.5l31.6 31.7-76.3 76.5V97.5zm-162.4 31.7l76.3 76.5V97.5h-44.7zm41.5-41.6h44.7v127.9l10.8 10.8 10.8-10.8V87.6h44.7L224.2 32zm26.2 168.1l-10.8-10.8H55.5v-44.8L0 255.7l55.5 55.6v-44.8h128.6l10.8-10.8zm79.3-20.7h107.9v-44.8l-31.6-31.7zm173.3 20.7L392 200.1v44.8H264.3l-10.8 10.8 10.8 10.8H392v44.8l55.5-55.6zM65.4 176.2l32.5-31.7 90.3 90.5h15.3v-15.3l-90.3-90.5 31.6-31.7H65.4zm316.7-78.7h-78.5l31.6 31.7-90.3 90.5V235h15.3l90.3-90.5 31.6 31.7zM203.5 413.9V305.8l-76.3 76.5 31.6 31.7h44.7zM65.4 235h108.8l-76.3-76.5-32.5 31.7zm316.7 100.2l-31.6 31.7-90.3-90.5h-15.3v15.3l90.3 90.5-31.6 31.7h78.5zm0-58.8H274.2l76.3 76.5 31.6-31.7zm-60.9 105.8l-76.3-76.5v108.1h44.7zM97.9 352.9l76.3-76.5H65.4v44.8zm181.8 70.9H235V295.9l-10.8-10.8-10.8 10.8v127.9h-44.7l55.5 55.6zm-166.5-41.6l90.3-90.5v-15.3h-15.3l-90.3 90.5-32.5-31.7v78.7h79.4z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="5vh">
+            <path
+                d="M289.6 97.5l31.6 31.7-76.3 76.5V97.5zm-162.4 31.7l76.3 76.5V97.5h-44.7zm41.5-41.6h44.7v127.9l10.8 10.8 10.8-10.8V87.6h44.7L224.2 32zm26.2 168.1l-10.8-10.8H55.5v-44.8L0 255.7l55.5 55.6v-44.8h128.6l10.8-10.8zm79.3-20.7h107.9v-44.8l-31.6-31.7zm173.3 20.7L392 200.1v44.8H264.3l-10.8 10.8 10.8 10.8H392v44.8l55.5-55.6zM65.4 176.2l32.5-31.7 90.3 90.5h15.3v-15.3l-90.3-90.5 31.6-31.7H65.4zm316.7-78.7h-78.5l31.6 31.7-90.3 90.5V235h15.3l90.3-90.5 31.6 31.7zM203.5 413.9V305.8l-76.3 76.5 31.6 31.7h44.7zM65.4 235h108.8l-76.3-76.5-32.5 31.7zm316.7 100.2l-31.6 31.7-90.3-90.5h-15.3v15.3l90.3 90.5-31.6 31.7h78.5zm0-58.8H274.2l76.3 76.5 31.6-31.7zm-60.9 105.8l-76.3-76.5v108.1h44.7zM97.9 352.9l76.3-76.5H65.4v44.8zm181.8 70.9H235V295.9l-10.8-10.8-10.8 10.8v127.9h-44.7l55.5 55.6zm-166.5-41.6l90.3-90.5v-15.3h-15.3l-90.3 90.5-32.5-31.7v78.7h79.4z" />
+        </svg>
+    </div>
     <div class="top-recruiters">
         <h1>Our Top Recruiters</h1>
         <div class="wrapper4">
             <i id="left4" class="fa-solid fa-angle-left"></i>
             <ul class="carousel4">
                 <li class="card">
-                    <div class="img" id="stdts-list"><img src="./img/Placement-Record/Students/Aniket-Kaushik.png"
-                            alt="img" draggable="false"></div>
+                    <div class="img" id="stdts-list"><img src="./Placement/ashiana.jpg" alt="img" draggable="false">
+                    </div>
                 </li>
                 <li class="card">
-                    <div class="img" id="stdts-list"><img src="./img/Placement-Record/Students/Aniket-Kaushik.png"
-                            alt="img" draggable="false"></div>
+                    <div class="img" id="stdts-list"><img src="./Placement/Carrier.jpg" alt="img" draggable="false">
                 </li>
                 <li class="card">
-                    <div class="img" id="stdts-list"><img src="./img/Placement-Record/Students/Aniket-Kaushik.png"
-                            alt="img" draggable="false"></div>
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/Contaque1.jpg" alt="img" draggable="false">
+                    </div>
                 </li>
                 <li class="card">
-                    <div class="img" id="stdts-list"><img src="./img/Placement-Record/Students/Aniket-Kaushik.png"
-                            alt="img" draggable="false"></div>
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/dxc.jpg" alt="img" draggable="false">
+                    </div>
                 </li>
                 <li class="card">
-                    <div class="img" id="stdts-list"><img src="./img/Placement-Record/Students/Aniket-Kaushik.png"
-                            alt="img" draggable="false"></div>
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/erd.jpg" alt="img" draggable="false">
+                    </div>
                 </li>
-
+                <li class="card">
+                    <div class="img" id="stdts-list"><img src="./Placement/emerson.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/escorts.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/executive.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/Go Daddy.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/hp.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/Infosis.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/JCB.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/JP Morgan.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/Legato.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/loophealth.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/NIIT.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/oati.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/panasonic.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/Paytm.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/Petrocon.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/rr.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/Samsung.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img" id="stdts-list"><img src="./Placement/Senra.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/smcreative.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/sony.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/Tech Mahindra.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/TCS.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/techbit.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/Toshiba.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img" id="stdts-list">
+                        <img src="./Placement/toubro.jpg" alt="img" draggable="false">
+                    </div>
+                </li>
             </ul>
             <i id="right4" class="fa-solid fa-angle-right"></i>
         </div>
     </div>
 
-    
+
     <div class="eit-recruiter-list">
         <table>
             <thead>
@@ -289,7 +427,7 @@
                     <td>Nagarro</td>
                 </tr>
                 <tr>
-                    <td>American Express  </td>
+                    <td>American Express </td>
                     <td>Adzealous Media</td>
                     <td>Sanden Vikas</td>
                 </tr>
@@ -334,115 +472,115 @@
                     <td>Techcrumb</td>
                 </tr>
                 <tr>
-                    <td>Beryl Systems	</td>
-                    <td>Orange Business	
+                    <td>Beryl Systems </td>
+                    <td>Orange Business
                     </td>
                     <td>Yatharthriti IT Services Pvt. Ltd</td>
                 </tr>
                 <tr>
                     <td>Squareyards</td>
-                    <td>	Google /Ventura	</td>
+                    <td> Google /Ventura </td>
                     <td>PayTM Services</td>
                 </tr>
                 <tr>
-                    <td>INDIAMART	</td>
-                    <td>Topsoe	</td>
+                    <td>INDIAMART </td>
+                    <td>Topsoe </td>
                     <td>Manacle Technologies</td>
                 </tr>
                 <tr>
                     <td>
-                        Google	</td>
-                    <td>OLA Electric	</td>
+                        Google </td>
+                    <td>OLA Electric </td>
                     <td>Talbros</td>
                 </tr>
                 <tr>
                     <td>
-                        Vaco Binary	
-                        </td>
-                    <td>Optipheonix	</td>
+                        Vaco Binary
+                    </td>
+                    <td>Optipheonix </td>
                     <td>Global Auto Tech</td>
                 </tr>
                 <tr>
-                    <td>GlocalRPO	</td>
-                    <td>Zunsolar	
+                    <td>GlocalRPO </td>
+                    <td>Zunsolar
                     </td>
                     <td>Sterling tools</td>
                 </tr>
                 <tr>
-                    <td>Mantech	
-                       </td>
-                    <td>Big Oh	</td>
+                    <td>Mantech
+                    </td>
+                    <td>Big Oh </td>
                     <td>Aluflex</td>
                 </tr>
                 <tr>
-                    <td> Yuva Engineers	
-                        </td>
-                    <td>IT DOSE	</td>
+                    <td> Yuva Engineers
+                    </td>
+                    <td>IT DOSE </td>
                     <td>High Clouds</td>
                 </tr>
                 <tr>
-                    <td>Disposafe	
-                        </td>
-                    <td>TTN	</td>
+                    <td>Disposafe
+                    </td>
+                    <td>TTN </td>
                     <td>Technoweld</td>
                 </tr>
                 <tr>
-                    <td>Global Auto Tech (2 notices)	</td>
-                    <td>Nemko	</td>
+                    <td>Global Auto Tech (2 notices) </td>
+                    <td>Nemko </td>
                     <td>Hitachi Asterno</td>
                 </tr>
                 <tr>
-                    <td>Moglix	
-                        </td>
-                    <td>Techcrumb (TLC) OFFLINE	</td>
+                    <td>Moglix
+                    </td>
+                    <td>Techcrumb (TLC) OFFLINE </td>
                     <td>BLW Engines Valve Pvt Ltd</td>
                 </tr>
                 <tr>
-                    <td>BSL Engineering	
-                        </td>
-                    <td>Leeway Hertz	</td>
+                    <td>BSL Engineering
+                    </td>
+                    <td>Leeway Hertz </td>
                     <td>Inter Globe Technologies (Part of INDIGO Airlines)</td>
                 </tr>
                 <tr>
-                    <td>Rocket Media Technologies	
-                        </td>
-                    <td>Toppr	</td>
+                    <td>Rocket Media Technologies
+                    </td>
+                    <td>Toppr </td>
                     <td>Emdet Jamshedpur Pvt Ltd</td>
                 </tr>
                 <tr>
-                    <td>HP	
-                        </td>
-                    <td>Guardian	</td>
+                    <td>HP
+                    </td>
+                    <td>Guardian </td>
                     <td>Harris Power Tronics</td>
                 </tr>
                 <tr>
-                    <td>Adda247	
-                        </td>
-                    <td>Seabird Logistics	</td>
+                    <td>Adda247
+                    </td>
+                    <td>Seabird Logistics </td>
                     <td>Vacmet India</td>
                 </tr>
                 <tr>
-                    <td>PC Solutions Pvt Ltd	
-                        </td>
-                    <td>Miceilo	</td>
+                    <td>PC Solutions Pvt Ltd
+                    </td>
+                    <td>Miceilo </td>
                     <td>Beryal Systems Pvt. Ltd</td>
                 </tr>
                 <tr>
-                    <td>AI Alchemy	
-                        </td>
-                    <td>Sovitron Interiors Pvt Ltd.	</td>
+                    <td>AI Alchemy
+                    </td>
+                    <td>Sovitron Interiors Pvt Ltd. </td>
                     <td>Vaishno Calibration Services</td>
                 </tr>
                 <tr>
-                    <td>Asahi Glass India	
-                        </td>
-                    <td>ValueCoders	</td>
+                    <td>Asahi Glass India
+                    </td>
+                    <td>ValueCoders </td>
                     <td>EXPO Machine Tools Pvt. Ltd</td>
                 </tr>
                 <tr>
-                    <td>SHRISTI Consultants	
-                        </td>
-                    <td>Manikaran Power Ltd	</td>
+                    <td>SHRISTI Consultants
+                    </td>
+                    <td>Manikaran Power Ltd </td>
                     <td>E-Ashwa Industry Pvt.ltd</td>
                 </tr>
                 <!-- <tr>
@@ -818,7 +956,7 @@
             let isDragging = false, isAutoPlay = true, startX, startScrollLeft, timeoutId;
 
             let cardPerView = Math.round(carousel.offsetWidth / firstCardWidth);
-            
+
             carouselChildrens.slice(-cardPerView).reverse().forEach(card => {
                 carousel.insertAdjacentHTML("afterbegin", card.outerHTML);
             });
@@ -845,7 +983,7 @@
             }
 
             const dragging = (e) => {
-                if (!isDragging) return; 
+                if (!isDragging) return;
                 carousel.scrollLeft = startScrollLeft - (e.pageX - startX);
             }
 
@@ -871,7 +1009,7 @@
             }
 
             const autoPlay = () => {
-                if (window.innerWidth < 800 || !isAutoPlay) return; 
+                if (window.innerWidth < 800 || !isAutoPlay) return;
                 timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 2500);
             }
             autoPlay();
