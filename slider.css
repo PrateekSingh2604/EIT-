@@ -93,11 +93,21 @@
   justify-content: center;
   align-items: center;
 }
-.carousel1 .card,.carousel2 .card, .carousel3 .card, .carousel4 .card {
+.carousel1 .card,.carousel2 .card {
   scroll-snap-align: start;
   height: 342px;
   list-style: none;
   background: #fff;
+  cursor: pointer;
+  padding-bottom: 15px;
+  flex-direction: column;
+  border-radius: 8px;
+}
+.carousel3 .card, .carousel4 .card{
+  scroll-snap-align: start;
+  height: 342px;
+  list-style: none;
+  background: none;
   cursor: pointer;
   padding-bottom: 15px;
   flex-direction: column;

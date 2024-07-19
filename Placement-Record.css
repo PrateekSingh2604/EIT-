@@ -21,22 +21,3 @@
 .carousel3 #stdts-list, .carousel4 #stdts-list {
     height: 250px;
   }
-.PR-head{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: auto;
-}
-.PR-head svg{
-    margin-top: 5px;
-    background-color:#fcf4c9;
-    fill: #caac00;
-    height: 50px;
-}
-.PR-head h1{
-    font-size: 2.5rem;
-    font-weight: bold;
-    background: linear-gradient(to right, #253039, #feb47b,#253039);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
