@@ -21,3 +21,7 @@
 .carousel3 #stdts-list, .carousel4 #stdts-list {
     height: 250px;
   }
+.card .img img{
+    width: 300px !important;
+    height: 300px !important;
+}
