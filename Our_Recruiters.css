@@ -7,22 +7,74 @@
     background-image: url(/img/desk.jpg);
     background-size: cover;
 }
+.top-recruiters{
+    /* border: 2px solid black; */
+    box-shadow: 0px 1px 3px 3px rgba(0, 0, 0, 0.349);
+    margin: auto;
+    height: 60vh;
+    width: 70%;
+    margin-bottom: 50px;
+    margin-top: 28px;
+}
+.top-recruiters h1{
+    margin-top: 10px;
+    text-align: center;
+    color: chartreuse;
+    text-shadow: 2px 2px 2px rgba(1, 43, 1, 0.767);
+    font-size: 2.8rem;
+}
+
+
 .eit-recruiters{
     height: 5vh;
 }
 .eit-recruiter-list{
-    border-collapse: collapse;
     margin: auto;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 80%;
-    height: 200vh;
+    height: 240vh;
 }
 .eit-recruiter-list table{
+    background-color: rgba(0, 0, 0, 0.103);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.404);
     width: 100%;
-    border: 2px solid black;
     text-align: center;
 }
 .eit-recruiter-list thead{
     height: 10vh;
     border: 2px solid rgba(0, 0, 0, 0.872);
+    background-color: rgba(127, 240, 255, 0.599);
 }
+.eit-recruiter-list td{
+    line-height: 30px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.395);
+}
+
+th, td {
+    width: 33.33%; /* Set to 100 / number of columns */
+}
+
+.recruiters-button{
+    margin: auto;
+    height: 10vh;
+    width: 80%;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.recruiters-button button{
+    height: 10vh;
+    width: 28%;
+    background-color: #5a1907;
+}
+.recruiters-button a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+}
+.recruiters-button button:active {
+    transform: scale(0.8);
+  }
+  

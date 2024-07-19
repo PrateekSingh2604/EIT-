@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.front{
+    height: 90vh;
+    background-image: url(/img/desk.jpg);
+    background-size: cover;
+}
+.training-top{
+    height: 8vh;
+}
