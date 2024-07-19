@@ -92,6 +92,7 @@ function initializeCarousel(wrapperSelector, carouselSelector, leftArrowSelector
 document.addEventListener('DOMContentLoaded', function () {
     initializeCarousel(".wrapper1", ".carousel1", "left1", ".wrapper1 i");
     initializeCarousel(".wrapper2", ".carousel2", "left2", ".wrapper2 i");
+    initializeCarousel(".wrapper3", ".carousel3", "left3", ".wrapper3 i");
 });
 
 

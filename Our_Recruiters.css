@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.front{
+    height: 90vh;
+    background-image: url(/img/desk.jpg);
+    background-size: cover;
+}
+.eit-recruiters{
+    height: 5vh;
+}
+.eit-recruiter-list{
+    border-collapse: collapse;
+    margin: auto;
+    border: 2px solid black;
+    width: 80%;
+    height: 200vh;
+}
+.eit-recruiter-list table{
+    width: 100%;
+    border: 2px solid black;
+    text-align: center;
+}
+.eit-recruiter-list thead{
+    height: 10vh;
+    border: 2px solid rgba(0, 0, 0, 0.872);
+}
