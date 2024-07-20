@@ -1,5 +1,5 @@
 .desk-img {
-  height: 80vh;
+  height: 90vh !important;
   background: url(/img/desk.JPG);
   background-size: cover;
   height: 80vh;
@@ -14,6 +14,9 @@
   text-align:end;
   padding-top: 30%;
   margin-right: 10px;
+}
+.director-top{
+  margin-top: 10px !important;
 }
 .director-msg{
   height: 90vh;
