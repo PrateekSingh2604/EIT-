@@ -20,7 +20,6 @@
     flex: 1 1 50%; /* flex-grow, flex-shrink, flex-basis */
     max-width: 30%;
 }
-
 .image-container img {
     width: 100%;
     height: auto;
