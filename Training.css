@@ -5,8 +5,11 @@
 
 .front{
     height: 90vh;
-    background-image: url(/img/desk.jpg);
+    background-image: url(/img/highlight/Training.jpg) !important;
     background-size: cover;
+}
+.training-name1 h1{
+    margin-top: 80px;
 }
 .training-top{
     margin: auto;
