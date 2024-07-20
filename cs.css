@@ -6,10 +6,20 @@
   padding-top: 6px;
 }
 .cs-front{
-  height: 80vh;
+  margin-top: 10vh;
+  height: 83vh;
   /* background-color: red; */
   background: url("/img/Department/computer-science/csmain-img.jpg");
   background-size: cover;
+}
+.cs-top{
+  margin: auto;
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  width: 10%;
 }
 .drop a svg {
   margin-top: 3px;

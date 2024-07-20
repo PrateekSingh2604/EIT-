@@ -2,13 +2,38 @@
     margin: 0;
     padding: 0;
 }
+.front{
+    height: 90vh;
+    background-image: url(/img/highlight/Placement.jpg) !important; 
+    background-size: cover;
+}
 .Eit-proud{
     text-align: center;
-    height: 100vh;
+    height: 90vh;
     width: 80%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    box-shadow: 1px 1px 2px 3px rgba(0, 0, 0, 0.411);
     margin: auto;
     margin-top: 40px;
+}
+.PR-head{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+}
+.PR-head h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    background: linear-gradient(to right,#253039, #ff7e5f, #253039);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.PR-head svg{
+    fill: orange;
+    margin-top: 5px;
+    height: 40px;
 }
 .wrapper3, .wrapper4{
     display: flex;
@@ -16,12 +41,14 @@
     justify-content: center;
     margin-top: 50px;
     height: 60vh;
-    border: 2px solid black;
 }
 .carousel3 #stdts-list, .carousel4 #stdts-list {
-    height: 200px;
+    height: 250px;
   }
 .card .img img{
     width: 300px !important;
     height: 300px !important;
+}
+.pr-btn{
+    margin-top: 20px;
 }

@@ -3,11 +3,6 @@
     padding: 0;
     width: 100%;
   }
-
-  .img{
-    background: url("/img/Admission/Reception.png");
-    background-size: cover;
-}
 .admiss{
     height: 16vh;
 }
@@ -17,8 +12,11 @@
   display:flex;
   flex-direction: column;
 }
+
 .front{
-  background-image: url(/img/Admission/admission-page.png);
+    height: 90vh;
+    background-image: url(/img/Admission/admission-page.png);
+    background-size: cover;
 }
 .admission-detail{
   height: max-content;

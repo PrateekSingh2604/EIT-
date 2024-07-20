@@ -26,6 +26,7 @@ body {
 }
 
 .front .name {
+  width: 100%;
   color: #ffffff;
   width: 99vw;
   display: grid;
@@ -1389,7 +1390,7 @@ footer {
   text-align: center;
   color: white;
   font-weight: bold;
-  height: 6vh;
+  height: 7vh;
   width: 50%;
   border-bottom: 2px solid rgb(115, 255, 0);
   text-shadow: 2px 2px 2px black;
@@ -1421,7 +1422,7 @@ h2 li:hover {
   width: 30%;
   padding-left: 15px;
   padding-top: 10px;
-  line-height: 1.8rem;
+  /* line-height: 1.8rem; */
 
 }
 
@@ -1441,16 +1442,23 @@ h2 li:hover {
 
 .downloads {
   height: 30%;
+  margin-top: 50px;
 }
 
 .column4 {
-  width: 20%;
+  width: 30%;
   display: flex;
   flex-direction: column;
 }
 
 .contactus {
   height: 40%;
+  /* margin-top: 50px; */
+}
+.bank-details{
+  
+  height: 30%;
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 1014px) {

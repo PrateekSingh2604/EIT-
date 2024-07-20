@@ -1,6 +1,6 @@
 .eit-front {
   height: 80vh;
-  background: url(/img/eitCampus.JPG);
+  background: url(/img/highlight/EIT-at-glance.png) !important;
   background-size: cover;
 }
 .eit-front .name1 {
@@ -14,14 +14,17 @@
   color: #fcf4c9;
   font-weight: bold;
 }
+.eit-glance-top{
+  margin-top: 20px !important;
+}
 .border-box h2 {
   color: #000000;
   margin: auto;
-  margin-top: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 7vh;
+  height: 10vh;
+  text-align: center;
   width: 80%;
   border: 2px solid rgb(31, 5, 5);
   box-shadow: 2px 2px 3px black;
