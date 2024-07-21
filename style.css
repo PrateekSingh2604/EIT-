@@ -126,18 +126,21 @@ body {
 
 .handles {
   position: fixed;
-  left: 15px;
+  left: -6px;
   bottom: 7px;
   z-index: 1;
+  height: 30vh;
+  background-color: wheat;
+  /* border-end-end-radius: 30%; */
 }
 
 .handles svg {
-  width: 45px;
-  height: 40px;
+  margin-left: 3px;
+  width: 35px;
+  height: 30px;
 }
 
 .download-brochure .fa-solid {
-  height: 250px;
   font-size: 2rem;
   color: #085531;
   text-shadow: 3px 3px 5px rgb(0, 0, 0);
@@ -177,18 +180,17 @@ body {
   align-items: end;
   justify-content: space-between;
   padding: 0px;
+  padding-bottom: 5px;
   border-bottom: 1px solid #632412;
   align-items: center;
   z-index: 1;
   position: fixed;
   width: 100%;
-  height: 30px;
-  top: 25px;
+  height: 35px;
+  top: 24px;
   background-color: #f0fd99;
   transition: top .3s ease;
 }
-
-
 .nav-cs {
   top: 0px;
 }
@@ -208,7 +210,7 @@ body {
 .nav-head a {
   text-decoration: none;
   color: #381207;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: bold;
   z-index: 1;
   padding-right: 0px;
@@ -219,6 +221,10 @@ body {
   z-index: 1;
 }
 
+
+.drop-nav{
+  height: 200px;
+}
 /* Nav Drop Down */
 /* About */
 .about {
@@ -271,7 +277,7 @@ body {
 }
 
 .about:hover .drop-about {
-  height: 90px;
+  height: 100px;
   border: none;
   z-index: 1;
 }
