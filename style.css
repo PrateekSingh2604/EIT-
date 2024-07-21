@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "Shippori Antique", sans-serif;
+  font-family: "Shippori Antique", sans-serif !important;
   font-weight: 400;
   font-style: normal;
   width: auto;
@@ -153,6 +153,7 @@ body {
   background-color: rgb(65, 9, 9);
   display: flex;
   justify-content: end;
+  align-items: center;
   position: fixed;
   top: 0px;
   z-index: 1;
@@ -163,7 +164,6 @@ body {
 .nav-top a {
   text-decoration: none;
   color: white;
-  padding-top: 7px;
   padding-right: 30px;
   font-size: 0.7rem;
 }
@@ -188,13 +188,13 @@ body {
   transition: top .3s ease;
 }
 
+
 .nav-cs {
   top: 0px;
 }
 
 .nav-head {
-  padding-bottom: 20px;
-  height: 0px;
+  height: 17px;
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -202,7 +202,9 @@ body {
   transition: all 1s;
   z-index: 1;
 }
-
+.nav-head div:nth-child(1) a, .nav-head div:nth-child(8) a, .nav-head div:nth-child(9) a, .nav-head div:nth-child(10) a{
+  display: flex;
+}
 .nav-head a {
   text-decoration: none;
   color: #381207;
@@ -220,7 +222,7 @@ body {
 /* Nav Drop Down */
 /* About */
 .about {
-  height: 50px;
+  height: 25px;
 }
 
 .about a {
