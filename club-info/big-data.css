@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.big-data-top{
+    height: 17vh;
+}
+
+
+.sub-clubfront{
+    margin: auto;
+    height: 80vh;
+    width: 99%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.sub-clubimg{
+    margin: 10px;
+    height: 98%;
+    width: 40%;
+    background-color: aquamarine;
+    background-image: url(../img/clubs/bigdata.png);
+    background-size: cover;
+    box-shadow: 2px 2px 4px 4px rgba(181, 109, 3, 0.443);
+}
