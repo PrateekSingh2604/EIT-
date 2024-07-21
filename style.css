@@ -277,7 +277,8 @@ body {
 
 .drop-about a:hover {
   width: 100%;
-  color: yellow;
+  color: rgb(149, 149, 7);
+  
 }
 
 /* .about-icon{
@@ -339,7 +340,7 @@ body {
 
 .drop-research a:hover {
   width: 100%;
-  color: yellow;
+  color: rgb(149, 149, 7);
 }
 
 
@@ -400,7 +401,7 @@ body {
 
 .drop-admission a:hover {
   width: 100%;
-  color: yellow;
+  color: rgb(149, 149, 7);
 }
 
 /* placement */
@@ -459,7 +460,7 @@ body {
 
 .drop-placement a:hover {
   width: 100%;
-  color: yellow;
+  color: rgb(149, 149, 7);
 }
 
 /* Department */
@@ -518,7 +519,7 @@ body {
 
 .drop-dept a:hover {
   width: 100%;
-  color: yellow;
+  color: rgb(149, 149, 7);
 }
 
 /* .drop-dept a:hover{
@@ -584,7 +585,7 @@ body {
 
 .drop-event a:hover {
   width: 100%;
-  color: yellow;
+  color: rgb(149, 149, 7);
 }
 
 .hamburger {
