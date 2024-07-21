@@ -3,10 +3,9 @@
   margin: 0;
 }
 .head{
-  padding-top: 6px;
+  padding-top: 0px;
 }
 .cs-front{
-  margin-top: 10vh;
   height: 83vh;
   /* background-color: red; */
   background: url("/img/Department/computer-science/csmain-img.jpg");
@@ -26,9 +25,6 @@
   margin-left: 4px;
 }
 
-.nav-head a, .drop-icon {
-  font-size: 1.1rem;
-}
 .text-content h1{
   text-align: center;
   border-bottom: 2px solid rgb(87, 39, 5);

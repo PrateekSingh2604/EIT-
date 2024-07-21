@@ -106,11 +106,11 @@ window.addEventListener('scroll', function() {
     let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
 
         if (currentScroll > lastScrollTop) {
-            header.style.top = "-40px";
+            header.style.top = "-25px";
             navbar.style.top = "0px";
         } else {
             header.style.top = "0px";
-            navbar.style.top = "40px";
+            navbar.style.top = "25px";
         }
 
         lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; 
