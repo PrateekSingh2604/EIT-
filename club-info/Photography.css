@@ -1,0 +1,11 @@
+#sub-clubinfo{
+    height: 25vh !important;
+}
+
+.photography-gallery{
+    margin-top: 30px;
+}
+
+.sub-clubimg{
+    background-image: url(/img/clubs/Photography_club/PhotoGraphy-front.jpg);
+}

@@ -1,42 +1,102 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.big-data-top{
-    height: 12vh;
+.big-data-top {
+  height: 13vh;
 }
-.sub-clubimg{
-    height: 76vh;
-    background-color: aqua;
+.sub-clubimg {
+  height: 85vh;
+  background-color: aqua;
+  background-image: url(/img/clubs/Big_Data/Big-Data-Hadoop.jpg);
+  background-size: cover;
+  box-shadow: 2px 2px 4px 4px #41090965;
 }
 
-.sub-clubfront{
-    margin: auto;
-    height: 86vh;
-    width: 99%;
+
+.sub-clubfront {
+  margin: auto;
+  height: 86vh;
+  width: 99%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.sub-clubdetails {
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 24vh;
+  position: relative;
+}
+.sub-clubdetails p {
+  font-size: 1.2rem;
+  margin: auto;
+  padding-top: 14px;
+  width: 99%;
+  margin-left: 15px;
+}
+
+#sub-clubinfo {
+  margin: auto;
+  background-color: rgba(165, 42, 42, 0.389);
+  border-radius: 10px;
+  height: 19vh;
+  width: 90%;
+  position: relative;
+}
+.sub-clubdetails img {
+  height: 30px;
+  width: 3%;
+  margin-top: 4px;
+  background-color: #410909;
+  position: absolute;
+  border-radius: 10px;
+  top: 0px;
+  left: 32px;
+  bottom: 5px;
+}
+
+.sub-clubsgallery {
+  border-bottom: 2px solid red;
+  margin: auto;
+  padding-top: 20px;
+  width: 90%;
+  border-top: 2px solid rgba(0, 0, 0, 0.492);
+  display: flex;
+  flex-direction: column;
+
+}
+/* @font-face {
+    font-family: "Fira_Sans";
+    src: url(/eit_use_fonts/Fira_Sans/FiraSans-Medium.ttf);
+} */
+p.special-font {
+  font-size: 1.3rem;
+  /* font-family: "Fira_Sans", sans-serif ; */
+  font-weight: bold;
+}
+
+#clubimages{
+    height: 95vh;
+    margin-top: 30px;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: space-between;
+
+    
 }
-.sub-clubdetails{
-    margin-top: 50px;
+.clubrows{
+    display: flex;
     width: 100%;
-    height: 10vh;
-    background-color: rgba(165, 42, 42, 0.389);
-}
-.sub-clubdetails p{
-    margin: auto;
-    padding-top: 6px;
-    width: 90%;
-
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30vh;
 }
 
-/* .sub-clubimg{
-    margin: 10px;
-    height: 98%;
-    width: 40%;
-    background-color: aquamarine;
-    background-image: url(../img/clubs/bigdata.png);
-    background-size: cover;
-    box-shadow: 2px 2px 4px 4px rgba(181, 109, 3, 0.443);
-} */
+.clubrows img{
+    width: 32.4%;
+}
