@@ -1266,33 +1266,42 @@ body {
 }
 
 #club-name h1 {
-  font-family: "Oswald", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: bold;
-  font-size: 3rem;
+  margin-top: 5px;
+  font-size: 2.7rem;
   color: #381207;
   display: flex;
   justify-content: center;
-  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+  text-shadow: 1px 1px 3px rgb(255, 255, 255);
 }
 
 #club-info {
   height: 65vh;
   width: 100%;
-  border-radius: 10%;
-  background-color: rgba(0, 0, 0, 0.403);
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.633);
 }
 
 #club-info p {
   margin-top: 40px;
   width: 95%;
-  text-align: center;
+  text-align:left;
+  margin-left: 10px;
   color: white;
+}
+#club-info:hover{
+  background-color: #2b0303cc;
+  color: white;
+  transition: all 0.5s linear;
+
 }
 
 .club-details button {
   width: 150px;
-  height: 6vh;
+  height: 8vh;
   margin: auto;
+  margin-top: 10px;
   background-color: rgb(44, 4, 4);
   font-size: 1.2rem;
   color: white;
