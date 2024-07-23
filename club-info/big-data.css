@@ -7,12 +7,10 @@
 }
 .sub-clubimg {
   height: 85vh;
-  background-color: aqua;
   background-image: url(/img/clubs/Big_Data/Big-Data-Hadoop.jpg);
   background-size: cover;
   box-shadow: 2px 2px 4px 4px #41090965;
 }
-
 
 .sub-clubfront {
   margin: auto;
@@ -60,7 +58,6 @@
 }
 
 .sub-clubsgallery {
-  border-bottom: 2px solid red;
   margin: auto;
   padding-top: 20px;
   width: 90%;
@@ -80,23 +77,24 @@ p.special-font {
 }
 
 #clubimages{
-    height: 95vh;
+    height: 127vh;
     margin-top: 30px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
-    
 }
 .clubrows{
     display: flex;
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
-    height: 30vh;
+    height: 150vh;
 }
 
 .clubrows img{
     width: 32.4%;
+    height: 40vh;
+    box-shadow: 1px 1px 2px 3px rgba(0, 0, 0, 0.382);
 }
