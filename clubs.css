@@ -30,98 +30,123 @@
   justify-content: center;
 }
 .club-boxes div{
-  margin: 15px;
+  margin: 10px;
 }
 #clubs {
   height: max-content;
   background-color: yellow;
   box-shadow: inset 2px 2px 12px 6px rgba(0, 0, 0, 0.417);
-  width: 300px;
+  width: 25%;
+}
+#clubs img{
+  height: 40vh;
+  border: 2px solid black;
+}
+#clubs h1{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#clubs p{
+  /* margin-top: 2px; */
+  font-size: 1rem;
 }
 .row1 {
-  /* border: 2px solid blue; */
-  height: 300px;
+  margin: auto;
+  height: 320px;
   width: 90%;
-  /* border-radius: 10%; */
-  margin-left: 13px;
-  margin-top: 10px;
   display: flex;
   flex-direction: column;
-
   text-align: center;
 }
-.row1 img {
-  height: 35vh;
-  border: 2px solid black;
-}
-.row1 h1 {
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-}
-.row1 p {
-  margin-top: 10px;
-}
-
-.ElectronicsRobotics-club h1{
-    /* margin-top: -10px; */
-    font-weight: bold ;
-    font-size: 1.6rem;
-}
-
-
 .row2 {
-  /* border: 2px solid blue; */
-  height: 300px;
+  height: 320px;
   width: 90%;
-  /* border-radius: 10%; */
-  margin-left: 13px;
-  margin-top: 10px;
   display: flex;
   flex-direction: column;
-
   text-align: center;
-}
-.row2 img {
-  height: 35vh;
-  border: 2px solid black;
-}
-.row2 h1 {
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-}
-.row2 p {
-  margin-top: 10px;
 }
 .row3 {
-  /* border: 2px solid blue; */
-  height: 300px;
+  height: 320px;
   width: 90%;
-  /* border-radius: 10%; */
-  margin-left: 13px;
-  margin-top: 10px;
   display: flex;
   flex-direction: column;
-
   text-align: center;
 }
-.row3 img {
-  height: 35vh;
+.raso-img{
+  background-image: url(img/clubs/Ganpati\ Bappa.jpg);
+}
+.TLC-img{
+  background-image: url(/img/clubs/tlc.JPG);
+}
+.samatva-img{
+  background-image: url(/img/clubs/samatva.png);
+}
+.photography-img{
+  background-image: url(/img/clubs/Photography.JPG) !important;
+}
+.kshitij-img{
+  background-image: url(/img/clubs/kshitij.JPG);
+}
+.social-img{
+  background-image: url(/img/clubs/social-media.JPG);
+}
+.sports-img{
+  background-image: url(/img/clubs/sports.png);
+}
+.science-img{
+  background-image: url(/img/clubs/science.JPG);
+}
+.robotics-img{
+  background-image: url(/img/clubs/Robotics1.JPG);
+}
+.gdsc-img{
+  background-image: url(/img/clubs/gdsc1.jpg);
+}
+.bigdata-img{
+  background-image: url(/img/clubs/bigdata.png);
+}
+.source-img{
+  background-image: url(/img/clubs/open-source.JPG);
+}
+.text-in{
+  margin: auto;
+  height: 40vh;
   border: 2px solid black;
+  background-size: cover;
+
 }
-.row3 h1 {
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 2rem;
+.text-in h1{
+  background-color: rgba(255, 228, 196, 0.386);
+  color: rgb(0, 0, 0);
+  margin-top: 35vh;
+}
+
+#clubs a{
+  margin: auto;
+  margin-top: 5px;
+  height: 7vh;
+  width: 24%;
+  text-decoration:none ;
   font-weight: bold;
 }
-.row3 p {
-  margin-top: 10px;
+#clubs button{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  align-self: self-end;
+}
+#clubs button:active {
+  background: #381207;
 }
 
+#clubs button:hover {
+  background: radial-gradient(#632412, #381207);
+  cursor: pointer;
+  color: wheat;
+  font-weight: bold;
+}
 @media screen and (max-width: 1014px) {
   .text-box {
     font-size: 0.7rem;

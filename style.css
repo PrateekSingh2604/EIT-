@@ -126,18 +126,21 @@ body {
 
 .handles {
   position: fixed;
-  left: 15px;
+  left: -6px;
   bottom: 7px;
   z-index: 1;
+  height: 30vh;
+  background-color: wheat;
+  /* border-end-end-radius: 30%; */
 }
 
 .handles svg {
-  width: 45px;
-  height: 40px;
+  margin-left: 3px;
+  width: 35px;
+  height: 30px;
 }
 
 .download-brochure .fa-solid {
-  height: 250px;
   font-size: 2rem;
   color: #085531;
   text-shadow: 3px 3px 5px rgb(0, 0, 0);
@@ -177,18 +180,17 @@ body {
   align-items: end;
   justify-content: space-between;
   padding: 0px;
+  padding-bottom: 5px;
   border-bottom: 1px solid #632412;
   align-items: center;
   z-index: 1;
   position: fixed;
   width: 100%;
-  height: 30px;
-  top: 25px;
+  height: 35px;
+  top: 24px;
   background-color: #f0fd99;
   transition: top .3s ease;
 }
-
-
 .nav-cs {
   top: 0px;
 }
@@ -208,7 +210,7 @@ body {
 .nav-head a {
   text-decoration: none;
   color: #381207;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: bold;
   z-index: 1;
   padding-right: 0px;
@@ -219,6 +221,10 @@ body {
   z-index: 1;
 }
 
+
+.drop-nav{
+  height: 200px;
+}
 /* Nav Drop Down */
 /* About */
 .about {
@@ -239,21 +245,20 @@ body {
   color: white;
   padding: 0px;
   height: 14px;
-  margin-top: 3px;
+  margin-top: 6px;
   margin-left: 2px;
 }
 
 .about:hover .drop-icon {
   transform: rotate(180deg);
 }
-
 .drop-about {
   height: 0px;
   width: 280px;
   position: absolute;
   background-color: #fcf4c9;
   transition: height 0.3s;
-  margin-top: 5px;
+  margin-top: 8px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
   left: 19vw;
@@ -271,7 +276,7 @@ body {
 }
 
 .about:hover .drop-about {
-  height: 90px;
+  height: 200px;
   border: none;
   z-index: 1;
 }
@@ -303,7 +308,7 @@ body {
   color: white;
   padding: 0px;
   height: 14px;
-  margin-top: 3px;
+  margin-top: 6px;
   margin-left: 2px;
 }
 
@@ -317,7 +322,7 @@ body {
   position: absolute;
   background-color: #fcf4c9;
   transition: height 0.3s;
-  margin-top: 5px;
+  margin-top: 8px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
   left: 42vw;
@@ -364,7 +369,7 @@ body {
   color: white;
   padding: 0px;
   height: 14px;
-  margin-top: 3px;
+  margin-top: 6px;
   margin-left: 2px;
 }
 
@@ -378,7 +383,7 @@ body {
   position: absolute;
   background-color: #fcf4c9;
   transition: height 0.3s;
-  margin-top: 5px;
+  margin-top: 8px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
   left: 35vw;
@@ -423,7 +428,7 @@ body {
   color: white;
   padding: 0px;
   height: 14px;
-  margin-top: 3px;
+  margin-top: 6px;
   margin-left: 2px;
 }
 
@@ -437,7 +442,7 @@ body {
   position: absolute;
   background-color: #fcf4c9;
   transition: height 0.3s;
-  margin-top: 5px;
+  margin-top: 8px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
   left: 55vw;
@@ -482,7 +487,7 @@ body {
   color: white;
   padding: 0px;
   height: 14px;
-  margin-top: 3px;
+  margin-top: 6px;
   margin-left: 2px;
 }
 
@@ -496,7 +501,7 @@ body {
   position: absolute;
   background-color: #fcf4c9;
   transition: height 0.3s;
-  margin-top: 5px;
+  margin-top: 8px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
   left: 20vw;
@@ -547,7 +552,7 @@ body {
   color: white;
   padding: 0px;
   height: 14px;
-  margin-top: 3px;
+  margin-top: 6px;
   margin-left: 2px;
 }
 
@@ -561,7 +566,7 @@ body {
   position: absolute;
   background-color: #fcf4c9;
   transition: height 0.3s;
-  margin-top: 5px;
+  margin-top: 8px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
   left: 62vw;
@@ -1261,33 +1266,42 @@ body {
 }
 
 #club-name h1 {
-  font-family: "Oswald", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: bold;
-  font-size: 3rem;
+  margin-top: 5px;
+  font-size: 2.7rem;
   color: #381207;
   display: flex;
   justify-content: center;
-  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+  text-shadow: 1px 1px 3px rgb(255, 255, 255);
 }
 
 #club-info {
   height: 65vh;
   width: 100%;
-  border-radius: 10%;
-  background-color: rgba(0, 0, 0, 0.403);
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.633);
 }
 
 #club-info p {
   margin-top: 40px;
   width: 95%;
-  text-align: center;
+  text-align:left;
+  margin-left: 10px;
   color: white;
+}
+#club-info:hover{
+  background-color: #2b0303cc;
+  color: white;
+  transition: all 0.5s linear;
+
 }
 
 .club-details button {
   width: 150px;
-  height: 6vh;
+  height: 8vh;
   margin: auto;
+  margin-top: 10px;
   background-color: rgb(44, 4, 4);
   font-size: 1.2rem;
   color: white;
