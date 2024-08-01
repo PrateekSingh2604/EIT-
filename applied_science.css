@@ -1,24 +1,6 @@
-.applied-img{
-    background: url("img/front-img/chemistry.jpg");
+.dept-front{
+    background: url("/img/Department/applied-science/applied-science-front.jpg");
     background-size: cover;
-    height: 80vh;
-}
-#bold{
-    font-weight: bold;
-}
-.text-content{
-    padding-top: 190px;
-}
-.hod{
-    margin: auto;
-    border: 2px solid black;
-    width: 90%;
-}
-
-.applied-container img{
-    background-image: url(/img/Department/applied-science/HOD.jpg);
-    height: 20vh;
-    border: 2px solid black;
 }
 
 @media screen and (max-width: 1014px){

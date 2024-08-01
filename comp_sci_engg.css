@@ -5,47 +5,18 @@
 .head{
   padding-top: 0px;
 }
-.cs-front{
-  height: 83vh;
-  /* background-color: red; */
-  background: url("/img/Department/computer-science/csmain-img.jpg");
-  background-size: cover;
+.cs-head{
+  margin-top: 50px;
 }
-.cs-top{
-  margin: auto;
-  height: 8vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 10px;
-  width: 10%;
+.dept-front{
+  background: url("/img/Department/computer-science/Comp-Science\(Front\).jpg");
+  background-size: cover;
 }
 .drop a svg {
   margin-top: 3px;
   margin-left: 4px;
 }
 
-.text-content h1{
-  text-align: center;
-  border-bottom: 2px solid rgb(87, 39, 5);
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-.text-content h5{
-  font-weight: bold;
-}
-.text-content p{
-  line-height: 2rem;
-  margin-top: 5px;
-}
-.text-content{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transform: translate(10%,-15%);
-  line-height: 1.5rem;
-}
 
 .cs-mission{
   color: white;

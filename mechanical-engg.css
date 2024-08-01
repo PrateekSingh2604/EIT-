@@ -1,56 +1,88 @@
-.img{
-    background: url("/img/Department/mechanical/me.jpg");
+.dept-front{
+    background: url("/img/Department/electonics-and-communication/electronics&communication-front.jpg");
     background-size: cover;
     height: 85vh;
 }
 .nav{
-    width: 99vw;
+    width: 100%; 
+}
+.dept-head{
+    margin-top: 8vh;
 }
 
-.note{
-    width: 80vw;
-    /* border: 2px solid #b04829; */
+.dept-svg{
     margin: auto;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    padding: 19px;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5px; 
+    width: 10%;
+    fill: #410909;
+  }
+
+.note{
+    margin: auto;
+    width: 80%;
     text-align: justify;
+    border: 2px solid rgb(48, 77, 6);
+    border-radius: 10px;
 }
 .note p{
-    font-style: italic;
     font-weight: bold;
-    font-size: 1.5rem;
-    font-family: "Shippori Antique", sans-serif;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 .hod {
+    height: 70vh;
+    margin: auto;
+    margin-top: 30px;
+    width: 97%;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     text-align: left;
+    background-color: #63241248;
 }
 
 .image-container {
-    flex: 1 1 50%; /* flex-grow, flex-shrink, flex-basis */
-    max-width: 30%;
+    width: 30%;
+    padding-bottom: 20px;
 }
 
 .image-container img {
     width: 100%;
-    height: auto;
+    height: 65vh;
     display: block;
     box-shadow: 2px 3px 3px brown;
 }
 
 .text-content {
-    flex: 1 1 50%;
-    max-width: 50%;
-    padding: 20px;
-    text-align: justify;
-    font-size: 1.2rem;
+    width: 50%;
+    height: 100%;
+    padding-left: 40px;
+    padding-top: 20px;
 }
+
+.text-content h1,h5{
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    color: wheat;
+    background-color: rgb(60, 41, 5);
+    width: 50%;
+    height: 5vh;
+}
+.text-content p{
+    line-height: 25px;
+    font-size: 1.1rem;
+}
+
 
 @media (max-width: 768px) {
     .image-container, .text-content {
