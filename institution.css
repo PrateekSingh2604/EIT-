@@ -1,0 +1,107 @@
+.institution-head{
+    height: 12vh;
+}
+.institution-front{
+    height: 85vh;
+}
+.institution-front h1{
+    text-align: center;
+    padding-top: 3px;
+    background-color: #410909ac;
+    color: wheat;
+}
+.institution-img{
+    background-image: url(/img/about/institution/main-img1.JPG);
+    background-size: cover;
+    height: 93%;
+    width: 99%;
+    margin: auto;
+    box-shadow: 1px 5px 3px 4px rgba(0, 0, 0, 0.556);
+}
+.institution-img h1{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    background-color: rgb(80, 5, 5);
+    position: relative;
+    top:85%;
+    color: white;
+    border-radius: 15px;
+}
+.institution-main{
+    margin: auto;
+    height: max-content;
+    border-top: 2px solid rgba(0, 0, 0, 0.433);
+    margin-top: 40px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+}
+.institution-box1{
+    margin: auto;
+    height: 70%;
+    width: 100%;
+    margin-top: 10px;
+}
+.content-container {
+	width: 99%;
+	max-height: auto;
+	margin: auto;
+}
+.content-container ul {
+	list-style: none;
+	padding: 0;
+}
+.content-container ul:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.content-container ul li {
+	width: calc(30% - 0px);
+	margin: 20px 19px 0;
+	height: 60vh;
+	background-size: cover;
+	background-position: center center;
+	float: left;
+	box-shadow: 0 15px 10px 1px rgba(0, 0, 0, 0.5);
+}
+.content-container ul li:nth-child(1n + 4) {
+	max-height: 0;
+	opacity: 0;
+	transition: 0.2s ease-in;
+}
+.content-container .btn-area {
+	display: block;
+	background: #7f2a4b;
+	color: #fff;
+	cursor: pointer;
+	text-align: center;
+	font-weight: 900;
+	width: 180px;
+	line-height: 50px;
+	margin: 20px auto 0;
+	border-radius: 50px;
+}
+.content-container .btn-area .btn2 {
+	display: none;
+}
+.content-container #btnBox {
+	display: none;
+}
+.content-container #btnBox:checked~ul li:nth-child(1n + 4) {
+	max-height: 200vh;
+	opacity: 1;
+	transition: 0.2s ease-in;
+}
+.content-container #btnBox:checked~.btn-area .btn2 {
+	display: block;
+}
+.content-container #btnBox:checked~.btn-area .btn1 {
+	display: none;
+}
+
+
+
+
+

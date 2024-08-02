@@ -144,7 +144,7 @@ p.special-font {
 .tech-boxes button {
   height: 5vh;
   width: 5vw;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 .tech-boxes button:active {
   background: #381207;
