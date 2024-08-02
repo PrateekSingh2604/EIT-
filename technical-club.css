@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.tech-head {
+  height: 13vh;
+}
+.tech-img {
+  background-image: url(/img/clubs/Technical_club/Technical-club.jpg) !important;
+}
+.tech-details p {
+  height: 100vh;
+  width: auto;
+}
+.tech-img {
+  height: 85vh;
+  background-image: url(/img/clubs/Big_Data/Big-Data-Hadoop.jpg);
+  background-size: cover;
+  box-shadow: 2px 2px 4px 4px #41090965;
+}
+
+.tech-front {
+  margin: auto;
+  height: 86vh;
+  width: 99%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.tech-details {
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  width: 80%;
+  height: 10vh;
+  position: relative;
+}
+.tech-details p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: auto;
+  padding-top: 14px;
+  width: 99%;
+  margin-left: 15px;
+}
+
+#tech-info {
+  margin: auto;
+  background-color: rgba(165, 42, 42, 0.389);
+  border-radius: 10px;
+  height: 10vh;
+  width: 90%;
+  position: relative;
+}
+.tech-details img {
+  height: 30px;
+  width: 3%;
+  margin-top: 0px;
+  background-color: #410909;
+  position: absolute;
+  border-radius: 10px;
+  top: 0px;
+  left: 32px;
+  bottom: 10px;
+}
+
+.tech-gallery {
+  margin: auto;
+  padding-top: 20px;
+  width: 90%;
+  border-top: 2px solid rgba(0, 0, 0, 0.492);
+  display: flex;
+  flex-direction: column;
+}
+p.special-font {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.tech-para {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  line-height: 25px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.437);
+}
+.tech-para b {
+  font-weight: bold;
+}
+
+.tech-box {
+  margin: auto;
+  margin-top: 20px;
+  height:max-content;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.379);
+}
+.subtech-boxes {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly
+}
+.subtech-box2{
+  padding-top: 30px;
+  margin: auto;
+  width: 70%;
+}
+.tech-boxes {
+  border-radius: 10px;
+  height: 100%;
+  width: 30%;
+  text-align: center;
+  background-color: #6324125f;
+}
+.tech-boxes1{
+  height: 100%;
+  width: 45%;
+
+}
+
+.text-in {
+  margin: auto;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.text-in h1 {
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(255, 228, 196, 0.417);
+  color: rgb(0, 0, 0);
+}
+
+.tech-boxes button {
+  height: 5vh;
+  width: 5vw;
+  border-radius: 50%;
+}
+.tech-boxes button:active {
+  background: #381207;
+}
+
+.tech-boxes button:hover {
+  background: radial-gradient(#632412, #381207);
+  cursor: pointer;
+  color: wheat;
+  font-weight: bold;
+}
+
+.bigdata-img {
+  background-image: url(/img/clubs/Technical_club/Big_Data/bigdata-cover.png);
+}
+.source-img {
+  background-image: url(/img/clubs//Technical_club/Open-source/open-source-cover.JPG);
+}
+.gdsc-img {
+  background-image: url(/img/clubs/Technical_club/GDSC-club/gdsc-cover.jpg);
+}
+.science-img{
+  background-image: url(/img/clubs/Technical_club/Science_club/science-cover.JPG);
+}
+.robotics-img{
+  background-image: url(/img/clubs/Technical_club/Robotics-clubs/robotics-cover.JPG);
+}
+.main-msg{
+  border-top: none;
+  margin-top: -20px;
+}

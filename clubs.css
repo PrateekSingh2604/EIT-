@@ -6,21 +6,54 @@
   font-family: "Bona Nova SC", serif;
   font-style: normal;
 }
-#sankalp {
-  height: 20px;
-}
 .sankalp {
-  margin-top: 100px;
+  margin-top: 65px;
+}
+.clubs{
+  height: 160vh;
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  border: 2px solid black;
 }
-.sankalp h1 {
-    font-size: 3rem;
-    color: green;
-    font-weight: bold;
+.clubs-front{
+  height: 89vh;
+  background-image: url(/img/clubs/clubs-front.jpg);
+  background-size: cover;
 }
-.club-boxes {
+.clubs-info{
+  height: 39%;
+  margin: auto;
+  width: 90%;
+}
+.clubs-info h1{
+  background-color: rgba(0, 0, 0, 0.391);
+  color: white;
+  padding-top: 3px;
+  height: 7vh;
+  padding-left: 5px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.clubs-info p{
+  padding-top: 10px;
+  line-height: 25px;
+}
+.clubs-info li{
+  color: black;
+  list-style:decimal;
+  line-height: 25px;
+}
+.clubs-info a{
+  text-decoration: none;
+  color: black;
+}
+.clubs-info svg{
+  fill: chartreuse;
+}
+
+
+/* .club-boxes {
   height: max-content;
   width: 100%;
   margin: 5px;
@@ -50,7 +83,6 @@
   font-weight: bold;
 }
 #clubs p{
-  /* margin-top: 2px; */
   font-size: 1rem;
 }
 .row1 {
@@ -128,8 +160,8 @@
   background-color: rgba(255, 228, 196, 0.386);
   color: rgb(0, 0, 0);
   
-}
-
+} */
+/* 
 #clubs a{
   margin: auto;
   margin-top: 5px;
@@ -153,7 +185,7 @@
   cursor: pointer;
   color: wheat;
   font-weight: bold;
-}
+} */
 @media screen and (max-width: 1014px) {
   .text-box {
     font-size: 0.7rem;
