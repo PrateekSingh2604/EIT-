@@ -1,5 +1,5 @@
 .dept-front{
-    background: url("/img/Department/electonics-and-communication/electronics&communication-front.jpg");
+    background: url("/img/Department/mechanical/mechanical-front.jpg");
     background-size: cover;
     height: 85vh;
 }
@@ -37,7 +37,7 @@
 
 
 .hod {
-    height: 70vh;
+    height: max-content;
     margin: auto;
     margin-top: 30px;
     width: 97%;
@@ -53,11 +53,12 @@
 .image-container {
     width: 30%;
     padding-bottom: 20px;
+    margin-top: 20px;
 }
 
 .image-container img {
     width: 100%;
-    height: 65vh;
+    height: 69vh;
     display: block;
     box-shadow: 2px 3px 3px brown;
 }
@@ -66,17 +67,19 @@
     width: 50%;
     height: 100%;
     padding-left: 40px;
-    padding-top: 20px;
 }
 
-.text-content h1,h5{
+#text-content{
     margin: auto;
+    padding: 6px 5px 0px 5px ;
     text-align: center;
     font-weight: bold;
     color: wheat;
     background-color: rgb(60, 41, 5);
-    width: 50%;
-    height: 5vh;
+    width: max-content;
+    height: 10vh;
+    border-radius: 10px;
+
 }
 .text-content p{
     line-height: 25px;
@@ -119,6 +122,7 @@
 
 .accordion-button:hover, .accordion-button.active {
     background: #b04829;
+
 }
 .bold{
     font-weight: bold;
@@ -143,9 +147,9 @@ ol li{
     color: black;
 }
 
-/* This makes the accordion content visible and smoothly expands the area */
 .accordion-content.active {
-    height: max-content; /* adjust based on content */
+    height: max-content;
+    padding-bottom: 20px;
     overflow: auto;
 }
 

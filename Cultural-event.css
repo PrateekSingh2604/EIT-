@@ -1,13 +1,16 @@
-.cultural-img{
+.cultural-img {
   background-image: url(/img/clubs/Cultural_club/Cultural-club.jpg) !important;
 }
 
-.carpediem-img{
-    background-image: url(/img/clubs/Ganpati\ Bappa.jpg);
+.carpediem-img {
+  background-image: url(/img/clubs/Ganpati\ Bappa.jpg);
 }
-.kshitij-img{
-    background-image: url(/img/clubs/Cultural_club/Kshitiji_club/kshitij-cover.JPG);
+.kshitij-img {
+  background-image: url(/img/clubs/Cultural_club/Kshitiji_club/kshitij-cover.JPG);
 }
-.cultural-box{
-    margin-top: -13px;
+.cultural-box {
+  margin-top: -13px;
+}
+.space{
+    height: 1px;
 }

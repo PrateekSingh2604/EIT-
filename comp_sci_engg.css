@@ -2,36 +2,12 @@
   padding: 0;
   margin: 0;
 }
-.head{
-  padding-top: 0px;
-}
-.cs-head{
-  margin-top: 50px;
-}
 .dept-front{
   background: url("/img/Department/computer-science/Comp-Science\(Front\).jpg");
   background-size: cover;
 }
-.drop a svg {
-  margin-top: 3px;
-  margin-left: 4px;
-}
-
-
-.cs-mission{
-  color: white;
-  width: 80%;
-  text-align: center;
-  margin: auto;
-  margin-top: 20px;
-  height: 15vh;
-  border: 2px solid yellow;
-}
-.cs-mission h2{
-  padding-top:15px ;
-}
-.cs-faq h1{
-  width: 130vh;
+.text-content{
+  
 }
 
 

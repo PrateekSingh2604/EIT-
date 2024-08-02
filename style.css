@@ -19,6 +19,7 @@ body {
 
 .front {
   height: 100vh;
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -45,7 +46,7 @@ body {
 }
 
 .name1 h1 {
-  font-size: 3.5rem;
+  font-size: 2.7rem;
 }
 
 .name1 h2 {
@@ -127,19 +128,23 @@ body {
 .handles {
   position: fixed;
   left: -6px;
-  bottom: 7px;
+  bottom: 0px;
   z-index: 1;
-  height: 30vh;
-  background-color: wheat;
-  /* border-end-end-radius: 30%; */
+  height: 7vh;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 12vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 3px;
 }
 
 .handles svg {
-  margin-left: 3px;
-  width: 35px;
+  width: 30px;
   height: 30px;
 }
-
+/* 
 .download-brochure .fa-solid {
   font-size: 2rem;
   color: #085531;
@@ -149,7 +154,7 @@ body {
 .download-brochure .fa-solid:hover {
   color: #1e6fb9;
   transition: all 0.5s;
-}
+} */
 
 .nav-top {
   height: 25px;
@@ -221,7 +226,6 @@ body {
   z-index: 1;
 }
 
-
 .drop-nav{
   height: 200px;
 }
@@ -270,7 +274,6 @@ body {
   z-index: 1;
   color: #2c3003;
   font-size: 1.2rem;
-  /* font-weight: bold; */
   line-height: 2rem;
   margin-top: 30px;
 }
@@ -668,6 +671,8 @@ body {
 }
 
 .wlcmimg h1 {
+  height: max-content;
+  width: 99%;
   padding-top: 80px;
   color: wheat;
   text-align: center;
@@ -1134,7 +1139,7 @@ body {
 /* Campuslife */
 .campus-life {
   background-color: #381207;
-  height: 125vh;
+  height:max-content;
   width: 100%;
   display: none;
   transform: translateY(100px);
@@ -1163,15 +1168,19 @@ body {
 }
 
 .feedback h1 {
+  word-spacing: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
-  height: 80px;
+  font-weight: bold;
+  padding-top: 5px;
+  height: 5vh;
   width: 400px;
   text-align: center;
   margin: auto;
 }
 
 .testimonials {
-  height: 80vh;
+  height: max-content;
   width: 100%;
   text-align: center;
 }
@@ -1193,9 +1202,9 @@ body {
   height: 250px;
 }
 
-.carousel .studentcard {
+/* .carousel .studentcard {
   height: 200px;
-}
+} */
 
 .gallery {
   margin: auto;
@@ -1222,6 +1231,8 @@ body {
   background: radial-gradient(#D6BCB1, #AB8574, #3D2216);
   border: none;
 }
+
+
 
 /* clubs */
 .eit-clubs {
@@ -1337,7 +1348,6 @@ body {
   background-size: cover;
 }
 
-.celeb-head {}
 
 .celeb-head h1 {
   text-align: center;
@@ -1386,6 +1396,7 @@ footer {
 
 .main-column {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   height: max-content;
   flex-direction: row;
@@ -1539,6 +1550,15 @@ h2 li:hover {
 
   .front {
     overflow: hidden;
+    height: fit-content;
+  }
+  .name1 h1{
+    text-align: center;
+    font-size: 2rem !important;
+  }
+  .name1 #bttn{
+    margin-top: 5px;
+
   }
 
   body {
@@ -1570,6 +1590,23 @@ h2 li:hover {
     background-color: #f0fd99;
     flex-direction: column;
   }
+  .wlcmpage{
+    padding-bottom: 1859px;
+  }
+  .wlcmbtn{
+    margin-top: -29px;
+    height: fit-content;  
+  }
+  .wlcmbtn button {
+    margin-top: 10px;
+  }
+  .wlcmpage2 {
+    height: max-content;
+    margin-top: 10vh;
+
+  }
+
+
   .pre-footer{
     height: 400px;
   }
@@ -1727,6 +1764,10 @@ h2 li:hover {
   .column1 {
     display: none;
   }
+
+
+
+
 }
 
 .contactForm{

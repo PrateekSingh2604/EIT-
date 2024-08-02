@@ -1,9 +1,8 @@
 
-.img{
-    background: url("/img/Department/electonics-and-communication/electronics-img.JPG");
+.dept-front{
+    background: url("/img/Department/electonics-and-communication/electronics&communication-front.jpg");
     background-size: cover;
-}
-
+  }
 
 .ece-faq h1{
     width: 170vh;

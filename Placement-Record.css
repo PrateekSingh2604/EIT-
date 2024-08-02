@@ -33,9 +33,9 @@
 .PR-head svg{
     fill: orange;
     margin-top: 5px;
-    height: 40px;
+    height: 30px;
 }
-.wrapper3, .wrapper4{
+/* .wrapper3, .wrapper4{
     display: flex;
     flex-direction: row ;
     justify-content: center;
@@ -48,7 +48,74 @@
 .card .img img{
     width: 300px !important;
     height: 300px !important;
-}
+} */
 .pr-btn{
-    margin-top: 20px;
+    margin-top: 30px;
+}
+.pr-btn button{
+    border-radius:10px;
+}
+
+.institution-box2{
+    margin: auto;
+    height: 70%;
+    width: 100%;
+    margin-top: 10px;
+}
+.content-container1 {
+	width: 99%;
+	max-height: auto;
+	margin: auto;
+}
+.content-container1 ul {
+	list-style: none;
+	padding: 0;
+}
+.content-container1 ul:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.content-container1 ul li {
+	width: calc(30% - 0px);
+	margin: 20px 19px 0;
+	height: 60vh;
+	background-size: cover;
+	background-position: center center;
+	float: left;
+	box-shadow: 0 15px 10px 1px rgba(0, 0, 0, 0.5);
+}
+.content-container1 ul li:nth-child(1n + 4) {
+	max-height: 0;
+	opacity: 0;
+	transition: 0.2s ease-in;
+}
+.content-container1 .btn-area {
+	display: block;
+	background: #7f2a4b;
+	color: #fff;
+	cursor: pointer;
+	text-align: center;
+	font-weight: 900;
+	width: 180px;
+	line-height: 50px;
+	margin: 20px auto 0;
+	border-radius: 50px;
+}
+.content-container1 .btn-area .btn2 {
+	display: none;
+}
+.content-container1 #btnBox {
+	display: none;
+}
+.content-container1 #btnBox:checked~ul li:nth-child(1n + 4) {
+	max-height: 200vh;
+	opacity: 1;
+	transition: 0.2s ease-in;
+}
+.content-container1 #btnBox:checked~.btn-area .btn2 {
+	display: block;
+}
+.content-container1 #btnBox:checked~.btn-area .btn1 {
+	display: none;
 }
