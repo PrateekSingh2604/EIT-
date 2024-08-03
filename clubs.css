@@ -7,36 +7,35 @@
   font-style: normal;
 }
 .sankalp {
-  margin-top: 65px;
+  margin-top: 13vh;
 }
 .clubs{
   height: 160vh;
   width: 100%;
   display: flex;
   flex-direction: column;
-  border: 2px solid black;
 }
 .clubs-front{
-  height: 89vh;
+  height: 115vh;
   background-image: url(/img/clubs/clubs-front.jpg);
   background-size: cover;
 }
 .clubs-info{
-  height: 39%;
+  height: 59%;
   margin: auto;
   width: 90%;
+  margin-top: 20px;
 }
 .clubs-info h1{
   background-color: rgba(0, 0, 0, 0.391);
   color: white;
-  padding-top: 3px;
   height: 7vh;
   padding-left: 5px;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
 .clubs-info p{
-  padding-top: 10px;
+  padding-top: 3px;
   line-height: 25px;
 }
 .clubs-info li{

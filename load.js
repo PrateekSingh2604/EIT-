@@ -74,7 +74,7 @@ function number(element, max, text, value, plus) {
 
 }
 function excellence_number() {
-  number(excellence, 17, "YEARS OF EXCELLENCE IN EDUCATION", 1, "");
+  number(excellence, 18, "YEARS OF EXCELLENCE IN EDUCATION", 1, "");
 }
 function alumni_number() {
   number(alumni, 2800, "ALUMNI", 50, "+");

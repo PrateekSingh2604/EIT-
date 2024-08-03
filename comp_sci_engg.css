@@ -6,10 +6,6 @@
   background: url("/img/Department/computer-science/Comp-Science\(Front\).jpg");
   background-size: cover;
 }
-.text-content{
-  
-}
-
 
 @media screen and (max-width: 1014px){
   .front{

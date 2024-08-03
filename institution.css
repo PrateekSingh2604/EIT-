@@ -6,7 +6,7 @@
 }
 .institution-front h1 {
   text-align: center;
-  padding-top: 3px;
+  padding-top: 8px;
   background-color: #410909ac;
   color: wheat;
 }
@@ -19,8 +19,11 @@
   box-shadow: 1px 5px 3px 4px rgba(0, 0, 0, 0.556);
 }
 .institution-img h1 {
+  font-size: 1.5rem;
+  height: 10%;
   margin: auto;
-  width: 80%;
+  padding-top: 10px;
+  width: 70%;
   text-align: center;
   background-color: rgb(80, 5, 5);
   position: relative;
@@ -59,7 +62,7 @@ li {
   clear: both;
 }
 .content-container ul li {
-  width: calc(30% - 0px);
+  width: calc(30% - 5px);
   margin: 20px 19px 0;
   height: 60vh;
   background-size: cover;
@@ -101,6 +104,8 @@ li {
 .content-container #btnBox:checked ~ .btn-area .btn1 {
   display: none;
 }
+
+
 
 @media screen and (max-width: 1014px) {
   .institution-front h1 {

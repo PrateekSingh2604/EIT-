@@ -17,13 +17,12 @@
 }
 .director-top{
   margin-top: 10px !important;
+  
 }
 .director-msg{
   margin: auto;
   height: 90vh;
   width: 95%;
-  margin-top: 20px;
-  margin-bottom: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -31,9 +30,8 @@
 #director-img{
   height: 77vh;
   margin-left: 5%;
-  margin-top: 5%;
-  width: 62vh;
-  /* border: 5px solid rgb(202, 15, 15); */
+  margin-top: 20px;
+  width: 29%;
   border-radius: 20px;
   box-shadow: 2px 0px 2px 1px rgb(130, 56, 56);
 }
@@ -46,29 +44,34 @@
 }
 .about-director{
   width: 60%;
-  text-align: center;
-  margin-top: 70px;
+  /* text-align: center; */
+  padding-top: 10px;
 }
 .about-director h2{
+  padding-top: 18px;
   border-bottom: 2px solid rgb(87, 39, 5);
   font-weight: bold;
-  font-size: 1.5rem;
-  width: 35%;
+  font-size: 1.4rem;
+  width: 45%;
   margin: auto;
 }
 .about-director h3{
   margin: auto;
+  font-size: 1rem;
 }
 .about-director h3,p{
-  font-weight: 500;
-  margin-top: 5px;
+  text-align: center;
+  margin: auto;
+  font-size: 1rem;
+  margin-top: 3px;
+  font-size: 0.8rem;
 }
 .about-director h4{
   text-align: left;
   width: 50vw;
   height: max-content;
-  font-size: 1.1rem;
-  line-height: 2rem;
+  font-size: 1rem;
+  line-height: 1.8rem;
   margin: auto;
   margin-top: 5px;
   display: flex;
@@ -79,28 +82,30 @@
 .about-director svg{
   display: inline;
   margin: auto;
+  margin-top: 10px;
   fill: black;
+  transform: translate(1400%, 0%);
 }
 .a-msg{
   height: 80vh;
-  width: 70vw;
+  width: 80%;
   display: flex;
   justify-items: center;
   align-items: center;
   border-top: 2px solid rgba(0, 0, 0, 0.347);
   margin: auto;
-  margin-top: 50px;
-  /* border: 2px solid black; */
-  /* flex-direction: row; */
+  margin-top: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 .quick-info{
-  /* border: 2px solid black; */
-  width: 30vw;
+  width: 50%;
+
 }
 .quick-info h1{
   font-family: "Shippori Antique", sans-serif;
   color: #000000da;
-  font-size: 2.8rem;
+  font-size: 2rem;
   font-weight: bold;
   display: flex;
   justify-content: center;
@@ -110,31 +115,32 @@
 .quick-info h3{
   font-family: "Shippori Antique", sans-serif;
   color: #000000d0; 
-  /* font-size: 2.8rem; */
+  font-size: 0.8rem;
   font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
   /* transform: translate(28px, 140px); */
-  width: 70%;
+  width: 100%;
 }
 #quick{
   display: flex;
   flex-direction: row;
 }
 .quick-info svg{
-  height: 5vh;
+  height: 4vh;
   margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   fill: rgba(0, 0, 0, 0.913);
-  /* transform: translate(28px, 135px); */
+  transform: translate(10%, -20%);
 }
 .drop-your-name{
   width: 40%;
   display: flex;
   flex-direction: column;
+  transform: translate(-30%, 0%);
 }
 .drop-your-name p{
   color: rgba(0, 0, 0, 0.775);
@@ -245,7 +251,7 @@
 
 
 .drop-nav {
-  margin-top: 11px !important;
+  margin-top: 15px !important;
 }
 .drop a svg {
   margin-top: 2px !important;

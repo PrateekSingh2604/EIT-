@@ -32,7 +32,6 @@
   margin-top: 50px;
   display: flex;
   flex-direction: row;
-  /* flex-wrap: wrap; */
   width: 80%;
   height: 10vh;
   position: relative;
@@ -41,16 +40,16 @@
   text-align: center;
   font-size: 1.2rem;
   margin: auto;
-  padding-top: 14px;
+  padding-top: 8px;
   width: 99%;
-  margin-left: 15px;
+  margin-left: 0px;
 }
 
 #tech-info {
   margin: auto;
   background-color: rgba(165, 42, 42, 0.389);
   border-radius: 10px;
-  height: 10vh;
+  height: 8vh;
   width: 90%;
   position: relative;
 }
@@ -82,9 +81,13 @@ p.special-font {
   width: 90%;
   margin: auto;
   margin-top: 20px;
-  line-height: 25px;
+  line-height: 23px;
   padding-bottom: 5px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.437);
+}
+.tech-para p{
+  font-size: 0.8rem;
+  text-align: left;
 }
 .tech-para b {
   font-weight: bold;
