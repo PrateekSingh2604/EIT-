@@ -1,7 +1,7 @@
 .eit-front {
-  height: 80vh;
-  background: url(/img/highlight/EIT-at-glance.png) !important;
-  background-size: cover;
+  height: 94vh !important;
+  background: url(/img/highlight/eit-glance.JPG) !important;
+  background-size: cover !important;
 }
 .eit-front .name1 {
   height: max-content;
@@ -14,21 +14,29 @@
   color: #fcf4c9;
   font-weight: bold;
 }
+.glance-detail{
+  margin: auto;
+  margin-top: 20px;
+  width: 90%;
+}
 .eit-glance-top{
-  margin-top: 20px !important;
+  margin: auto;
+  margin-top: 3px !important;
+  width: 10%;
 }
 .border-box h2 {
+  padding: 5px;
   color: #000000;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10vh;
+  height: 8vh;
   text-align: center;
   width: 80%;
+  font-size: 1.2rem;
   border: 2px solid rgb(31, 5, 5);
   box-shadow: 2px 2px 3px black;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.652);
 }
 .glance-about {
   display: flex;
@@ -45,16 +53,16 @@
 .glance-about h1 {
   text-align: center;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2rem;
   color: antiquewhite;
   padding-top: 15px;
 }
 .glance-about p {
-  text-align: justify;
+  padding-bottom:5px ;
+  text-align: center;
   width: 70%;
   line-height: 1.5rem;
   height: 50vh;
-  transform: translate(20%, 4%);
   color: antiquewhite;
 }
 .glance-box {
@@ -102,9 +110,10 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.4rem;
   padding-top: 20px;
   width: 80%;
+  padding-bottom: 20px;
 }
 
 .why-main h1{
@@ -117,7 +126,7 @@
     margin-top: 10px;
 }
 .why-main li{
-    font-size: 1.3rem;
+    font-size: 1rem;
     list-style-type: disc;
     text-align: justify;
     margin-top: 10px;
