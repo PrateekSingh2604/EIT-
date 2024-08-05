@@ -90,6 +90,23 @@
     line-height: 24px;
     font-size: 0.9rem;
 }
+.accordion-content table{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    height: max-content;
+}
+.accordion-content th,td{
+    text-align: center;
+    /* border: 2px solid black; */
+}
+.accordion-content th{
+    font-weight: bold;
+}
+.accordion-content td{
+    font-size: 1rem;
+}
 
 
 @media (max-width: 768px) {

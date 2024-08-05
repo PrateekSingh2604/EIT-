@@ -26,11 +26,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 #director-img{
   height: 77vh;
   margin-left: 5%;
-  margin-top: 20px;
   width: 29%;
   border-radius: 20px;
   box-shadow: 2px 0px 2px 1px rgb(130, 56, 56);
@@ -43,16 +43,17 @@
   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.547);
 }
 .about-director{
+  height: max-content;
   width: 60%;
-  /* text-align: center; */
   padding-top: 10px;
 }
 .about-director h2{
+  text-align: center;
   padding-top: 18px;
   border-bottom: 2px solid rgb(87, 39, 5);
   font-weight: bold;
-  font-size: 1.4rem;
-  width: 45%;
+  font-size: 1.5rem;
+  width: 40%;
   margin: auto;
 }
 .about-director h3{
