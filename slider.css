@@ -53,10 +53,10 @@
   transform: translateY(-50%) scale(0.85);
 }
 .wrapper1 i:first-child ,.wrapper2 i:first-child, .wrapper3 i:first-child, .wrapper4 i:first-child {
-  left: -22px;
+  left: -0px;
 }
 .wrapper1 i:last-child,.wrapper2 i:last-child, .wrapper3 i:last-child, .wrapper4 i:last-child {
-  right: -22px;
+  right: -0px;
 }
 .wrapper1 .carousel1, .wrapper2 .carousel2, .wrapper3 .carousel3, .wrapper4 .carousel4 {
   display: grid;
