@@ -22,6 +22,10 @@
     width: 80%;
     line-height: 25px;
 }
+.overview-details p{
+    font-size: 1rem;
+    text-align: left;
+}
 .overview-details li,b{
     list-style-type: decimal;
     color: black;

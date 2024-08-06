@@ -627,13 +627,15 @@ body {
 
 .wlcmpage1 {
   height: 100vh;
-  width: 40%;
+  width: 50%;
+  margin-top: 2px;
+  margin-left: 0px;
 }
 
 .wlcmimg {
-  height: 80%;
+  height: 90%;
   width: 500px;
-  background: url("/img/wlcm-to-eit.jpg");
+  background: url("/img/wlcm-to-eit1.jpg");
   background-size: cover;
   position: relative;
   top: 45%;
@@ -647,7 +649,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100px;
-  margin-top: 30px;
   flex-wrap: wrap;
 }
 
@@ -671,9 +672,9 @@ body {
 }
 
 .wlcmimg h1 {
-  height: max-content;
+  height: fit-content;
   width: 99%;
-  padding-top: 80px;
+  padding-top: 20px;
   color: wheat;
   text-align: center;
   font-size: 2.5rem;
@@ -682,13 +683,15 @@ body {
 
 .wlcmpage2 {
   height: 100vh;
-  width: 60%;
+  width: 50%;
 }
 
 .wlcmpage2 p {
+  margin: auto;
   color: rgb(0, 0, 0);
-  padding: 50px;
-  text-align: justify;
+  width: 95%;
+  padding-top: 10px;
+  text-align: left;
 }
 
 
@@ -696,11 +699,16 @@ body {
   transform: translateY(0px) !important;
   opacity: 1 !important;
 }
-
+.eit-box{
+  margin-top: 25px;
+}
 
 .eit-box h1 {
+  font-size: 1.4rem;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   border: 3px solid rgb(111, 56, 11);
-  width: 40vw;
+  width: 90%;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -710,7 +718,8 @@ body {
 .boxes {
   display: flex;
   width: 100%;
-  height: 180px;
+  height: 30vh;
+  /* border: 2px solid green; */
 }
 
 .eitboxes {
@@ -727,7 +736,7 @@ body {
 }
 
 #box1 h2 {
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-weight: bold;
   text-align: center;
 }
@@ -735,13 +744,13 @@ body {
 #box1 h3 {
   margin-top: 10px;
   /* margin-left: 25px; */
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: bold;
   text-align: center;
 }
 
 #box2 h2 {
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-weight: bold;
   text-align: center;
 }
@@ -755,7 +764,7 @@ body {
 }
 
 #box3 h2 {
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-weight: bold;
   text-align: center;
 }
@@ -763,13 +772,13 @@ body {
 #box3 h3 {
   margin-top: 10px;
   /* margin-left: 25px; */
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: bold;
   text-align: center;
 }
 
 #box4 h2 {
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-weight: bold;
   text-align: center;
 }
@@ -809,7 +818,7 @@ body {
 }
 
 .recruiter {
-  height: 100vh;
+  height: 90vh;
   border: none;
   transform: translateY(100px);
   opacity: 0;
@@ -818,6 +827,7 @@ body {
 }
 
 .recruiters {
+  margin-top: 13vh;
   background: radial-gradient(#ee6c4d, #61210f);
   text-align: center;
   color: white;
@@ -1118,7 +1128,7 @@ body {
 }
 
 .course-info {
-  height: 80px;
+  height: 10vh;
   width: 50vw;
   justify-content: center;
   margin-top: 20px;
@@ -1130,16 +1140,17 @@ body {
 }
 
 .course-info h1 {
+  margin-top: 10px;
   font-weight: bold;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: rgb(45, 5, 5);
 }
 
 /* Campuslife */
 .campus-life {
   background-color: #381207;
-  height:max-content;
+  height:120vh;
   width: 100%;
   display: none;
   transform: translateY(100px);
@@ -1151,7 +1162,7 @@ body {
 #campus-info {
   font-family: "Oswald", sans-serif;
   background-color: #6c2906;
-  height: 160px;
+  height: 25vh;
   width: 100%;
 }
 
@@ -1162,17 +1173,19 @@ body {
 
 #campus-info p {
   color: white;
-  font-size: 5rem;
+  font-size: 3rem;
   font-family: "Oswald", sans-serif;
   margin-left: 10px;
 }
 
 .feedback h1 {
   word-spacing: 10px;
+  position: absolute;
+  top: 20%;
+  left: 30%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   font-weight: bold;
-  padding-top: 5px;
   height: 5vh;
   width: 400px;
   text-align: center;
@@ -1180,7 +1193,8 @@ body {
 }
 
 .testimonials {
-  height: max-content;
+  margin-top: 100px;
+  height: 50vh;
   width: 100%;
   text-align: center;
 }
@@ -1202,23 +1216,26 @@ body {
   height: 250px;
 }
 
-/* .carousel .studentcard {
-  height: 200px;
-} */
-
-.gallery {
+.carousel .studentcard {
+  height: 20vh;
+}
+  
+/* .gallery {
   margin: auto;
   height: 10vh;
-  width: 45%;
+  width: 55%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  border: 2px solid black;
+  position: absolute;
+  bottom: 10%;
 }
 
 .gallery h1 {
-  font-size: 1.8rem;
+  font-size: 1rem;
   color: white;
 }
 
@@ -1230,7 +1247,7 @@ body {
   border-radius: 10px;
   background: radial-gradient(#D6BCB1, #AB8574, #3D2216);
   border: none;
-}
+} */
 
 
 
@@ -1238,7 +1255,7 @@ body {
 .eit-clubs {
   height: max-content;
   margin: auto;
-  height: 100vh;
+  /* height: 100vh; */
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -1248,7 +1265,6 @@ body {
 }
 
 .club-img {
-  /* background-color: red; */
   margin: auto;
   height: 80vh;
   width: 45%;
@@ -1259,14 +1275,14 @@ body {
 
 .club-img img {
   height: 80vh;
-  width: 90%;
-  /* border-radius: 40%; */
+  width: 80%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.616), 0 6px 20px 0 rgba(0, 0, 0, 0.781);
 
 }
 
 .club-details {
-  width: 60%;
+  margin-right: 20px;
+  width: 65%;
   display: flex;
   flex-direction: column;
   height: max-content;
@@ -1279,8 +1295,8 @@ body {
 #club-name h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: bold;
-  margin-top: 5px;
-  font-size: 2.7rem;
+  margin-top: 15px;
+  font-size: 2rem;
   color: #381207;
   display: flex;
   justify-content: center;
@@ -1288,14 +1304,14 @@ body {
 }
 
 #club-info {
-  height: 65vh;
+  height: 75vh;
   width: 100%;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.633);
 }
 
-#club-info p {
-  margin-top: 40px;
+#club-info p { 
+  padding-top: 10px;
   width: 95%;
   text-align:left;
   margin-left: 10px;
@@ -1318,6 +1334,7 @@ body {
   color: white;
   border-radius: 20px;
   transition: all 0.5s;
+  margin-bottom: 20px;
 
 }
 .club-details button a{
@@ -1363,6 +1380,7 @@ body {
 
 /* Map */
 .pre-footer{
+  margin-top: 10px;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -1386,7 +1404,69 @@ body {
   height: 100%;
 }
 /* Footer */
-footer {
+footer{
+  height: max-content;
+  width: 100%;
+  background: url(/img/footer/footer.jpg);
+  background-size: cover;
+}
+.main-column{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  padding-bottom: 10px;
+}
+.footer-details{
+  text-align: center;
+  padding-top: 10px;
+}
+.footer-details a {
+  font-size: 0.8rem;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.3rem;
+}
+.footer-details a:hover {
+  color: yellow;
+}
+.footer-details h2 {
+  font-size: 1.3rem;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  height: 7vh;
+  width: 50%;
+  position: relative;
+  left: 24%;
+  border-bottom: 2px solid rgb(115, 255, 0);
+  text-shadow: 2px 2px 2px black;
+}
+li {
+  list-style: none;
+  /* font-size: small;
+  text-align: center; */
+  color: rgba(255, 255, 255, 0.636);
+}
+
+h2 li:hover {
+  color: yellow;
+}
+.column1{
+  width: 15%;
+  margin-top: 10px;
+}
+.column2 {
+  width: 30%;
+}
+.column3 {
+  width: 25%;
+}
+.column4 {
+  width: 25%;
+}
+/* footer {
   height: max-content;
   background: url(/img/footer/footer.jpg);
   background-size: cover;
@@ -1404,13 +1484,17 @@ footer {
   margin: 0px;
   padding-top: 10px;
 }
+.footer-details{
+  
+}
 
 
 .footer-details a {
+  font-size: 0.8rem;
   color: white;
   text-align: left;
   text-decoration: none;
-  line-height: 1.5rem;
+  line-height: 1.3rem;
 }
 
 .footer-details a:hover {
@@ -1418,19 +1502,20 @@ footer {
 }
 
 .footer-details h2 {
+  font-size: 1.3rem;
   margin-bottom: 10px;
   text-align: center;
   color: white;
   font-weight: bold;
   height: 7vh;
   width: 50%;
+  padding-bottom: 5px;
   border-bottom: 2px solid rgb(115, 255, 0);
   text-shadow: 2px 2px 2px black;
 }
 
 .column1 {
-  width: 20%;
-  /* padding-left:15px ; */
+  width: 15%;
 
 }
 
@@ -1454,8 +1539,9 @@ h2 li:hover {
   width: 30%;
   padding-left: 15px;
   padding-top: 10px;
+  padding-left: 10px; */
   /* line-height: 1.8rem; */
-
+/* 
 }
 
 .column2 a:hover {
@@ -1484,14 +1570,14 @@ h2 li:hover {
 }
 
 .contactus {
-  height: 40%;
+  height: 40%; */
   /* margin-top: 50px; */
-}
+/* }
 .bank-details{
   
   height: 30%;
   margin-top: 50px;
-}
+} */
 
 @media screen and (max-width: 1014px) {
   .wlcmpage h1 {
@@ -1551,14 +1637,6 @@ h2 li:hover {
   .front {
     overflow: hidden;
     height: fit-content;
-  }
-  .name1 h1{
-    text-align: center;
-    font-size: 2rem !important;
-  }
-  .name1 #bttn{
-    margin-top: 5px;
-
   }
 
   body {

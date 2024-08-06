@@ -27,7 +27,8 @@
     color: black;
 }
 .training-info p{
-    line-height: 25px;
+    line-height: 20px;
+    font-size: 1rem;
 }
 .training-info li{
     font-weight: bold;

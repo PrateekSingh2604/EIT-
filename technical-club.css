@@ -3,14 +3,10 @@
   padding: 0;
 }
 .tech-head {
-  height: 13vh;
+  height: 12vh;
 }
 .tech-img {
   background-image: url(/img/clubs/Technical_club/Technical-club.jpg) !important;
-}
-.tech-details p {
-  height: 100vh;
-  width: auto;
 }
 .tech-img {
   height: 85vh;
@@ -32,7 +28,6 @@
   margin-top: 50px;
   display: flex;
   flex-direction: row;
-  /* flex-wrap: wrap; */
   width: 80%;
   height: 10vh;
   position: relative;
@@ -41,16 +36,18 @@
   text-align: center;
   font-size: 1.2rem;
   margin: auto;
-  padding-top: 14px;
+  padding-top: 8px;
   width: 99%;
-  margin-left: 15px;
+  margin-left: 0px;
+  height: max-content;
+  width: auto;
 }
 
 #tech-info {
   margin: auto;
   background-color: rgba(165, 42, 42, 0.389);
   border-radius: 10px;
-  height: 10vh;
+  height: 8vh;
   width: 90%;
   position: relative;
 }
@@ -82,9 +79,13 @@ p.special-font {
   width: 90%;
   margin: auto;
   margin-top: 20px;
-  line-height: 25px;
+  line-height: 23px;
   padding-bottom: 5px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.437);
+}
+.tech-para p {
+  font-size: 0.8rem;
+  text-align: left;
 }
 .tech-para b {
   font-weight: bold;
@@ -93,7 +94,7 @@ p.special-font {
 .tech-box {
   margin: auto;
   margin-top: 20px;
-  height:max-content;
+  height: max-content;
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -106,9 +107,9 @@ p.special-font {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content:space-evenly
+  justify-content: space-evenly;
 }
-.subtech-box2{
+.subtech-box2 {
   padding-top: 30px;
   margin: auto;
   width: 70%;
@@ -120,10 +121,9 @@ p.special-font {
   text-align: center;
   background-color: #6324125f;
 }
-.tech-boxes1{
+.tech-boxes1 {
   height: 100%;
   width: 45%;
-
 }
 
 .text-in {
@@ -166,13 +166,13 @@ p.special-font {
 .gdsc-img {
   background-image: url(/img/clubs/Technical_club/GDSC-club/gdsc-cover.jpg);
 }
-.science-img{
+.science-img {
   background-image: url(/img/clubs/Technical_club/Science_club/science-cover.JPG);
 }
-.robotics-img{
+.robotics-img {
   background-image: url(/img/clubs/Technical_club/Robotics-clubs/robotics-cover.JPG);
 }
-.main-msg{
+.main-msg {
   border-top: none;
   margin-top: -20px;
 }

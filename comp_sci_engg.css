@@ -6,10 +6,10 @@
   background: url("/img/Department/computer-science/Comp-Science\(Front\).jpg");
   background-size: cover;
 }
-.text-content{
-  
-}
 
+.comp-acc-content li{
+  list-style: decimal;
+}
 
 @media screen and (max-width: 1014px){
   .front{

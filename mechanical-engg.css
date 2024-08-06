@@ -22,16 +22,18 @@
   }
 
 .note{
+    height: max-content;
     margin: auto;
     width: 80%;
     text-align: justify;
-    border: 2px solid rgb(48, 77, 6);
+    box-shadow: 2px 2px 3px 3px #410909;
     border-radius: 10px;
 }
 .note p{
+    padding: 5px;
     font-weight: bold;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -64,6 +66,7 @@
 }
 
 .text-content {
+    margin-top: 15px;
     width: 50%;
     height: 100%;
     padding-left: 40px;
@@ -71,19 +74,38 @@
 
 #text-content{
     margin: auto;
-    padding: 6px 5px 0px 5px ;
+    padding: 6px 7px 0px 7px ;
     text-align: center;
     font-weight: bold;
     color: wheat;
-    background-color: rgb(60, 41, 5);
+    background-color: #410909;
     width: max-content;
     height: 10vh;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 
 }
 .text-content p{
-    line-height: 25px;
-    font-size: 1.1rem;
+    text-align: left;
+    padding-top: 5px;
+    line-height: 24px;
+    font-size: 0.9rem;
+}
+.accordion-content table{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    height: max-content;
+}
+.accordion-content th,td{
+    text-align: center;
+    /* border: 2px solid black; */
+}
+.accordion-content th{
+    font-weight: bold;
+}
+.accordion-content td{
+    font-size: 1rem;
 }
 
 
@@ -127,6 +149,10 @@
 .bold{
     font-weight: bold;
 }
+.accordion-content p{
+    text-align: left;
+    font-size: 0.9rem;
+}
 
 .accordion-content {
     padding: 0 15px;
@@ -141,6 +167,7 @@
 }
 ol{
     padding-left: 50px;
+    font-size: 0.9rem;
 }
 ol li{
     list-style-type: circle;
@@ -151,6 +178,9 @@ ol li{
     height: max-content;
     padding-bottom: 20px;
     overflow: auto;
+}
+.accordion-content .bold{
+    font-size: 1rem;
 }
 
 
