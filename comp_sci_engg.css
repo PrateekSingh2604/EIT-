@@ -1,42 +1,43 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
-.dept-front{
+.dept-front {
   background: url("/img/Department/computer-science/Comp-Science\(Front\).jpg");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.comp-acc-content li{
+.comp-acc-content li {
   list-style: decimal;
 }
 
-@media screen and (max-width: 1014px){
-  .front{
+@media screen and (max-width: 1014px) {
+  .front {
     height: max-content;
     font-size: 0.7rem;
   }
-  .image-container img{
+  .image-container img {
     width: 70%;
     margin: auto;
   }
-  .text-content{
+  .text-content {
     height: max-content;
     margin: auto;
     margin-top: 50px;
     transform: translate(0%, 0%);
   }
-  .accordion-button{
+  .accordion-button {
     font-size: 0.9rem;
   }
-  .faqs .accordion-item .accordion-button{
+  .faqs .accordion-item .accordion-button {
     height: max-content;
   }
-  .cs-faq h1{
+  .cs-faq h1 {
     width: 90%;
     font-size: 1.8rem;
   }
-  .nav{
+  .nav {
     width: 95%;
   }
 }

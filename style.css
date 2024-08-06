@@ -38,11 +38,11 @@ body {
 }
 
 .name1 {
-  height: 50%;
+  height: max-content;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 25%;
+  justify-content: center;
 }
 
 .name1 h1 {
@@ -166,7 +166,7 @@ body {
   top: 0px;
   z-index: 1;
   width: 100%;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .nav-top a {
@@ -194,7 +194,7 @@ body {
   height: 35px;
   top: 24px;
   background-color: #f0fd99;
-  transition: top .3s ease;
+  transition: top 0.3s ease;
 }
 .nav-cs {
   top: 0px;
@@ -209,7 +209,10 @@ body {
   transition: all 1s;
   z-index: 1;
 }
-.nav-head div:nth-child(1) a, .nav-head div:nth-child(8) a, .nav-head div:nth-child(9) a, .nav-head div:nth-child(10) a{
+.nav-head div:nth-child(1) a,
+.nav-head div:nth-child(8) a,
+.nav-head div:nth-child(9) a,
+.nav-head div:nth-child(10) a {
   display: flex;
 }
 .nav-head a {
@@ -226,7 +229,7 @@ body {
   z-index: 1;
 }
 
-.drop-nav{
+.drop-nav {
   height: 200px;
 }
 /* Nav Drop Down */
@@ -292,7 +295,6 @@ body {
 .drop-about a:hover {
   width: 100%;
   color: rgb(149, 149, 7);
-  
 }
 
 /* .about-icon{
@@ -356,8 +358,6 @@ body {
   width: 100%;
   color: rgb(149, 149, 7);
 }
-
-
 
 /* admission*/
 .admission {
@@ -622,7 +622,6 @@ body {
   margin-bottom: 10px;
   opacity: 0;
   transition: all 0.5s linear;
-
 }
 
 .wlcmpage1 {
@@ -694,12 +693,11 @@ body {
   text-align: left;
 }
 
-
 .show {
   transform: translateY(0px) !important;
   opacity: 1 !important;
 }
-.eit-box{
+.eit-box {
   margin-top: 25px;
 }
 
@@ -832,7 +830,6 @@ body {
   text-align: center;
   color: white;
   padding-bottom: 10px;
-
 }
 
 .recruiters h1 {
@@ -1150,7 +1147,7 @@ body {
 /* Campuslife */
 .campus-life {
   background-color: #381207;
-  height:120vh;
+  height: 120vh;
   width: 100%;
   display: none;
   transform: translateY(100px);
@@ -1219,7 +1216,7 @@ body {
 .carousel .studentcard {
   height: 20vh;
 }
-  
+
 /* .gallery {
   margin: auto;
   height: 10vh;
@@ -1249,8 +1246,6 @@ body {
   border: none;
 } */
 
-
-
 /* clubs */
 .eit-clubs {
   height: max-content;
@@ -1276,8 +1271,8 @@ body {
 .club-img img {
   height: 80vh;
   width: 80%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.616), 0 6px 20px 0 rgba(0, 0, 0, 0.781);
-
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.616),
+    0 6px 20px 0 rgba(0, 0, 0, 0.781);
 }
 
 .club-details {
@@ -1310,18 +1305,17 @@ body {
   background-color: rgba(0, 0, 0, 0.633);
 }
 
-#club-info p { 
+#club-info p {
   padding-top: 10px;
   width: 95%;
-  text-align:left;
+  text-align: left;
   margin-left: 10px;
   color: white;
 }
-#club-info:hover{
+#club-info:hover {
   background-color: #2b0303cc;
   color: white;
   transition: all 0.5s linear;
-
 }
 
 .club-details button {
@@ -1335,9 +1329,8 @@ body {
   border-radius: 20px;
   transition: all 0.5s;
   margin-bottom: 20px;
-
 }
-.club-details button a{
+.club-details button a {
   text-decoration: none;
   color: white;
 }
@@ -1347,7 +1340,6 @@ body {
 
 .club-details button:hover {
   background-color: #5a1907;
-
 }
 
 /* Celebrities */
@@ -1365,7 +1357,6 @@ body {
   background-size: cover;
 }
 
-
 .celeb-head h1 {
   text-align: center;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507);
@@ -1373,51 +1364,61 @@ body {
   font-weight: bold;
   font-family: "Oswald", sans-serif;
   font-size: 2.8rem;
-  background: linear-gradient(to right, #2b0303, #3f2205, #7a4609, #00ff00, #0000ff, #0e12ff, #04a3ff);
+  background: linear-gradient(
+    to right,
+    #2b0303,
+    #3f2205,
+    #7a4609,
+    #00ff00,
+    #0000ff,
+    #0e12ff,
+    #04a3ff
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 /* Map */
-.pre-footer{
+.pre-footer {
   margin-top: 10px;
   height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
 }
-.eit-map{
+.eit-map {
   height: 10vh;
   background-color: #352607;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.eit-map h1{
+.eit-map h1 {
   color: wheat;
-
 }
-.map-location{
+.map-location {
   height: 90vh;
   width: 100%;
 }
-.map-location iframe{
+.map-location iframe {
   width: 100%;
   height: 100%;
 }
 /* Footer */
-footer{
+footer {
   height: max-content;
   width: 100%;
   background: url(/img/footer/footer.jpg);
   background-size: cover;
 }
-.main-column{
+.main-column {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   padding-bottom: 10px;
 }
-.footer-details{
+.footer-details {
   text-align: center;
   padding-top: 10px;
 }
@@ -1436,12 +1437,11 @@ footer{
   text-align: center;
   color: white;
   font-weight: bold;
-  height: 7vh;
-  width: 50%;
-  position: relative;
-  left: 24%;
+  height: max-content;
+  width: max-content;
   border-bottom: 2px solid rgb(115, 255, 0);
   text-shadow: 2px 2px 2px black;
+  margin: auto;
 }
 li {
   list-style: none;
@@ -1453,7 +1453,7 @@ li {
 h2 li:hover {
   color: yellow;
 }
-.column1{
+.column1 {
   width: 15%;
   margin-top: 10px;
 }
@@ -1540,7 +1540,7 @@ h2 li:hover {
   padding-left: 15px;
   padding-top: 10px;
   padding-left: 10px; */
-  /* line-height: 1.8rem; */
+/* line-height: 1.8rem; */
 /* 
 }
 
@@ -1571,7 +1571,7 @@ h2 li:hover {
 
 .contactus {
   height: 40%; */
-  /* margin-top: 50px; */
+/* margin-top: 50px; */
 /* }
 .bank-details{
   
@@ -1617,7 +1617,7 @@ h2 li:hover {
     padding-top: 0px;
     height: max-content;
   }
-  .space{
+  .space {
     height: 100px;
   }
 
@@ -1668,12 +1668,12 @@ h2 li:hover {
     background-color: #f0fd99;
     flex-direction: column;
   }
-  .wlcmpage{
+  .wlcmpage {
     padding-bottom: 1859px;
   }
-  .wlcmbtn{
+  .wlcmbtn {
     margin-top: -29px;
-    height: fit-content;  
+    height: fit-content;
   }
   .wlcmbtn button {
     margin-top: 10px;
@@ -1681,27 +1681,25 @@ h2 li:hover {
   .wlcmpage2 {
     height: max-content;
     margin-top: 10vh;
-
   }
 
-
-  .pre-footer{
+  .pre-footer {
     height: 400px;
   }
 
   .nav-head div:nth-child(1) {
     margin-bottom: 20px;
   }
-  .nav-head div:nth-child(8){
+  .nav-head div:nth-child(8) {
     margin-bottom: 20px;
   }
-  .nav-head div:nth-child(9){
+  .nav-head div:nth-child(9) {
     margin-bottom: 20px;
   }
-  .nav-head div:nth-child(10){
+  .nav-head div:nth-child(10) {
     margin-bottom: 20px;
   }
-  .nav-head div{
+  .nav-head div {
     width: max-content;
   }
   .nav-head a {
@@ -1766,68 +1764,68 @@ h2 li:hover {
   .about:hover .drop-about h1 {
     display: inline;
   }
-  .drop-dept{
+  .drop-dept {
     position: relative;
     background-color: #fcf4c9;
     top: 1px;
     left: 1px;
   }
-  .drop-admission{
+  .drop-admission {
     position: relative;
     background-color: #fcf4c9;
     top: 1px;
     left: 1px;
   }
-  .drop-research{
+  .drop-research {
     position: relative;
     background-color: #fcf4c9;
     top: 1px;
     left: 1px;
   }
-  .drop-placement{
+  .drop-placement {
     position: relative;
     background-color: #fcf4c9;
     top: 1px;
     left: 1px;
   }
-  .drop-event{
+  .drop-event {
     position: relative;
     background-color: #fcf4c9;
     top: 1px;
     left: 1px;
   }
-  #campus-info p{
+  #campus-info p {
     font-size: 2.5rem;
   }
-  .feedback h1{
+  .feedback h1 {
     width: 100%;
   }
   .club-img {
     width: 100%;
   }
-  .club-img{
+  .club-img {
     height: 400px;
   }
-  .club-img img{
+  .club-img img {
     height: 300px;
   }
-  .eit-clubs{
+  .eit-clubs {
     height: max-content;
     flex-wrap: wrap;
   }
-  .club-details{
+  .club-details {
     width: 95%;
     height: max-content;
     display: flex;
     flex-direction: column;
     padding-bottom: 100px;
   }
-  #club-info{
+  #club-info {
     height: max-content;
     padding: 5px;
     border-radius: 20px;
   }
-  #club-info p{
+  #club-info p {
     text-align: justify;
   }
 
@@ -1842,37 +1840,33 @@ h2 li:hover {
   .column1 {
     display: none;
   }
-
-
-
-
 }
 
-.contactForm{
+.contactForm {
   display: flex;
   flex-direction: column;
   width: 40vw;
   margin: auto;
 }
-.contactForm input{
+.contactForm input {
   margin-top: 10px;
   height: 20px;
   padding: 10px;
   border-radius: 10px;
   border: 1px solid black;
 }
-.contactForm textarea{
+.contactForm textarea {
   margin-top: 10px;
   height: 100px;
   padding: 10px;
   border-radius: 10px;
   border: 1px solid black;
 }
-.contactForm .submit{
+.contactForm .submit {
   height: 40px;
   width: 20vw;
   margin: auto;
   margin-top: 10px;
-  background-color: #53371E;
+  background-color: #53371e;
   color: white;
 }

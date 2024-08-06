@@ -33,14 +33,14 @@
   margin-left: 5%;
   width: 29%;
   border-radius: 20px;
-  box-shadow: 2px 0px 2px 1px rgb(130, 56, 56);
+  box-shadow: 0px 0px 2px 1px rgb(130, 56, 56);
 }
 .director-msg img{
   height: 70vh;
-  margin-left: 5%;
+  margin-left: 3%;
   margin-top: 5%;
   border-radius: 20px;
-  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.547);
+  box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.547);
 }
 .about-director{
   height: max-content;
@@ -80,15 +80,16 @@
   align-items: center;
 
 }
-.about-director svg{
-  display: inline;
-  margin: auto;
+#director-svg{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   margin-top: 10px;
   fill: black;
-  transform: translate(1400%, 0%);
 }
 .a-msg{
-  height: 80vh;
+  height: max-content;
   width: 80%;
   display: flex;
   justify-items: center;
@@ -101,7 +102,8 @@
 }
 .quick-info{
   width: 50%;
-
+  margin: auto;
+  margin-bottom: 40px;
 }
 .quick-info h1{
   font-family: "Shippori Antique", sans-serif;
@@ -131,17 +133,13 @@
 .quick-info svg{
   height: 4vh;
   margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   fill: rgba(0, 0, 0, 0.913);
-  transform: translate(10%, -20%);
 }
 .drop-your-name{
   width: 40%;
   display: flex;
   flex-direction: column;
-  transform: translate(-30%, 0%);
+  margin: auto;
 }
 .drop-your-name p{
   color: rgba(0, 0, 0, 0.775);
