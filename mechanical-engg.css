@@ -1,13 +1,13 @@
 .dept-front{
     background: url("/img/Department/mechanical/mechanical-front.jpg");
     background-size: cover;
-    height: 85vh;
+    height: max-content;
 }
 .nav{
     width: 100%; 
 }
 .dept-head{
-    margin-top: 8vh;
+    margin-top: 5vh;
 }
 
 .dept-svg{
@@ -59,8 +59,8 @@
 }
 
 .image-container img {
-    width: 100%;
-    height: 69vh;
+    width: 66%;
+    margin: auto;
     display: block;
     box-shadow: 2px 3px 3px brown;
 }
@@ -85,7 +85,7 @@
 
 }
 .text-content p{
-    text-align: left;
+    text-align: justify;
     padding-top: 5px;
     line-height: 24px;
     font-size: 0.9rem;
@@ -122,7 +122,7 @@
 
 
 .accordion{
-    width: 60%;
+    width: 100%;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 30px;
@@ -140,6 +140,7 @@
     margin-top: 10px;
     font-size: large;
     transition: background 0.3s ease;
+    margin-left: auto;
 }
 
 .accordion-button:hover, .accordion-button.active {
@@ -189,7 +190,7 @@ ol li{
     height:max-content;
     background-color: #381207;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
 .faqs h1{
     color: rgb(177, 177, 177);
@@ -199,13 +200,18 @@ ol li{
     width: 50%;
     margin: auto;
 }
+.accordion-item {
+    width: 50%;
+    margin: auto;
+}
 .faqs .accordion-item .accordion-button{
     background: none;
     text-align: left;
-    width: 70%;
+    width: 50%;
     font-size: 1.2rem;
     display: block;
     margin: auto;
+    height: max-content;
 }
 .faqs .accordion-item .accordion-button:hover{
     color: #b04829;
@@ -231,5 +237,8 @@ ol li{
     .faqs h1{
         width: 90%;
         font-size: 1.8rem;
+    }
+    .dept-head{
+        margin-top: 0vh;
     }
 }

@@ -4,9 +4,7 @@
     background-size: cover;
   }
 
-.ece-faq h1{
-    width: 170vh;
-}
+
 
 @media (max-width: 1014px) {
     .image-container, .text-content {
