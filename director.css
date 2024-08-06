@@ -90,20 +90,30 @@
 }
 .a-msg{
   height: max-content;
+<<<<<<< HEAD
   width: 80%;
+=======
+  width: 100vw;
+>>>>>>> 86076d3ee898e443ff059c4765d457cee800fd27
   display: flex;
   justify-items: center;
   align-items: center;
   border-top: 2px solid rgba(0, 0, 0, 0.347);
-  margin: auto;
+  /* margin: auto; */
   margin-top: 20px;
   padding-bottom: 20px;
   padding-top: 20px;
 }
 .quick-info{
+<<<<<<< HEAD
   width: 50%;
   margin: auto;
   margin-bottom: 40px;
+=======
+  width: 20vw;
+  margin: auto;
+  height: max-content;
+>>>>>>> 86076d3ee898e443ff059c4765d457cee800fd27
 }
 .quick-info h1{
   font-family: "Shippori Antique", sans-serif;
@@ -240,7 +250,8 @@
     width: max-content;
   }
   .quick-info{
-    width: 80%;
+    width: 50vw;
+    margin-bottom: 30px;
   }
 }
 

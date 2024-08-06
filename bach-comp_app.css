@@ -2,9 +2,7 @@
     background: url("/img/Department/Computer-Applications/bach-comp-application-front.jpg") !important;
     background-size: cover !important;
 }
-.bca-faq h1{
-    width: 150vh !important;
-}
+
 
 @media (max-width: 1014px) {
     .image-container, .text-content {

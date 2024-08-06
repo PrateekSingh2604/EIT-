@@ -4,8 +4,15 @@
 }
 .dept-front {
   background: url("/img/Department/computer-science/Comp-Science\(Front\).jpg");
+<<<<<<< HEAD
   background-size: contain;
   background-repeat: no-repeat;
+=======
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 99%;
+>>>>>>> 86076d3ee898e443ff059c4765d457cee800fd27
 }
 
 .comp-acc-content li {

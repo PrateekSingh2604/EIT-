@@ -30,10 +30,10 @@ body {
 .front .name {
   width: 100%;
   color: #ffffff;
-  width: 99vw;
+  width: 99%;
   display: grid;
   place-items: center;
-  height: 100vh;
+  height: max-content;
   text-shadow: 7px 7px 10px black;
 }
 
@@ -1716,9 +1716,6 @@ h2 li:hover {
     height: max-content;
   }
 
-  .front .name {
-    height: max-content;
-  }
 
   .front .name .name1 {
     height: max-content;
