@@ -25,10 +25,11 @@ body {
   position: relative;
   background-attachment: fixed;
   transition: background-image 1s ease;
+  display: flex;
+  align-items: center;
 }
 
 .front .name {
-  width: 100%;
   color: #ffffff;
   width: 99%;
   display: grid;
@@ -41,8 +42,7 @@ body {
   height: max-content;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-items: center;
 }
 
 .name1 h1 {

@@ -4,15 +4,10 @@
 }
 .dept-front {
   background: url("/img/Department/computer-science/Comp-Science\(Front\).jpg");
-<<<<<<< HEAD
-  background-size: contain;
-  background-repeat: no-repeat;
-=======
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 99%;
->>>>>>> 86076d3ee898e443ff059c4765d457cee800fd27
+  width: 100vw;
+  height: 600px;
 }
 
 .comp-acc-content li {
@@ -21,7 +16,7 @@
 
 @media screen and (max-width: 1014px) {
   .front {
-    height: max-content;
+    height: 500px;
     font-size: 0.7rem;
   }
   .image-container img {
