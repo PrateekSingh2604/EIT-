@@ -4,7 +4,9 @@
     background-size: cover;
   }
 
-
+.accordion-ece{
+    border: 2px solid red;
+}
 
 @media (max-width: 1014px) {
     .image-container, .text-content {

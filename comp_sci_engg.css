@@ -5,29 +5,35 @@
 .dept-front {
   background: url("/img/Department/computer-science/Comp-Science\(Front\).jpg");
   background-size: cover;
-  background-repeat: no-repeat;
-  width: 100vw;
-  height: 600px;
+  margin-top: 50px;
+  width: 100%;
+  height: 500px;
+}
+.dept-name h1{
+  text-align: center;
 }
 
 .comp-acc-content li {
   list-style: decimal;
 }
-
+.red{
+  color: red;
+}
 @media screen and (max-width: 1014px) {
   .front {
     height: 500px;
     font-size: 0.7rem;
   }
+  .dept-front{
+    margin-top: 60px;
+    background-position: center ;
+  }
   .image-container img {
-    width: 70%;
     margin: auto;
   }
   .text-content {
     height: max-content;
     margin: auto;
-    margin-top: 50px;
-    transform: translate(0%, 0%);
   }
   .accordion-button {
     font-size: 0.9rem;

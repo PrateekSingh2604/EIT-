@@ -79,23 +79,24 @@
     height: 20vh;
 }
 .programme-buttons{
-    height: 10vh;
+    height: max-content;
     width: 60vw;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     margin: auto;
 }
 .apply-now-button{
     width: 50%;
 }
-.PG-UG-Button button{
-    height: 10vh;
+.PG-UG-Button{
+    height: 60px;
     width: 23vw;
     background-color: rgb(44, 4, 4);
     color: white;
     font-size: 1rem;
-    
 }
 .PG-UG-Button button:active {
     transform: scale(0.9);
@@ -112,8 +113,17 @@
     width: 80%;
     text-align: center;
 }
+.main-column{
+    justify-content: center;
+    width: 100%;
+}
 
 @media screen and (max-width: 1014px){
+    .PG-UG-Button{
+        margin: auto;
+        width: 156px;
+        margin-top: 5px;
+    }
     .UG-heading h1{
         font-size: 2rem;
     }

@@ -1723,7 +1723,8 @@ h2 li:hover {
   }
 
   .front .name .name1 h1 {
-    font-size: 2em;
+    font-size: 1.5rem !important;
+    text-align: center;
   }
 
   .front .name .name1 h2 {
@@ -1828,15 +1829,33 @@ h2 li:hover {
   }
 
   .footer-details h2 {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
+    margin: 0px;
   }
+
 
   .main-column {
     justify-content: center;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
   }
 
   .column1 {
     display: none;
+  }
+  .column2{
+    text-align: left;
+  }
+  .column3 ul li{
+    text-align: left;
+  }
+  .column4 ul li{
+    text-align: left;
+  }
+  .eit-map h1{
+    font-size: 1.3rem;
+    text-align: center;
   }
 }
 
@@ -1852,6 +1871,7 @@ h2 li:hover {
   padding: 10px;
   border-radius: 10px;
   border: 1px solid black;
+  width:90%;
 }
 .contactForm textarea {
   margin-top: 10px;
@@ -1859,6 +1879,7 @@ h2 li:hover {
   padding: 10px;
   border-radius: 10px;
   border: 1px solid black;
+  width: 90%;
 }
 .contactForm .submit {
   height: 40px;

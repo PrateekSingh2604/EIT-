@@ -1,6 +1,6 @@
 .dept-front{
-    background: url("/img/Department/applied-science/applied-science-front.jpg");
-    background-size: cover;
+    background: url("/img/Department/applied-science/applied-science-front.jpg") !important;
+    background-size: cover !important;
 }
 
 @media screen and (max-width: 1014px){

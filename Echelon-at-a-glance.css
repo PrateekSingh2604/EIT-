@@ -58,9 +58,11 @@
   padding-top: 15px;
 }
 .glance-about p {
+  font-size: 1.1rem;
+  padding-top: 20px;
   padding-bottom:5px ;
-  text-align: center;
-  width: 70%;
+  text-align: justify;
+  width: 80%;
   line-height: 1.5rem;
   height: 50vh;
   color: antiquewhite;
@@ -135,6 +137,10 @@
 .why-main li:hover{
     color: rgb(132, 255, 0);
     cursor: pointer;
+}
+
+.accordion-content b{
+  font-weight: bold;
 }
 
 @media screen and (max-width: 1014px){

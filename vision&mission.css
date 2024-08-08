@@ -42,10 +42,15 @@
 .mission {
   margin-top: 20px;
 }
-.mission p {
-  color: red;
+.mission ol,li{
+  margin: auto;
+  width: 90%;
+  margin-top: 10px;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  font-size: 0.8rem;
+  list-style: circle;
 }
-
 @media screen and (max-width: 1014px) {
   .vm-img {
     width: 50%;

@@ -22,10 +22,11 @@
   height: max-content;
   width: 80vw;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .admission-detail p{
-  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
   text-align: center;
   border: 2px solid black;
   font-size: 1.2rem;
@@ -59,6 +60,13 @@
   width: 250px;
   background-color: rgba(255, 255, 0, 0.375);
   margin: 10px;
+}
+.attempt p{
+  text-align: justify;
+  padding: 10px;
+}
+.addmission-front{
+  margin-top: 60px;
 }
 #no{
   margin: auto;
