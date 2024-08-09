@@ -31,3 +31,11 @@
     width: 90%;
     line-height: 25px;
 }
+.alumni-main{
+    border: 2px solid black;
+}
+.alumni-container ul{
+    border: 2px solid black;
+    height:max-content;
+
+}

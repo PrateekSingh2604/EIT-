@@ -19,7 +19,6 @@
   margin-top: 60px;
   display: flex;
   flex-direction: row;
-  
 }
 #contact-img {
   margin: auto;
@@ -53,9 +52,9 @@
 #lines {
   padding-top: 15px;
 }
-#lines p{
-    text-align: justify;
-    font-size: 1rem;
+#lines p {
+  text-align: justify;
+  font-size: 1rem;
 }
 
 .contact-container {
@@ -69,13 +68,13 @@
   height: auto;
 }
 #contact-handles {
-    margin-top: 10px;
+  margin-top: 10px;
   width: 12vw;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 #contact-handles svg {
-    width: 30px;
-    height: 30px;
-  } 
+  width: 30px;
+  height: 30px;
+}
