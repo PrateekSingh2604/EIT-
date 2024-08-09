@@ -262,15 +262,15 @@ body {
 }
 .drop-about {
   height: 0px;
-  width: 280px;
+  width: max-content;
   position: absolute;
   background-color: #fcf4c9;
   transition: height 0.3s;
   margin-top: 8px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
-  left: 19vw;
-  padding-left: 6px;
+  left: 20vw;
+  padding: 0px 15px;
 }
 
 .drop-about a {
@@ -283,7 +283,8 @@ body {
 }
 
 .about:hover .drop-about {
-  height: 200px;
+  height: max-content;
+  padding-bottom: 10px;
   border: none;
   z-index: 1;
 }
@@ -324,15 +325,15 @@ body {
 
 .drop-research {
   height: 0px;
-  width: 350px;
+  width: max-content;
   position: absolute;
   background-color: #fcf4c9;
   transition: height 0.3s;
   margin-top: 8px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
-  left: 42vw;
-  padding-left: 10px;
+  left: 45vw;
+  padding: 0px 15px;
 }
 
 .drop-research a {
@@ -345,7 +346,8 @@ body {
 }
 
 .research:hover .drop-research {
-  height: 300px;
+  height: max-content;
+  padding-bottom: 10px;
   border: none;
   z-index: 1;
 }
@@ -383,15 +385,15 @@ body {
 
 .drop-admission {
   height: 0px;
-  width: 350px;
+  width: max-content;
   position: absolute;
   background-color: #fcf4c9;
   transition: height 0.3s;
   margin-top: 8px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
-  left: 35vw;
-  padding-left: 10px;
+  left: 39vw;
+  padding: 0px 15px;
 }
 
 .drop-admission a {
@@ -404,7 +406,8 @@ body {
 }
 
 .admission:hover .drop-admission {
-  height: 110px;
+  height: max-content;
+  padding-bottom: 10px;
   border: none;
   z-index: 1;
 }
@@ -442,15 +445,15 @@ body {
 
 .drop-placement {
   height: 0px;
-  width: 350px;
+  width: max-content;
   position: absolute;
   background-color: #fcf4c9;
   transition: height 0.3s;
   margin-top: 8px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
-  left: 55vw;
-  padding-left: 10px;
+  left: 57vw;
+  padding: 0px 15px;
 }
 
 .drop-placement a {
@@ -463,7 +466,8 @@ body {
 }
 
 .placement:hover .drop-placement {
-  height: 140px;
+  height: max-content;
+  padding-bottom: 10px;
   border: none;
   z-index: 1;
 }
@@ -501,7 +505,7 @@ body {
 
 .drop-dept {
   height: 0px;
-  width: 500px;
+  width: max-content;
   position: absolute;
   background-color: #fcf4c9;
   transition: height 0.3s;
@@ -509,7 +513,7 @@ body {
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
   left: 20vw;
-  padding-left: 10px;
+  padding: 0px 15px;
 }
 
 .drop-dept a {
@@ -522,7 +526,8 @@ body {
 }
 
 .dept:hover .drop-dept {
-  height: 300px;
+  height: max-content;
+  padding-bottom: 10px;
   border: none;
   z-index: 1;
 }
@@ -566,15 +571,15 @@ body {
 
 .drop-event {
   height: 0px;
-  width: 300px;
+  width: max-content;
   position: absolute;
   background-color: #fcf4c9;
   transition: height 0.3s;
   margin-top: 8px;
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.488);
-  left: 62vw;
-  padding-left: 10px;
+  left: 66vw;
+  padding: 0px 15px;
 }
 
 .drop-event a {
@@ -588,7 +593,8 @@ body {
 }
 
 .event:hover .drop-event {
-  height: 250px;
+  height: max-content;
+  padding-bottom: 10px;
   border: none;
   z-index: 1;
 }

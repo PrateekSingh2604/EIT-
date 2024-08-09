@@ -1,0 +1,92 @@
+.industry-visit-top{
+    margin: auto;
+    height: 500px;
+    width: 98%;
+    margin-top: 80px;
+    box-shadow: 0px 0px 8px  #410909;
+    background-color: #410909;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/industrial-visit/front.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.industry-visit-top h1{
+    color: #410909;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.industry-visit-top h1 {
+    color: wheat;
+    text-shadow: 0px 2px 20px rgba(0, 0, 0, 0.7);
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.industry-info{
+    margin: auto;
+    margin-top: 50px;
+    height: max-content;
+    width: 95%;
+    color: white;
+    background-color: #410909cc;
+}
+.industry-msg{
+    margin: auto;
+    height: max-content;
+    margin-top: 20px;
+}
+
+.industry-msg p{
+    margin: auto;
+    font-size: 1.2rem;
+    line-height: 25px;
+    text-align: center;
+}
+.visits{
+    margin: auto;
+    padding-left: 10px;
+    padding-top: 35px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    line-height: 23px;
+
+}
+.industry-info bold{
+    font-weight: bold;
+    font-style: italic;
+}
+.visit-imgs{
+    margin: auto;
+    height: max-content;
+    width: 100%;
+    margin-top: 15px ;
+}
+.visit-imgs p bold{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-style: normal;
+    text-align: left;
+}
+.industry-content ul  li {
+  width:29% !important;
+}
+.industry-main{
+    margin-top: 10px !important;
+    border-top: 2px solid white !important;
+}
+.vd{
+    padding-bottom: 5px;
+}
+.vd p{
+ text-align: justify;
+}
+.visits h1{
+    padding-bottom: 10px;
+    text-align: center;
+}

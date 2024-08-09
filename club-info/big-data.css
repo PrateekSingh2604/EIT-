@@ -68,13 +68,8 @@
   display: flex;
   flex-direction: column;
 }
-/* @font-face {
-    font-family: "Fira_Sans";
-    src: url(/eit_use_fonts/Fira_Sans/FiraSans-Medium.ttf);
-} */
 p.special-font {
   font-size: 1.3rem;
-  /* font-family: "Fira_Sans", sans-serif ; */
   font-weight: bold;
 }
 
