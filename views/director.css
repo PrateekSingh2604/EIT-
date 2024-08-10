@@ -176,7 +176,7 @@
 .drop-your-name button{
   width: 20vh;
   height: 7vh;
-  transform: translate(-1px,10px);
+  /* transform: translate(-1px,10px); */
   font-size: 1.2rem;
   font-weight: bold;
   border-radius: 20px;
@@ -188,7 +188,6 @@
 .drop-your-name button:hover{
   background-color: #381207;
   color: white;
-  
   transition: all 0.2s;
   box-shadow: 3px 2px 2px rgb(0, 0, 0);
 }
@@ -248,7 +247,7 @@
 
 
 .drop-nav {
-  margin-top: 15px !important;
+  margin-top: 16px !important;
 }
 .drop a svg {
   margin-top: 2px !important;

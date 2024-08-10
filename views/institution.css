@@ -40,6 +40,28 @@
   display: flex;
   flex-direction: column;
 }
+/* .content-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; 
+  margin: auto;
+  width: 96%;
+} */
+
+/* .content-container ul li {
+  list-style: none;
+  padding: 0;
+  margin: 20px; 
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 15px 10px 1px rgba(0, 0, 0, 0.5);
+  height: 350px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
 .institution-box1 {
   margin: auto;
   height: 70%;
@@ -51,7 +73,15 @@
   max-height: auto;
   margin: auto;
 }
-.content-container ul{
+.content-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center; 
+  margin: auto;
+  width: 96%;
+}
+/* .content-container ul{
   display: flex;
   width: 96%;
   margin: auto;
@@ -59,7 +89,7 @@
   justify-content: center;
   height: max-content;
   margin-bottom: 30px;
-}
+} */
 .content-container ul li {
   list-style: none;
   padding: 0;
@@ -69,7 +99,7 @@
   display: table;
   clear: both;
 }
-.content-container ul li {
+/* .content-container ul li {
   margin: 20px 19px 0;
   background-size: cover;
   background-position: center center;
@@ -79,6 +109,19 @@
   width: 350px;
   display: flex;
   flex-wrap: wrap;
+} */
+.content-container ul li {
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 15px 10px 1px rgba(0, 0, 0, 0.5);
+  height: 350px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
 }
 .content-container ul li:nth-child(1n + 4) {
   max-height: 0;

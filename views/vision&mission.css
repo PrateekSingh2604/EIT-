@@ -51,6 +51,17 @@
   font-size: 0.8rem;
   list-style: circle;
 }
+
+.video-container {
+  max-width: 80%; /* Adjust as needed */
+  margin: auto;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc; 
+}   
 @media screen and (max-width: 1014px) {
   .vm-img {
     width: 50%;
